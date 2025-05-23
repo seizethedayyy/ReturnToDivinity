@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e54acd8ce382c94cbf8732a0c0f6efc, type: 3}
+  m_Name: CantBeApproached
+  m_EditorClassIdentifier: 
+  characterID: 3
+  characterName: "\uB2E4\uAC00\uC124 \uC218 \uC5C6\uB294 \uC790"
+  baseMaxHp: 0
+  baseAttackPower: 0
+  baseDefensePower: 0
+  baseAttackSpeed: 0
+  baseMoveSpeed: 3
+  baseHpRegen: 0
+  comboDelays:
+  - 1.2
+  skills:
+  - {fileID: 3173325119433260965, guid: a0477b491889a33478560fa14cab8043, type: 3}
+  - {fileID: 3173325119433260965, guid: a0477b491889a33478560fa14cab8043, type: 3}
+  - {fileID: 3173325119433260965, guid: a0477b491889a33478560fa14cab8043, type: 3}
+  attackEffect: {fileID: 0}
+  namePowerPrefab: {fileID: 0}
+  colliderOffset: {x: 0, y: -0.1}
+  colliderSize: {x: 0.35, y: 0.45}
