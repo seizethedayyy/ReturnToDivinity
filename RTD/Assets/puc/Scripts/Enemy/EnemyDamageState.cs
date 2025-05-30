@@ -5,7 +5,8 @@ public class EnemyDamageState : EnemyState
     private EnemyState returnState;
     private float timer;
 
-    public EnemyDamageState(EnemyBase enemy, EnemyStateMachine stateMachine, EnemyState returnState) : base(enemy, stateMachine)
+    public EnemyDamageState(EnemyBase enemy, EnemyStateMachine stateMachine, EnemyState returnState)
+        : base(enemy, stateMachine)
     {
         this.returnState = returnState;
     }
@@ -13,9 +14,10 @@ public class EnemyDamageState : EnemyState
     public override void Enter()
     {
         base.Enter();
-        timer = 0.2f;
-        enemy.anim.SetTrigger("IsHit");
+
         enemy.SetZeroVelocity();
+        enemy.anim.SetTrigger("IsHit");
+        timer = 0.2f; // 피격 경직 시간 (필요 시 조절)
     }
 
     public override void LogicUpdate()
@@ -23,7 +25,7 @@ public class EnemyDamageState : EnemyState
         timer -= Time.deltaTime;
         if (timer <= 0f)
         {
-            stateMachine.ChangeState(returnState);
+            stateMachine.ChangeState(returnState); // 보통 idleState
         }
     }
 }

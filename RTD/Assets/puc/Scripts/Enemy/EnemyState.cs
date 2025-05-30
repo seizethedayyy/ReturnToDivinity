@@ -15,4 +15,5 @@ public abstract class EnemyState
     public virtual void Exit() { }
     public virtual void LogicUpdate() { }
     public virtual void PhysicsUpdate() { }
+        
 }

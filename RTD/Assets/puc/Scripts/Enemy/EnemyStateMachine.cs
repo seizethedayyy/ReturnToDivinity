@@ -6,11 +6,14 @@ public class EnemyStateMachine
 
     public void ChangeState(EnemyState newState)
     {
-        if (CurrentState == newState) return;
-
-        CurrentState?.Exit(); // null-safe exit
+        CurrentState?.Exit();
         CurrentState = newState;
-        CurrentState?.Enter(); // null-safe enter
+        CurrentState.Enter();
+    }
+
+    public void ClearCurrentState()
+    {
+        CurrentState = null;
     }
 
     public void LogicUpdate()
@@ -22,10 +25,5 @@ public class EnemyStateMachine
     {
         CurrentState?.PhysicsUpdate();
     }
-
-    public void Initialize(EnemyState startingState)
-    {
-        CurrentState = startingState;
-        CurrentState?.Enter();
-    }
 }
+

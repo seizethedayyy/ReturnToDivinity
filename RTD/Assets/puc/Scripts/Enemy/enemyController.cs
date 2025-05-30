@@ -6,39 +6,35 @@ public class EnemyController : EnemyBase
     [Header("🆔 몬스터 ID (Google Sheets 기준)")]
     public string enemyId;
 
-    [Header("📊 몬스터 정보 (읽기 전용)")]
-    [SerializeField] private string id;
-    [SerializeField] private string enemyName;
-    [SerializeField] private int level;
+    [Header("📊 Stats (실시간 표시용)")]
+    [SerializeField] private float enemyCurrentHp; // 인스펙터 표시용 변수
 
-    [SerializeField] private float maxHp;
-    [SerializeField] private float enemyCurrentHp;
-
-    [SerializeField] private float moveSpeed;
-    [SerializeField] private float detectionRange;
-    [SerializeField] private float attackRadius;
-    [SerializeField] private float attackDamage;
-    [SerializeField] private float chaseStopRange;
-    [SerializeField] private float stopDistance;
-    [SerializeField] private float angleThreshold;
-    [SerializeField] private float attackCooldown;
-
-    [SerializeField] private int exp;
-    [SerializeField] private int gold;
+    private string id;
+    private string enemyName;
+    private int level;
+    private float maxHp;
+    private float moveSpeed;
+    private float detectionRange;
+    private float attackRadius;
+    private float attackDamage;
+    private float chaseStopRange;
+    private float stopDistance;
+    private float angleThreshold;
+    private float attackCooldown;
+    private int exp;
+    private int gold;
 
     protected override void Start()
     {
         base.Start();
-        StartCoroutine(LoadEnemyData());
+        StartCoroutine(Initialize());
     }
 
-    private IEnumerator WaitUntilReady()
+    private IEnumerator Initialize()
     {
-        // ✅ 1. EnemyData 준비 대기
         while (EnemyDataLoader.LoadedEnemyData == null)
             yield return null;
 
-        // ✅ 2. Player 존재 대기
         while (player == null)
         {
             GameObject playerObj = GameObject.FindWithTag("Player");
@@ -48,58 +44,29 @@ public class EnemyController : EnemyBase
             yield return null;
         }
 
-        // ✅ 3. 데이터 가져오기
         var data = EnemyDataLoader.GetEnemyDataById(enemyId);
         if (data == null)
         {
-            Debug.LogError($"[EnemyController] ID '{enemyId}'에 해당하는 몬스터 데이터를 찾을 수 없습니다.");
+            Debug.LogError($"[EnemyController] ID '{enemyId}' 데이터가 존재하지 않습니다.");
             yield break;
         }
 
         InitFromData(data);
-        SetupFSM();
         ReflectStatsToInspector(data);
+        InitializeFSM();
+        stateMachine.ChangeState(idleState);
     }
 
-    void Update()
+    public void InitializeFSM()
     {
-        if (stateMachine != null)
-        {
-            Debug.Log($"[FSM] 현재 상태: {stateMachine.CurrentState?.GetType().Name}");
-        }
-    }
+        idleState = new EnemyIdleState(this, stateMachine);
+        moveState = new EnemyMoveState(this, stateMachine);
+        attackState = new EnemyAttackState(this, stateMachine);
+        damageState = new EnemyDamageState(this, stateMachine, idleState);
 
-    private IEnumerator LoadEnemyData()
-    {
-        // ✅ 데이터 로딩 대기
-        while (EnemyDataLoader.LoadedEnemyData == null)
-            yield return null;
-
-        // ✅ player 참조 연결 대기
-        while (player == null)
-        {
-            GameObject playerObj = GameObject.FindWithTag("Player");
-            if (playerObj != null)
-            {
-                player = playerObj.transform;
-                Debug.Log("[EnemyController] Player 참조 연결 완료");
-            }
-
-            yield return null;
-        }
-
-        // ✅ EnemyData 가져오기
-        var data = EnemyDataLoader.GetEnemyDataById(enemyId);
-        if (data == null)
-        {
-            Debug.LogError($"[EnemyController] ID '{enemyId}'에 해당하는 몬스터 데이터를 찾을 수 없습니다.");
-            yield break;
-        }
-
-        // ✅ 데이터 반영
-        InitFromData(data);
-        SetupFSM();
-        ReflectStatsToInspector(data);
+        idleState.SetNextState(moveState);
+        moveState.SetNextState(attackState);
+        attackState.SetNextState(idleState);
     }
 
     private void ReflectStatsToInspector(EnemyData data)
@@ -108,8 +75,8 @@ public class EnemyController : EnemyBase
         enemyName = data.name;
         level = data.level;
         maxHp = data.maxHp;
-        enemyCurrentHp = this.currentHp;
-
+        currentHp = data.maxHp;
+        enemyCurrentHp = currentHp;
         moveSpeed = data.moveSpeed;
         detectionRange = data.detectionRange;
         attackRadius = data.attackRadius;
@@ -118,28 +85,13 @@ public class EnemyController : EnemyBase
         stopDistance = data.stopDistance;
         angleThreshold = data.angleThreshold;
         attackCooldown = data.attackCooldown;
-
         exp = data.exp;
         gold = data.gold;
-
-        Debug.Log($"[DEBUG] attackCooldown: {attackCooldown}, attackRadius: {attackRadius}, moveSpeed: {moveSpeed}");
     }
 
-    // ✅ 애니메이션 이벤트에서 호출: 공격 타격 타이밍
-    public void OnAttackTrigger()
+    protected override void Update()
     {
-        if (stateMachine.CurrentState is EnemyAttackState atk)
-        {
-            atk.OnAttackTrigger();
-        }
-    }
-
-    // ✅ 애니메이션 이벤트에서 호출: 공격 애니메이션 종료 시점
-    public void EndAttack()
-    {
-        if (stateMachine.CurrentState is EnemyAttackState atk)
-        {
-            atk.EndAttack();
-        }
+        base.Update();
+        enemyCurrentHp = currentHp; // 실시간 표시용 갱신
     }
 }

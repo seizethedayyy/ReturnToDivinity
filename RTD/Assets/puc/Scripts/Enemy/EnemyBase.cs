@@ -1,212 +1,170 @@
 ﻿using UnityEngine;
-using System.Collections;
 
-public abstract class EnemyBase : MonoBehaviour
+public class EnemyBase : MonoBehaviour
 {
-    public EnemyData stats;
+    public Animator anim { get; private set; }
+    protected Rigidbody2D rb;
+    public SpriteRenderer sr;
 
     public Transform attackCheck;
-    public float attackOffsetX = 1.0f;
-    public float attackOffsetY = 0.0f;
 
-    [Header("🔍 공격 대상 레이어")]
+    protected bool isDead = false;
+    protected bool isAttacking = false;
+
+    public EnemyData stats;
+    protected float currentHp;
+
+    public Transform player;
+
     public LayerMask attackLayer;
 
-    [HideInInspector] public Rigidbody2D rb;
-    [HideInInspector] public Animator anim;
-    [HideInInspector] public SpriteRenderer sr;
-    [HideInInspector] public Transform player;
+    protected EnemyStateMachine stateMachine = new EnemyStateMachine();
 
-    public EnemyStateMachine stateMachine;
-
-    public EnemyIdleState idleState;
-    public EnemyMoveState moveState;
-    public EnemyAttackState attackState;
-
-    protected float currentHp;
-    private float lastAttackTime = Mathf.NegativeInfinity;
-    private bool isAttacking = false;
-    private bool isDead = false;
-
-    private Coroutine flashCoroutine;
-    private Color originalColor;
+    protected EnemyIdleState idleState;
+    protected EnemyMoveState moveState;
+    protected EnemyAttackState attackState;
+    protected EnemyDamageState damageState;
 
     protected virtual void Awake()
     {
-        rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        sr = GetComponent<SpriteRenderer>();
-        stateMachine = new EnemyStateMachine();
-
-        GameObject playerObj = GameObject.FindWithTag("Player");
-        if (playerObj) player = playerObj.transform;
-
-        originalColor = sr.color;
-        if (originalColor.a < 1f) originalColor.a = 1f;
+        rb = GetComponent<Rigidbody2D>();
+        sr = GetComponentInChildren<SpriteRenderer>();
     }
 
-    protected virtual void Start()
-    {
-        anim.SetBool("IsAttacking", false);
-        anim.SetBool("IsWalking", false);
-        anim.ResetTrigger("IsHit");
-    }
+    protected virtual void Start() { }
 
-    void Update()
+    protected virtual void Update()
     {
-        Debug.Log($"[FSM] 현재 상태: {stateMachine.CurrentState?.GetType().Name ?? "NULL"}");
-        stateMachine.LogicUpdate();
+        if (isDead) return;
+        stateMachine?.LogicUpdate();
     }
 
     protected virtual void FixedUpdate()
     {
-        stateMachine.PhysicsUpdate();
-
-        if (attackCheck != null)
-        {
-            int dir = transform.localScale.x < 0 ? -1 : 1;
-            attackCheck.localPosition = new Vector3(attackOffsetX * dir, attackOffsetY, 0f);
-        }
+        stateMachine?.PhysicsUpdate();
     }
 
     public void InitFromData(EnemyData data)
     {
         stats = data;
-        currentHp = stats.maxHp;
-        Debug.Log($"[EnemyBase] InitFromData 적용됨 - HP: {currentHp}, Speed: {stats.moveSpeed}");
-    }
-
-    public void SetupFSM()
-    {
-        idleState = new EnemyIdleState(this, stateMachine);
-        moveState = new EnemyMoveState(this, stateMachine);
-        attackState = new EnemyAttackState(this, stateMachine);
-
-        ((EnemyIdleState)idleState).SetNextState(moveState);
-        ((EnemyMoveState)moveState).SetNextState(attackState);
-        ((EnemyAttackState)attackState).SetNextState(idleState);
-
-        stateMachine.ChangeState(idleState);
+        currentHp = data.maxHp;
     }
 
     public void SetVelocity(Vector2 dir)
     {
-        if (player == null || isAttacking)
+        if (isAttacking || isDead)
         {
             rb.linearVelocity = Vector2.zero;
             return;
         }
 
         rb.linearVelocity = dir * stats.moveSpeed;
-
-        // 위치 반영 보강
-        Physics2D.SyncTransforms();
     }
 
-    public void SetZeroVelocity() => rb.linearVelocity = Vector2.zero;
+    public void SetZeroVelocity()
+    {
+        rb.linearVelocity = Vector2.zero;
+    }
 
     public bool IsPlayerInAttackRange()
     {
-        Physics2D.SyncTransforms();
-
-        var hits = Physics2D.OverlapCircleAll(
-            attackCheck.position,
-            stats.attackRadius,
-            LayerMask.GetMask("Player")
-        );
-
-        Debug.Log($"[Enemy] 공격 판정 수: {hits.Length} @ {attackCheck.position}");
-        return hits.Length > 0;
+        float dist = Vector2.Distance(transform.position, player.position);
+        return dist <= stats.attackRadius;
     }
 
-    public void DealDamage()
+    public bool IsAttackCooldownOver()
     {
-        Collider2D[] hits = Physics2D.OverlapCircleAll(attackCheck.position, stats.attackRadius, attackLayer);
-        Debug.Log($"[Enemy] 공격 판정 수: {hits.Length} @ {attackCheck.position}");
+        return Time.time >= lastAttackTime + stats.attackCooldown;
+    }
 
-        foreach (Collider2D hit in hits)
+    private float lastAttackTime;
+    public void SetLastAttackTime()
+    {
+        lastAttackTime = Time.time;
+    }
+
+    public bool IsAttacking() => isAttacking;
+    public void SetAttacking(bool active) => isAttacking = active;
+
+    public void OnAttackTrigger()
+    {
+        if (stateMachine.CurrentState is EnemyAttackState atk)
+            atk.OnAttackTrigger();
+    }
+
+    public void EndAttack()
+    {
+        if (stateMachine.CurrentState is EnemyAttackState atk)
+            atk.EndAttack();
+    }
+
+    public virtual void DealDamage()
+    {
+        Collider2D[] hits = Physics2D.OverlapCircleAll(
+            attackCheck.position, stats.attackRadius, attackLayer
+        );
+
+        Debug.Log($"[EnemyBase] 공격 범위 내 감지된 대상 수: {hits.Length}");
+
+        foreach (var hit in hits)
         {
-            Debug.Log($"[Enemy] 피격 대상: {hit.name}");
+            Debug.Log($"[EnemyBase] 감지된 대상: {hit.name}, 태그: {hit.tag}");
 
             if (hit.CompareTag("Player"))
             {
-                hit.GetComponent<PlayerController>().TakeDamage((int)stats.attackDamage);
+                var player = hit.GetComponentInParent<PlayerController>();
+                if (player != null)
+                {
+                    Debug.Log($"[EnemyBase] PlayerController 데미지 적용");
+                    player.TakeDamage((int)stats.attackDamage);
+                }
+                else
+                {
+                    Debug.LogWarning($"[EnemyBase] PlayerController를 찾을 수 없습니다: {hit.name}");
+                }
             }
         }
     }
 
-    public virtual void TakeDamage(float damage)
+    public virtual void TakeDamage(float dmg)
     {
         if (isDead) return;
 
-        currentHp -= damage;
-        Debug.Log($"[Enemy] TakeDamage() 호출됨 - 현재 HP: {currentHp}, 받는 데미지: {damage}");
-
-        PrepareHitEffect();
-        lastAttackTime = Time.time + 0.5f - stats.attackCooldown;
-
+        currentHp -= dmg;
         if (currentHp <= 0)
-        {
             Die();
-        }
         else
-        {
-            anim.SetTrigger("IsHit");
-            stateMachine.ChangeState(new EnemyDamageState(this, stateMachine, idleState));
-        }
+            stateMachine.ChangeState(damageState);
     }
 
-    public virtual void OnHit(int damage) => TakeDamage(damage);
+    public void OnHit(int damage)
+    {
+        TakeDamage(damage);
+    }
 
     protected virtual void Die()
     {
         if (isDead) return;
+
         isDead = true;
-
-        Debug.Log("[Enemy] Die() 호출됨 - 사망 애니메이션 시작");
-
-        stateMachine?.ChangeState(null);
+        anim.SetTrigger("IsDead");
         SetZeroVelocity();
-        anim.SetBool("IsDead", true);
+        stateMachine.ClearCurrentState();
     }
 
-    public void DestroySelf()
+    public void OnDeathAnimationComplete()
     {
-        if (!isDead) return;
-        Debug.Log("[Enemy] DestroySelf() 호출됨");
+        Debug.Log("[EnemyBase] 사망 애니메이션 완료 → 오브젝트 제거");
         Destroy(gameObject);
     }
 
-    public void PrepareHitEffect()
+    protected virtual void OnDrawGizmosSelected()
     {
-        if (flashCoroutine != null)
-            StopCoroutine(flashCoroutine);
-
-        flashCoroutine = StartCoroutine(FlashRed());
+        if (attackCheck != null)
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(attackCheck.position, stats.attackRadius);
+        }
     }
-
-    private IEnumerator FlashRed()
-    {
-        sr.color = Color.red;
-        yield return new WaitForSeconds(0.1f);
-        sr.color = originalColor;
-    }
-
-    public bool IsAttackCooldownOver() => Time.time >= lastAttackTime + stats.attackCooldown;
-    public void SetLastAttackTime() => lastAttackTime = Time.time;
-
-    public void SetAttacking(bool value) => isAttacking = value;
-    public bool IsAttacking() => isAttacking;
-
-    private void OnDrawGizmosSelected()
-    {
-        if (attackCheck == null || player == null) return;
-
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(attackCheck.position, stats != null ? stats.attackRadius : 1f);
-
-        Gizmos.color = Color.green;
-        Gizmos.DrawLine(attackCheck.position, player.position);
-    }
-
 }

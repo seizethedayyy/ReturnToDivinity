@@ -300,6 +300,8 @@ public class PlayerController : MonoBehaviour
         currentHp = Mathf.Clamp(currentHp, 0, characterStats.maxHp);
         InGameUIManager.Instance?.UpdateHpUI(currentHp, characterStats.maxHp);
 
+        PrepareHitEffect(); // ✅ 피격 모션 추가
+
         if (currentHp <= 0)
         {
             Die();
