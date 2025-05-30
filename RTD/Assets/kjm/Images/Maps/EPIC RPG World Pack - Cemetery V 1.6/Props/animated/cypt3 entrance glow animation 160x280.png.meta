@@ -82,7 +82,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -96,7 +96,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -187,10 +187,10 @@ TextureImporter:
       name: cypt3 entrance glow animation 160x280_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 22
-        width: 142
-        height: 234
+        x: 0
+        y: 0
+        width: 160
+        height: 280
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,10 +209,10 @@ TextureImporter:
       name: cypt3 entrance glow animation 160x280_1
       rect:
         serializedVersion: 2
-        x: 169
-        y: 22
-        width: 142
-        height: 234
+        x: 160
+        y: 0
+        width: 160
+        height: 280
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -231,10 +231,10 @@ TextureImporter:
       name: cypt3 entrance glow animation 160x280_2
       rect:
         serializedVersion: 2
-        x: 329
-        y: 22
-        width: 142
-        height: 234
+        x: 320
+        y: 0
+        width: 160
+        height: 280
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,10 +253,10 @@ TextureImporter:
       name: cypt3 entrance glow animation 160x280_3
       rect:
         serializedVersion: 2
-        x: 489
-        y: 22
-        width: 142
-        height: 234
+        x: 480
+        y: 0
+        width: 160
+        height: 280
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -275,10 +275,10 @@ TextureImporter:
       name: cypt3 entrance glow animation 160x280_4
       rect:
         serializedVersion: 2
-        x: 649
-        y: 22
-        width: 142
-        height: 234
+        x: 640
+        y: 0
+        width: 160
+        height: 280
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -297,10 +297,10 @@ TextureImporter:
       name: cypt3 entrance glow animation 160x280_5
       rect:
         serializedVersion: 2
-        x: 809
-        y: 22
-        width: 142
-        height: 234
+        x: 800
+        y: 0
+        width: 160
+        height: 280
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -319,10 +319,10 @@ TextureImporter:
       name: cypt3 entrance glow animation 160x280_6
       rect:
         serializedVersion: 2
-        x: 969
-        y: 22
-        width: 142
-        height: 234
+        x: 960
+        y: 0
+        width: 160
+        height: 280
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -341,10 +341,10 @@ TextureImporter:
       name: cypt3 entrance glow animation 160x280_7
       rect:
         serializedVersion: 2
-        x: 1129
-        y: 22
-        width: 142
-        height: 234
+        x: 1120
+        y: 0
+        width: 160
+        height: 280
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -363,10 +363,10 @@ TextureImporter:
       name: cypt3 entrance glow animation 160x280_8
       rect:
         serializedVersion: 2
-        x: 1289
-        y: 22
-        width: 142
-        height: 234
+        x: 1280
+        y: 0
+        width: 160
+        height: 280
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -385,10 +385,10 @@ TextureImporter:
       name: cypt3 entrance glow animation 160x280_9
       rect:
         serializedVersion: 2
-        x: 1449
-        y: 22
-        width: 142
-        height: 234
+        x: 1440
+        y: 0
+        width: 160
+        height: 280
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -407,10 +407,10 @@ TextureImporter:
       name: cypt3 entrance glow animation 160x280_10
       rect:
         serializedVersion: 2
-        x: 1609
-        y: 22
-        width: 142
-        height: 234
+        x: 1600
+        y: 0
+        width: 160
+        height: 280
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -429,10 +429,10 @@ TextureImporter:
       name: cypt3 entrance glow animation 160x280_11
       rect:
         serializedVersion: 2
-        x: 1769
-        y: 22
-        width: 142
-        height: 234
+        x: 1760
+        y: 0
+        width: 160
+        height: 280
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -451,10 +451,10 @@ TextureImporter:
       name: cypt3 entrance glow animation 160x280_12
       rect:
         serializedVersion: 2
-        x: 1929
-        y: 22
-        width: 142
-        height: 234
+        x: 1920
+        y: 0
+        width: 160
+        height: 280
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -473,10 +473,10 @@ TextureImporter:
       name: cypt3 entrance glow animation 160x280_13
       rect:
         serializedVersion: 2
-        x: 2089
-        y: 22
-        width: 142
-        height: 234
+        x: 2080
+        y: 0
+        width: 160
+        height: 280
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -495,10 +495,10 @@ TextureImporter:
       name: cypt3 entrance glow animation 160x280_14
       rect:
         serializedVersion: 2
-        x: 2249
-        y: 22
-        width: 142
-        height: 234
+        x: 2240
+        y: 0
+        width: 160
+        height: 280
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -517,10 +517,10 @@ TextureImporter:
       name: cypt3 entrance glow animation 160x280_15
       rect:
         serializedVersion: 2
-        x: 2409
-        y: 22
-        width: 142
-        height: 234
+        x: 2400
+        y: 0
+        width: 160
+        height: 280
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -539,7 +539,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ecb99aef9b6bda34fbd95bf912f7dc5f
     internalID: 0
     vertices: []
     indices: 
