@@ -14,6 +14,11 @@ public class EnemyBase : MonoBehaviour
     public EnemyData stats;
     protected float currentHp;
 
+
+    [Header("AI Settings")]
+    [Tooltip("플레이어와 X축 거리가 이 값보다 커야 flip 처리")]
+    public float flipDistanceThreshold = 0.5f;  // ← 기본 0.5 유닛
+
     public Transform player;
 
     public LayerMask attackLayer;
@@ -89,6 +94,7 @@ public class EnemyBase : MonoBehaviour
 
     public void OnAttackTrigger()
     {
+        Debug.Log("[EnemyBase] ▶ OnAttackTrigger 전달");  // ← 이 줄 추가
         if (stateMachine.CurrentState is EnemyAttackState atk)
             atk.OnAttackTrigger();
     }

@@ -17,8 +17,13 @@ public class EnemyMoveState : EnemyState
             return;
         }
 
-        float dist = Vector2.Distance(enemy.transform.position, enemy.player.position);
+        // ── 방향 전환: 플레이어 방향 즉시 반영 ──
+        Vector2 dir = (enemy.player.position - enemy.transform.position).normalized;
+        bool shouldFlip = dir.x < 0;
+        if (enemy.sr.flipX != shouldFlip)
+            enemy.sr.flipX = shouldFlip;
 
+        // 플레이어가 공격 사거리 내이면 이동 대신 공격 준비
         if (enemy.IsPlayerInAttackRange())
         {
             enemy.SetZeroVelocity();
@@ -30,16 +35,8 @@ public class EnemyMoveState : EnemyState
             return;
         }
 
-        Vector2 dir = (enemy.player.position - enemy.transform.position).normalized;
+        // 이동 처리
         enemy.SetVelocity(dir);
-
-        if (!enemy.IsAttacking())
-        {
-            bool shouldFlip = dir.x < 0;
-            if (Mathf.Abs(dir.x) > 0.2f && enemy.sr.flipX != shouldFlip)
-                enemy.sr.flipX = shouldFlip;
-        }
-
         enemy.anim.SetBool("IsWalking", true);
     }
 
@@ -49,5 +46,3 @@ public class EnemyMoveState : EnemyState
         enemy.SetZeroVelocity();
     }
 }
-
-
