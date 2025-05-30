@@ -15,4 +15,4 @@ MonoBehaviour:
   spawnPoints:
   - portalId: VillageStart
     sceneName: VillageScene
-    spawnPosition: {x: -5.538307, y: -1.0343957, z: 0}
+    spawnPosition: {x: -42.54, y: -1.75, z: 0}

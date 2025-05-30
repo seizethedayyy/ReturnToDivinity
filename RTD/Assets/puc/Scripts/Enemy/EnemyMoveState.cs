@@ -2,45 +2,52 @@
 
 public class EnemyMoveState : EnemyState
 {
-    private EnemyState attackState;
+    private EnemyState nextState;
 
     public EnemyMoveState(EnemyBase enemy, EnemyStateMachine stateMachine) : base(enemy, stateMachine) { }
 
-    public void SetNextState(EnemyState next)
-    {
-        attackState = next;
-    }
-
-    public override void Enter()
-    {
-        enemy.anim.SetBool("IsWalking", true);
-    }
-
-    public override void Exit()
-    {
-        enemy.anim.SetBool("IsWalking", false);
-        enemy.SetZeroVelocity();
-    }
+    public void SetNextState(EnemyState next) => nextState = next;
 
     public override void LogicUpdate()
     {
+        if (enemy.player == null) return;
+
+        float dist = Vector2.Distance(enemy.transform.position, enemy.player.position);
+
         if (enemy.IsPlayerInAttackRange())
         {
             enemy.SetZeroVelocity();
-            enemy.anim.SetBool("IsWalking", false); // ✅ Idle로 유지
+            enemy.anim.SetBool("IsWalking", false);
 
             if (enemy.IsAttackCooldownOver())
             {
-                stateMachine.ChangeState(attackState);
+                stateMachine.ChangeState(nextState);
             }
 
             return;
         }
 
-        // 공격 범위 바깥일 경우 이동
         Vector2 dir = (enemy.player.position - enemy.transform.position).normalized;
         enemy.SetVelocity(dir);
-        enemy.sr.flipX = dir.x < 0;
+
+        // ✅ 공격 중에는 Flip 유지
+        if (!enemy.IsAttacking())
+        {
+            enemy.sr.flipX = dir.x < 0;
+        }
+    }
+
+    public override void Enter()
+    {
+        base.Enter();
         enemy.anim.SetBool("IsWalking", true);
+    }
+
+
+    public override void Exit()
+    {
+        base.Exit();
+        enemy.anim.SetBool("IsWalking", false);
+        enemy.SetZeroVelocity();
     }
 }

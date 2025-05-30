@@ -1,27 +1,27 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class EnemyDamageState : EnemyState
 {
     private EnemyState returnState;
-    private float elapsed;
-    private float duration = 0.3f;
+    private float timer;
 
-    public EnemyDamageState(EnemyBase enemy, EnemyStateMachine stateMachine, EnemyState returnState)
-        : base(enemy, stateMachine)
+    public EnemyDamageState(EnemyBase enemy, EnemyStateMachine stateMachine, EnemyState returnState) : base(enemy, stateMachine)
     {
         this.returnState = returnState;
     }
 
     public override void Enter()
     {
-        elapsed = 0f;
+        base.Enter();
+        timer = 0.2f;
+        enemy.anim.SetTrigger("IsHit");
         enemy.SetZeroVelocity();
     }
 
     public override void LogicUpdate()
     {
-        elapsed += Time.deltaTime;
-        if (elapsed >= duration)
+        timer -= Time.deltaTime;
+        if (timer <= 0f)
         {
             stateMachine.ChangeState(returnState);
         }

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 667039071849032243}
   - component: {fileID: 5761599058030704686}
   - component: {fileID: 3424939576971099159}
-  m_Layer: 8
+  m_Layer: 7
   m_Name: Enemy_Goblin
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -81,7 +81,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 4723107735738678597, guid: f6126a940b099dc4b8cb8a1872884d96, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -190,15 +190,44 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9856661e826b79940b416fa2d013ea5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitStunDuration: 0.5
-  stats: {fileID: 11400000, guid: 35114b10ca2a694439085fc75dc0f513, type: 2}
+  stats:
+    id: 
+    name: 
+    level: 0
+    maxHp: 0
+    moveSpeed: 0
+    detectionRange: 0
+    attackRadius: 0
+    attackDamage: 0
+    chaseStopRange: 0
+    stopDistance: 0
+    angleThreshold: 0
+    attackCooldown: 0
+    exp: 0
+    gold: 0
   attackCheck: {fileID: 6572960812678246205}
-  attackOffsetX: 1
+  attackOffsetX: 0.5
   attackOffsetY: 0
   rb: {fileID: 0}
   anim: {fileID: 0}
   sr: {fileID: 0}
   player: {fileID: 0}
+  enemyId: goblin01
+  id: 
+  enemyName: 
+  level: 0
+  maxHp: 0
+  enemyCurrentHp: 0
+  moveSpeed: 0
+  detectionRange: 0
+  attackRadius: 0
+  attackDamage: 0
+  chaseStopRange: 0
+  stopDistance: 0
+  angleThreshold: 0
+  attackCooldown: 0
+  exp: 0
+  gold: 0
 --- !u!1 &5433511381653655770
 GameObject:
   m_ObjectHideFlags: 0

@@ -61,6 +61,7 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
+        Debug.Log($"[Player] 위치 초기화: {transform.position} / 레이어: {gameObject.layer}");
         StartCoroutine(InitializeHpUI());
         InGameUIManager.Instance?.ApplyCharacterInfo(SelectedCharacterData.Instance.selectedCharacter);
 
@@ -294,6 +295,7 @@ public class PlayerController : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        Debug.Log($"[Player] 데미지 {damage} 받음!");
         currentHp -= damage;
         currentHp = Mathf.Clamp(currentHp, 0, characterStats.maxHp);
         InGameUIManager.Instance?.UpdateHpUI(currentHp, characterStats.maxHp);
