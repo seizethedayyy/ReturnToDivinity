@@ -1,0 +1,2116 @@
+fileFormatVersion: 2
+guid: d03520373e4ca3841bbe43feb4c3231e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4632362920441209596
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_0
+  - first:
+      213: -6082924283915147876
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_1
+  - first:
+      213: 2047375330326075749
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_2
+  - first:
+      213: -7629857060442928773
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_3
+  - first:
+      213: -3892414323278566434
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_4
+  - first:
+      213: 5440293500117616839
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_5
+  - first:
+      213: 7490116671507306594
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_6
+  - first:
+      213: 6821219254094222265
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_7
+  - first:
+      213: 272388829135144408
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_8
+  - first:
+      213: 6196910161200344888
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_9
+  - first:
+      213: 212824386445452668
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_10
+  - first:
+      213: -983660054560859905
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_11
+  - first:
+      213: -4883558104542922745
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_12
+  - first:
+      213: -4608829486635853945
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_13
+  - first:
+      213: 7871701387096106538
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_14
+  - first:
+      213: 6024983924430651047
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_15
+  - first:
+      213: -2222238908160035877
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_16
+  - first:
+      213: -2196053045717944371
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_17
+  - first:
+      213: -6272461369782382416
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_18
+  - first:
+      213: -3425803805091614638
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_19
+  - first:
+      213: 6842569218983271355
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_20
+  - first:
+      213: -6738502980888752246
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_21
+  - first:
+      213: -2665181580038693246
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_22
+  - first:
+      213: 1271056127153016685
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_23
+  - first:
+      213: -5028714790511273599
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_24
+  - first:
+      213: 2085004745646331765
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_25
+  - first:
+      213: -6620632183350874869
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_26
+  - first:
+      213: 2625440496402619061
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_27
+  - first:
+      213: -5346895894593634854
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_28
+  - first:
+      213: -227031463832559702
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_29
+  - first:
+      213: -1701702052013192535
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_30
+  - first:
+      213: 1980643880705319324
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_31
+  - first:
+      213: 8673899281139460675
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_32
+  - first:
+      213: -167645531655045527
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_33
+  - first:
+      213: 6906869372557904355
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_34
+  - first:
+      213: 7082612332185070062
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_35
+  - first:
+      213: 4641212138232332425
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_36
+  - first:
+      213: -5592878298675504187
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_37
+  - first:
+      213: -2878113984821765385
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_38
+  - first:
+      213: 2554436536878310611
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_39
+  - first:
+      213: 503416176945532377
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_40
+  - first:
+      213: 1317008822205101138
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_41
+  - first:
+      213: -8602099617662327529
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_42
+  - first:
+      213: -1778916532734359623
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_43
+  - first:
+      213: 481950587636260559
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_44
+  - first:
+      213: -371801620304018635
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_45
+  - first:
+      213: -332183670692709106
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_46
+  - first:
+      213: 6442489558549544049
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_47
+  - first:
+      213: -7980210887209039363
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_48
+  - first:
+      213: 8437652116647995553
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_49
+  - first:
+      213: -6978407224698345223
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_50
+  - first:
+      213: 6337457969343341121
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_51
+  - first:
+      213: 8719027973186928422
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_52
+  - first:
+      213: -3525828010076026778
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_53
+  - first:
+      213: -3581367275182704124
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_54
+  - first:
+      213: 361262732331614529
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_55
+  - first:
+      213: -5397524976576548189
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_56
+  - first:
+      213: -4800458060621272685
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_57
+  - first:
+      213: 5282137701492032709
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_58
+  - first:
+      213: 6306912940333140714
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_59
+  - first:
+      213: 5379146699043150159
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_60
+  - first:
+      213: 4930341415757841884
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_61
+  - first:
+      213: 3997042552434410810
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_62
+  - first:
+      213: 7716311081886004075
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_63
+  - first:
+      213: -8743638379672823306
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_64
+  - first:
+      213: -4234923425316350888
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_65
+  - first:
+      213: -7930618599663092667
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_66
+  - first:
+      213: -3496402548981038950
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_67
+  - first:
+      213: -1153520153920797190
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_68
+  - first:
+      213: -4811100607819647771
+    second: Bat-all-animations-96x96-each row is a different animation-from top to
+      bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_69
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 621
+        width: 36
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40d1968977a86bfb0800000000000000
+      internalID: -4632362920441209596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_1
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 620
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c95e3ada79c159ba0800000000000000
+      internalID: -6082924283915147876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_2
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 620
+        width: 35
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 569dbf5f30db96c10800000000000000
+      internalID: 2047375330326075749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_3
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 612
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b790b41ad6d4d1690800000000000000
+      internalID: -7629857060442928773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_4
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 613
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edba65ebbcd5bf9c0800000000000000
+      internalID: -3892414323278566434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_5
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 615
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c8806c4d1ecf7b40800000000000000
+      internalID: 5440293500117616839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_6
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 616
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2689c6bad6d32f760800000000000000
+      internalID: 7490116671507306594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_7
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 622
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3575f65c6d9ae50800000000000000
+      internalID: 6821219254094222265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_8
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 525
+        width: 36
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d582696238b7c300800000000000000
+      internalID: 272388829135144408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_9
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 524
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83fea5f75f8dff550800000000000000
+      internalID: 6196910161200344888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_10
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 524
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c752f91e6aa14f200800000000000000
+      internalID: 212824386445452668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_11
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 516
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff8982c54665952f0800000000000000
+      internalID: -983660054560859905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_12
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 519
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7083db237cd1a3cb0800000000000000
+      internalID: -4883558104542922745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_13
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 521
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78759b220062a00c0800000000000000
+      internalID: -4608829486635853945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_14
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 522
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2620db94b6ed3d60800000000000000
+      internalID: 7871701387096106538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_15
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 520
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aeb02125fa0d9350800000000000000
+      internalID: 6024983924430651047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_16
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 429
+        width: 36
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd3b119ac750921e0800000000000000
+      internalID: -2222238908160035877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_17
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 428
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc7311ed36d0681e0800000000000000
+      internalID: -2196053045717944371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_18
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 419
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b0d2cafd9db3f8a0800000000000000
+      internalID: -6272461369782382416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_19
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 422
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 250355707991570d0800000000000000
+      internalID: -3425803805091614638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_20
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 429
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb15808370b5fe50800000000000000
+      internalID: 6842569218983271355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_21
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 428
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8f0732bd370c72a0800000000000000
+      internalID: -6738502980888752246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_22
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 430
+        width: 38
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28e11e3497f530bd0800000000000000
+      internalID: -2665181580038693246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_23
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 333
+        width: 40
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6f0a8430d2b3a110800000000000000
+      internalID: 1271056127153016685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_24
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 332
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18992d29a8a663ab0800000000000000
+      internalID: -5028714790511273599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_25
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 325
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 577d043f4cc6fec10800000000000000
+      internalID: 2085004745646331765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_26
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 329
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d2ada5b1ace14a0800000000000000
+      internalID: -6620632183350874869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_27
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 332
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bad007a8307f6420800000000000000
+      internalID: 2625440496402619061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_28
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 333
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: add70cf43820cc5b0800000000000000
+      internalID: -5346895894593634854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_29
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 332
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf5c65261c69dcf0800000000000000
+      internalID: -227031463832559702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_30
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 334
+        width: 38
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aa433ceff65268e0800000000000000
+      internalID: -1701702052013192535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_31
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 229
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c91edf79d19ac7b10800000000000000
+      internalID: 1980643880705319324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_32
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 233
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34a65dd9071ef5870800000000000000
+      internalID: 8673899281139460675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_33
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 236
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96ef485f6476cadf0800000000000000
+      internalID: -167645531655045527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_34
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 237
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e9c655a9112adf50800000000000000
+      internalID: 6906869372557904355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_35
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 236
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee921bd046e7a4260800000000000000
+      internalID: 7082612332185070062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_36
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 233
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 980c19a79d5e86040800000000000000
+      internalID: 4641212138232332425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_37
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 232
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cb9477d1da1262b0800000000000000
+      internalID: -5592878298675504187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_38
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 227
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fa5d976492ee08d0800000000000000
+      internalID: -2878113984821765385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_39
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 228
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d429ed0f7e237320800000000000000
+      internalID: 2554436536878310611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_40
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 231
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dd0601885e7cf600800000000000000
+      internalID: 503416176945532377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_41
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 227
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2543795cb84f64210800000000000000
+      internalID: 1317008822205101138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_42
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 228
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 715a6be39f33f9880800000000000000
+      internalID: -8602099617662327529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_43
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 233
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b78c4da6d40057e0800000000000000
+      internalID: -1778916532734359623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_44
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 235
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce9957818b30b600800000000000000
+      internalID: 481950587636260559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_45
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 236
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5334dde656817daf0800000000000000
+      internalID: -371801620304018635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_46
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 238
+        width: 38
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0dfc2426b8d36bf0800000000000000
+      internalID: -332183670692709106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_47
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 140
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c3286ae12586950800000000000000
+      internalID: 6442489558549544049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_48
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 132
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df94333aa78904190800000000000000
+      internalID: -7980210887209039363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_49
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 134
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a8602f35ef881570800000000000000
+      internalID: 8437652116647995553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_50
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 142
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f8e5d13a97b72f90800000000000000
+      internalID: -6978407224698345223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_51
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 142
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 142ada1227c23f750800000000000000
+      internalID: 6337457969343341121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_52
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 140
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62f30880fb5300970800000000000000
+      internalID: 8719027973186928422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_53
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 142
+        width: 38
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 668cb400b1eb11fc0800000000000000
+      internalID: -3525828010076026778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_54
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 140
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40ab688207d6c4ec0800000000000000
+      internalID: -3581367275182704124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_55
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 141
+        width: 36
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 141863f7a86730500800000000000000
+      internalID: 361262732331614529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_56
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 38
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a23bd091a32815b0800000000000000
+      internalID: -5397524976576548189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_57
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 46
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3992289e3d8516db0800000000000000
+      internalID: -4800458060621272685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_58
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 46
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c48128e04ced4940800000000000000
+      internalID: 5282137701492032709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_59
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 44
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aea0fdd57e7a68750800000000000000
+      internalID: 6306912940333140714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_60
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 46
+        width: 38
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f499e2f3c6196aa40800000000000000
+      internalID: 5379146699043150159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_61
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 44
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd584a345671c6440800000000000000
+      internalID: 4930341415757841884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_62
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 32
+        width: 44
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3549f13609587730800000000000000
+      internalID: 3997042552434410810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_63
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 26
+        width: 43
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b63b934db08d51b60800000000000000
+      internalID: 7716311081886004075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_64
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 24
+        width: 44
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f9112f283b58a680800000000000000
+      internalID: -8743638379672823306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_65
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 24
+        width: 46
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 854d90f05978a35c0800000000000000
+      internalID: -4234923425316350888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_66
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 24
+        width: 46
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54cb9fdd668c0f190800000000000000
+      internalID: -7930618599663092667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_67
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 24
+        width: 46
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a90073c08684a7fc0800000000000000
+      internalID: -3496402548981038950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_68
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 24
+        width: 46
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af50c48188fddffe0800000000000000
+      internalID: -1153520153920797190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-all-animations-96x96-each row is a different animation-from top to
+        bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_69
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 24
+        width: 46
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e47e3ccc798b3db0800000000000000
+      internalID: -4811100607819647771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_0: -4632362920441209596
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_1: -6082924283915147876
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_10: 212824386445452668
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_11: -983660054560859905
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_12: -4883558104542922745
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_13: -4608829486635853945
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_14: 7871701387096106538
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_15: 6024983924430651047
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_16: -2222238908160035877
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_17: -2196053045717944371
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_18: -6272461369782382416
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_19: -3425803805091614638
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_2: 2047375330326075749
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_20: 6842569218983271355
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_21: -6738502980888752246
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_22: -2665181580038693246
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_23: 1271056127153016685
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_24: -5028714790511273599
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_25: 2085004745646331765
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_26: -6620632183350874869
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_27: 2625440496402619061
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_28: -5346895894593634854
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_29: -227031463832559702
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_3: -7629857060442928773
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_30: -1701702052013192535
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_31: 1980643880705319324
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_32: 8673899281139460675
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_33: -167645531655045527
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_34: 6906869372557904355
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_35: 7082612332185070062
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_36: 4641212138232332425
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_37: -5592878298675504187
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_38: -2878113984821765385
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_39: 2554436536878310611
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_4: -3892414323278566434
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_40: 503416176945532377
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_41: 1317008822205101138
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_42: -8602099617662327529
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_43: -1778916532734359623
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_44: 481950587636260559
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_45: -371801620304018635
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_46: -332183670692709106
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_47: 6442489558549544049
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_48: -7980210887209039363
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_49: 8437652116647995553
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_5: 5440293500117616839
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_50: -6978407224698345223
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_51: 6337457969343341121
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_52: 8719027973186928422
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_53: -3525828010076026778
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_54: -3581367275182704124
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_55: 361262732331614529
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_56: -5397524976576548189
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_57: -4800458060621272685
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_58: 5282137701492032709
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_59: 6306912940333140714
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_6: 7490116671507306594
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_60: 5379146699043150159
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_61: 4930341415757841884
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_62: 3997042552434410810
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_63: 7716311081886004075
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_64: -8743638379672823306
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_65: -4234923425316350888
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_66: -7930618599663092667
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_67: -3496402548981038950
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_68: -1153520153920797190
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_69: -4811100607819647771
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_7: 6821219254094222265
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_8: 272388829135144408
+      Bat-all-animations-96x96-each row is a different animation-from top to bottom-Idle-walk-walk to atk transition-atk instance-atk-hurt-death_9: 6196910161200344888
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

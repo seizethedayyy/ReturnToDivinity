@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 3ef7444e2a2222e45ae62d8bfa1e81fe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 671708044130006307
+    second: animated crow for the environment-landing_0
+  - first:
+      213: -7650122123810362017
+    second: animated crow for the environment-landing_1
+  - first:
+      213: 5980360603142548610
+    second: animated crow for the environment-landing_2
+  - first:
+      213: -7374253458866228980
+    second: animated crow for the environment-landing_3
+  - first:
+      213: -245472266115459565
+    second: animated crow for the environment-landing_4
+  - first:
+      213: -7607860417742906042
+    second: animated crow for the environment-landing_5
+  - first:
+      213: -338474174526307626
+    second: animated crow for the environment-landing_6
+  - first:
+      213: 8736259255560136090
+    second: animated crow for the environment-landing_7
+  - first:
+      213: 240377027564608944
+    second: animated crow for the environment-landing_8
+  - first:
+      213: 4146567319651796786
+    second: animated crow for the environment-landing_9
+  - first:
+      213: 8638103069039600961
+    second: animated crow for the environment-landing_10
+  - first:
+      213: -1600968933474791317
+    second: animated crow for the environment-landing_11
+  - first:
+      213: -6848268862741701715
+    second: animated crow for the environment-landing_12
+  - first:
+      213: -3704553276026796484
+    second: animated crow for the environment-landing_13
+  - first:
+      213: 4315708706672803462
+    second: animated crow for the environment-landing_14
+  - first:
+      213: -6046790903145626310
+    second: animated crow for the environment-landing_15
+  - first:
+      213: 9068663625066181123
+    second: animated crow for the environment-landing_16
+  - first:
+      213: -7075212153040719134
+    second: animated crow for the environment-landing_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: animated crow for the environment-landing_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 36
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 325342348e2625900800000000000000
+      internalID: 671708044130006307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-landing_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 32
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5d2de1e57e45d590800000000000000
+      internalID: -7650122123810362017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-landing_2
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 30
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28c6d0388428ef250800000000000000
+      internalID: 5980360603142548610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-landing_3
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 27
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c013594bc8369a990800000000000000
+      internalID: -7374253458866228980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-landing_4
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 26
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3165af74648e79cf0800000000000000
+      internalID: -245472266115459565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-landing_5
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 24
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64dddab12437b6690800000000000000
+      internalID: -7607860417742906042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-landing_6
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 25
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d247b5188f7d4bf0800000000000000
+      internalID: -338474174526307626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-landing_7
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 25
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a956169918d6d3970800000000000000
+      internalID: 8736259255560136090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-landing_8
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 25
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bd172c02adf55300800000000000000
+      internalID: 240377027564608944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-landing_9
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 25
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 237c61df1019b8930800000000000000
+      internalID: 4146567319651796786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-landing_10
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 25
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 145215389f4b0e770800000000000000
+      internalID: 8638103069039600961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-landing_11
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 25
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b609ccfbc3738c9e0800000000000000
+      internalID: -1600968933474791317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-landing_12
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 25
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dab99e5c0cf06f0a0800000000000000
+      internalID: -6848268862741701715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-landing_13
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 25
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c36c9ea4c68c69cc0800000000000000
+      internalID: -3704553276026796484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-landing_14
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 25
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68efa4ff33a74eb30800000000000000
+      internalID: 4315708706672803462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-landing_15
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 25
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3501faf5bb751ca0800000000000000
+      internalID: -6046790903145626310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-landing_16
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 25
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3027397e48d5add70800000000000000
+      internalID: 9068663625066181123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-landing_17
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 25
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e23b7b680ccfcd90800000000000000
+      internalID: -7075212153040719134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      animated crow for the environment-landing_0: 671708044130006307
+      animated crow for the environment-landing_1: -7650122123810362017
+      animated crow for the environment-landing_10: 8638103069039600961
+      animated crow for the environment-landing_11: -1600968933474791317
+      animated crow for the environment-landing_12: -6848268862741701715
+      animated crow for the environment-landing_13: -3704553276026796484
+      animated crow for the environment-landing_14: 4315708706672803462
+      animated crow for the environment-landing_15: -6046790903145626310
+      animated crow for the environment-landing_16: 9068663625066181123
+      animated crow for the environment-landing_17: -7075212153040719134
+      animated crow for the environment-landing_2: 5980360603142548610
+      animated crow for the environment-landing_3: -7374253458866228980
+      animated crow for the environment-landing_4: -245472266115459565
+      animated crow for the environment-landing_5: -7607860417742906042
+      animated crow for the environment-landing_6: -338474174526307626
+      animated crow for the environment-landing_7: 8736259255560136090
+      animated crow for the environment-landing_8: 240377027564608944
+      animated crow for the environment-landing_9: 4146567319651796786
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 38abb2f4fcc8aeb46acd6f5549c44625
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8565596296522483693
+    second: cypt entrance glow animation 160x280_0
+  - first:
+      213: -6459450709416290039
+    second: cypt entrance glow animation 160x280_1
+  - first:
+      213: 5826591429024842908
+    second: cypt entrance glow animation 160x280_2
+  - first:
+      213: -7198604656760568974
+    second: cypt entrance glow animation 160x280_3
+  - first:
+      213: 3637075443947148350
+    second: cypt entrance glow animation 160x280_4
+  - first:
+      213: -2186080270660048934
+    second: cypt entrance glow animation 160x280_5
+  - first:
+      213: -3795133264667190170
+    second: cypt entrance glow animation 160x280_6
+  - first:
+      213: -8760360011713652464
+    second: cypt entrance glow animation 160x280_7
+  - first:
+      213: 9095676477192217011
+    second: cypt entrance glow animation 160x280_8
+  - first:
+      213: 5817929667960778117
+    second: cypt entrance glow animation 160x280_9
+  - first:
+      213: -7360505926691494746
+    second: cypt entrance glow animation 160x280_10
+  - first:
+      213: -9019838448227631038
+    second: cypt entrance glow animation 160x280_11
+  - first:
+      213: -2841967165504731164
+    second: cypt entrance glow animation 160x280_12
+  - first:
+      213: 5485671296543962292
+    second: cypt entrance glow animation 160x280_13
+  - first:
+      213: -6113615848336569871
+    second: cypt entrance glow animation 160x280_14
+  - first:
+      213: 3448005464533952574
+    second: cypt entrance glow animation 160x280_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cypt entrance glow animation 160x280_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 18
+        width: 128
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31830600d83e02980800000000000000
+      internalID: -8565596296522483693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cypt entrance glow animation 160x280_1
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 18
+        width: 128
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 909d81dadcb6b56a0800000000000000
+      internalID: -6459450709416290039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cypt entrance glow animation 160x280_2
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 18
+        width: 128
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c948c5ab8063cd050800000000000000
+      internalID: 5826591429024842908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cypt entrance glow animation 160x280_3
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 18
+        width: 128
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 273405b543b691c90800000000000000
+      internalID: -7198604656760568974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cypt entrance glow animation 160x280_4
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 18
+        width: 128
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3414c1a8dc797230800000000000000
+      internalID: 3637075443947148350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cypt entrance glow animation 160x280_5
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 18
+        width: 128
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad761d0839b79a1e0800000000000000
+      internalID: -2186080270660048934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cypt entrance glow animation 160x280_6
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 18
+        width: 128
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66c5e3c376af45bc0800000000000000
+      internalID: -3795133264667190170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cypt entrance glow animation 160x280_7
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 18
+        width: 128
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0195545dbf2fc6680800000000000000
+      internalID: -8760360011713652464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cypt entrance glow animation 160x280_8
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 18
+        width: 128
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b12be6a0955a3e70800000000000000
+      internalID: 9095676477192217011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cypt entrance glow animation 160x280_9
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 18
+        width: 128
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58d220355307db050800000000000000
+      internalID: 5817929667960778117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cypt entrance glow animation 160x280_10
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 18
+        width: 128
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a465687bda3ad990800000000000000
+      internalID: -7360505926691494746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cypt entrance glow animation 160x280_11
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 18
+        width: 128
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2404bf178b813d280800000000000000
+      internalID: -9019838448227631038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cypt entrance glow animation 160x280_12
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 18
+        width: 128
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e744cc9bed4f88d0800000000000000
+      internalID: -2841967165504731164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cypt entrance glow animation 160x280_13
+      rect:
+        serializedVersion: 2
+        x: 2098
+        y: 18
+        width: 128
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b43f09daf4012c40800000000000000
+      internalID: 5485671296543962292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cypt entrance glow animation 160x280_14
+      rect:
+        serializedVersion: 2
+        x: 2258
+        y: 18
+        width: 128
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f943baf6c2182ba0800000000000000
+      internalID: -6113615848336569871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cypt entrance glow animation 160x280_15
+      rect:
+        serializedVersion: 2
+        x: 2418
+        y: 18
+        width: 128
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e38e621a3b6c9df20800000000000000
+      internalID: 3448005464533952574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      cypt entrance glow animation 160x280_0: -8565596296522483693
+      cypt entrance glow animation 160x280_1: -6459450709416290039
+      cypt entrance glow animation 160x280_10: -7360505926691494746
+      cypt entrance glow animation 160x280_11: -9019838448227631038
+      cypt entrance glow animation 160x280_12: -2841967165504731164
+      cypt entrance glow animation 160x280_13: 5485671296543962292
+      cypt entrance glow animation 160x280_14: -6113615848336569871
+      cypt entrance glow animation 160x280_15: 3448005464533952574
+      cypt entrance glow animation 160x280_2: 5826591429024842908
+      cypt entrance glow animation 160x280_3: -7198604656760568974
+      cypt entrance glow animation 160x280_4: 3637075443947148350
+      cypt entrance glow animation 160x280_5: -2186080270660048934
+      cypt entrance glow animation 160x280_6: -3795133264667190170
+      cypt entrance glow animation 160x280_7: -8760360011713652464
+      cypt entrance glow animation 160x280_8: 9095676477192217011
+      cypt entrance glow animation 160x280_9: 5817929667960778117
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: ae8a382df699ebd449575d541a82c6df
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1554977437362089963
+    second: animated crow for the environment-idle3_0
+  - first:
+      213: -7852655232864583722
+    second: animated crow for the environment-idle3_1
+  - first:
+      213: -7531703408585999477
+    second: animated crow for the environment-idle3_2
+  - first:
+      213: -2296107731681121527
+    second: animated crow for the environment-idle3_3
+  - first:
+      213: -7737963995167717293
+    second: animated crow for the environment-idle3_4
+  - first:
+      213: -8410313437454556369
+    second: animated crow for the environment-idle3_5
+  - first:
+      213: -4607951266743843793
+    second: animated crow for the environment-idle3_6
+  - first:
+      213: -5570972894784133205
+    second: animated crow for the environment-idle3_7
+  - first:
+      213: 5593322191823289903
+    second: animated crow for the environment-idle3_8
+  - first:
+      213: -7704717527500301563
+    second: animated crow for the environment-idle3_9
+  - first:
+      213: -2460759789117374931
+    second: animated crow for the environment-idle3_10
+  - first:
+      213: -2454282564655868267
+    second: animated crow for the environment-idle3_11
+  - first:
+      213: 8164718496344063574
+    second: animated crow for the environment-idle3_12
+  - first:
+      213: -6573519712306542802
+    second: animated crow for the environment-idle3_13
+  - first:
+      213: 5366566174358976076
+    second: animated crow for the environment-idle3_14
+  - first:
+      213: -4921639224401685615
+    second: animated crow for the environment-idle3_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: animated crow for the environment-idle3_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 25
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5101944624c9b6ae0800000000000000
+      internalID: -1554977437362089963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-idle3_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 25
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6df7e7dbba3c50390800000000000000
+      internalID: -7852655232864583722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-idle3_2
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 25
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8bf1a197a30a7790800000000000000
+      internalID: -7531703408585999477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-idle3_3
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 25
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90b6e1fee269220e0800000000000000
+      internalID: -2296107731681121527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-idle3_4
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 25
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 358044f6eba3d9490800000000000000
+      internalID: -7737963995167717293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-idle3_5
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 25
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f23a3d60d70984b80800000000000000
+      internalID: -8410313437454556369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-idle3_6
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 25
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f240c63acb44d00c0800000000000000
+      internalID: -4607951266743843793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-idle3_7
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 25
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba7ef012badefa2b0800000000000000
+      internalID: -5570972894784133205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-idle3_8
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 25
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2ebfe516e87f9d40800000000000000
+      internalID: 5593322191823289903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-idle3_9
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 25
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50b5e96ea38531590800000000000000
+      internalID: -7704717527500301563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-idle3_10
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 25
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ef71c6200a9ddd0800000000000000
+      internalID: -2460759789117374931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-idle3_11
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 25
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5969043c203a0fdd0800000000000000
+      internalID: -2454282564655868267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-idle3_12
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 25
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65e36a1c638ee4170800000000000000
+      internalID: 8164718496344063574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-idle3_13
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 25
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e27c0ff46aa26c4a0800000000000000
+      internalID: -6573519712306542802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-idle3_14
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 25
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c463b46908fd97a40800000000000000
+      internalID: 5366566174358976076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-idle3_15
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 25
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19398ec8333d2bbb0800000000000000
+      internalID: -4921639224401685615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      animated crow for the environment-idle3_0: -1554977437362089963
+      animated crow for the environment-idle3_1: -7852655232864583722
+      animated crow for the environment-idle3_10: -2460759789117374931
+      animated crow for the environment-idle3_11: -2454282564655868267
+      animated crow for the environment-idle3_12: 8164718496344063574
+      animated crow for the environment-idle3_13: -6573519712306542802
+      animated crow for the environment-idle3_14: 5366566174358976076
+      animated crow for the environment-idle3_15: -4921639224401685615
+      animated crow for the environment-idle3_2: -7531703408585999477
+      animated crow for the environment-idle3_3: -2296107731681121527
+      animated crow for the environment-idle3_4: -7737963995167717293
+      animated crow for the environment-idle3_5: -8410313437454556369
+      animated crow for the environment-idle3_6: -4607951266743843793
+      animated crow for the environment-idle3_7: -5570972894784133205
+      animated crow for the environment-idle3_8: 5593322191823289903
+      animated crow for the environment-idle3_9: -7704717527500301563
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

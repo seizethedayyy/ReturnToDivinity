@@ -1,0 +1,494 @@
+fileFormatVersion: 2
+guid: 35940b7fd1c6e4745a8bcb1c670fe3c6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5378824043832887976
+    second: abandoned-structures-parts-e6_0
+  - first:
+      213: -6010199711287400482
+    second: abandoned-structures-parts-e6_1
+  - first:
+      213: 6817331546348214312
+    second: abandoned-structures-parts-e6_2
+  - first:
+      213: -2041759957897856435
+    second: abandoned-structures-parts-e6_3
+  - first:
+      213: 4696146917760137764
+    second: abandoned-structures-parts-e6_4
+  - first:
+      213: -1869021610942251463
+    second: abandoned-structures-parts-e6_5
+  - first:
+      213: 306013411686059443
+    second: abandoned-structures-parts-e6_6
+  - first:
+      213: 973050738518605678
+    second: abandoned-structures-parts-e6_7
+  - first:
+      213: -3987808521201421796
+    second: abandoned-structures-parts-e6_8
+  - first:
+      213: 3529076590872764303
+    second: abandoned-structures-parts-e6_9
+  - first:
+      213: -5925717130106491631
+    second: abandoned-structures-parts-e6_10
+  - first:
+      213: -1212414321739635476
+    second: abandoned-structures-parts-e6_11
+  - first:
+      213: 5758485459478866198
+    second: abandoned-structures-parts-e6_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: abandoned-structures-parts-e6_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 224
+        width: 277
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 855b206c7049a55b0800000000000000
+      internalID: -5378824043832887976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-parts-e6_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 218
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed72f8bb43b779ca0800000000000000
+      internalID: -6010199711287400482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-parts-e6_2
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 204
+        width: 51
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8285620fbe60c9e50800000000000000
+      internalID: 6817331546348214312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-parts-e6_3
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 215
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4ab1e0d2263aa3e0800000000000000
+      internalID: -2041759957897856435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-parts-e6_4
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 212
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42a732e8db01c2140800000000000000
+      internalID: 4696146917760137764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-parts-e6_5
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 183
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93e32425fb6ef06e0800000000000000
+      internalID: -1869021610942251463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-parts-e6_6
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 186
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd8d0c939d2f3400800000000000000
+      internalID: 306013411686059443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-parts-e6_7
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 199
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6f35d1cd78f08d00800000000000000
+      internalID: 973050738518605678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-parts-e6_8
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 187
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c12738d374578a8c0800000000000000
+      internalID: -3987808521201421796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-parts-e6_9
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 138
+        width: 52
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8f1e18267cc9f030800000000000000
+      internalID: 3529076590872764303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-parts-e6_10
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 100
+        width: 115
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d2e8c7aaf93cda0800000000000000
+      internalID: -5925717130106491631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-parts-e6_11
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 3
+        width: 117
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce4ec181993ac2fe0800000000000000
+      internalID: -1212414321739635476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-parts-e6_12
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 2
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6196d7004004aef40800000000000000
+      internalID: 5758485459478866198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      abandoned-structures-parts-e6_0: -5378824043832887976
+      abandoned-structures-parts-e6_1: -6010199711287400482
+      abandoned-structures-parts-e6_10: -5925717130106491631
+      abandoned-structures-parts-e6_11: -1212414321739635476
+      abandoned-structures-parts-e6_12: 5758485459478866198
+      abandoned-structures-parts-e6_2: 6817331546348214312
+      abandoned-structures-parts-e6_3: -2041759957897856435
+      abandoned-structures-parts-e6_4: 4696146917760137764
+      abandoned-structures-parts-e6_5: -1869021610942251463
+      abandoned-structures-parts-e6_6: 306013411686059443
+      abandoned-structures-parts-e6_7: 973050738518605678
+      abandoned-structures-parts-e6_8: -3987808521201421796
+      abandoned-structures-parts-e6_9: 3529076590872764303
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

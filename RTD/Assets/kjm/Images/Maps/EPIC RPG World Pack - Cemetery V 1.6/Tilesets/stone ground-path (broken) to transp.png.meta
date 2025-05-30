@@ -1,0 +1,884 @@
+fileFormatVersion: 2
+guid: 20311dc882b34bb4d8fc86ef8d7c8e42
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6228887050712043296
+    second: stone ground-path (broken) to transp_0
+  - first:
+      213: 8508488089404594324
+    second: stone ground-path (broken) to transp_1
+  - first:
+      213: 2557144012213605481
+    second: stone ground-path (broken) to transp_2
+  - first:
+      213: 4338485873331930557
+    second: stone ground-path (broken) to transp_3
+  - first:
+      213: 7259816293005770062
+    second: stone ground-path (broken) to transp_4
+  - first:
+      213: -333364047468931878
+    second: stone ground-path (broken) to transp_5
+  - first:
+      213: 2871587225043530853
+    second: stone ground-path (broken) to transp_6
+  - first:
+      213: -851315579726211880
+    second: stone ground-path (broken) to transp_7
+  - first:
+      213: -4795702347421242054
+    second: stone ground-path (broken) to transp_8
+  - first:
+      213: -7648727171394762071
+    second: stone ground-path (broken) to transp_9
+  - first:
+      213: 3191084831521528370
+    second: stone ground-path (broken) to transp_10
+  - first:
+      213: 7585709347800057278
+    second: stone ground-path (broken) to transp_11
+  - first:
+      213: 848789590637185062
+    second: stone ground-path (broken) to transp_12
+  - first:
+      213: -7016509023781599450
+    second: stone ground-path (broken) to transp_13
+  - first:
+      213: -164774791784949762
+    second: stone ground-path (broken) to transp_14
+  - first:
+      213: -6330270307368214134
+    second: stone ground-path (broken) to transp_15
+  - first:
+      213: -6776808863214600138
+    second: stone ground-path (broken) to transp_16
+  - first:
+      213: -2116288174742372833
+    second: stone ground-path (broken) to transp_17
+  - first:
+      213: -2076693883180679019
+    second: stone ground-path (broken) to transp_18
+  - first:
+      213: -1136073012578208846
+    second: stone ground-path (broken) to transp_19
+  - first:
+      213: -7594488413968286275
+    second: stone ground-path (broken) to transp_20
+  - first:
+      213: -3755951302056698903
+    second: stone ground-path (broken) to transp_21
+  - first:
+      213: 8332085618304848175
+    second: stone ground-path (broken) to transp_22
+  - first:
+      213: -530598296184093985
+    second: stone ground-path (broken) to transp_23
+  - first:
+      213: 2228198146962248701
+    second: stone ground-path (broken) to transp_24
+  - first:
+      213: 1403150252248184087
+    second: stone ground-path (broken) to transp_25
+  - first:
+      213: 8728370207988141517
+    second: stone ground-path (broken) to transp_26
+  - first:
+      213: -3043971915932617381
+    second: stone ground-path (broken) to transp_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: stone ground-path (broken) to transp_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 255
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02fc8b345c3717650800000000000000
+      internalID: 6228887050712043296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone ground-path (broken) to transp_1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 131
+        width: 155
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4985a9066d8341670800000000000000
+      internalID: 8508488089404594324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone ground-path (broken) to transp_2
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 273
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96452874eeccc7320800000000000000
+      internalID: 2557144012213605481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone ground-path (broken) to transp_3
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 275
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db5000f5ae5653c30800000000000000
+      internalID: 4338485873331930557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone ground-path (broken) to transp_4
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 255
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4db33f447c00c460800000000000000
+      internalID: 7259816293005770062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone ground-path (broken) to transp_5
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 224
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad45ab14a27af5bf0800000000000000
+      internalID: -333364047468931878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone ground-path (broken) to transp_6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 197
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 564f44aed5de9d720800000000000000
+      internalID: 2871587225043530853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone ground-path (broken) to transp_7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 166
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d4d9ae9df48f24f0800000000000000
+      internalID: -851315579726211880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone ground-path (broken) to transp_8
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 113
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d237daf1e327db0800000000000000
+      internalID: -4795702347421242054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone ground-path (broken) to transp_9
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 113
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aa032d89234ad590800000000000000
+      internalID: -7648727171394762071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone ground-path (broken) to transp_10
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 112
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23a5af64fb2094c20800000000000000
+      internalID: 3191084831521528370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone ground-path (broken) to transp_11
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 109
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb58bf4067ad54960800000000000000
+      internalID: 7585709347800057278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone ground-path (broken) to transp_12
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 115
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6288af6b2a187cb00800000000000000
+      internalID: 848789590637185062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone ground-path (broken) to transp_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 74
+        width: 90
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 627cc2ac73a50ae90800000000000000
+      internalID: -7016509023781599450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone ground-path (broken) to transp_14
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 102
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef718bb233a96bdf0800000000000000
+      internalID: -164774791784949762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone ground-path (broken) to transp_15
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 80
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a816d15d1bc5628a0800000000000000
+      internalID: -6330270307368214134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone ground-path (broken) to transp_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63000657e30f3f1a0800000000000000
+      internalID: -6776808863214600138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone ground-path (broken) to transp_17
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 73
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1efe1e1e1f61a2e0800000000000000
+      internalID: -2116288174742372833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone ground-path (broken) to transp_18
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 66
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5900ac18ae91e23e0800000000000000
+      internalID: -2076693883180679019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone ground-path (broken) to transp_19
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 68
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b33e5e3d9bdb30f0800000000000000
+      internalID: -1136073012578208846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone ground-path (broken) to transp_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 67
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbdb99a5605fa9690800000000000000
+      internalID: -7594488413968286275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone ground-path (broken) to transp_21
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 69
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eb9e3fc03e20ebc0800000000000000
+      internalID: -3755951302056698903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone ground-path (broken) to transp_22
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 43
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f21933d79b381a370800000000000000
+      internalID: 8332085618304848175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone ground-path (broken) to transp_23
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 53
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd2058d29afe2a8f0800000000000000
+      internalID: -530598296184093985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone ground-path (broken) to transp_24
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 0
+        width: 40
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df35edeb8662cee10800000000000000
+      internalID: 2228198146962248701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone ground-path (broken) to transp_25
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 57
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 715b0cf58bdf87310800000000000000
+      internalID: 1403150252248184087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone ground-path (broken) to transp_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd4c339576612970800000000000000
+      internalID: 8728370207988141517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone ground-path (broken) to transp_27
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 31
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b55329c8ba3a1c5d0800000000000000
+      internalID: -3043971915932617381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      stone ground-path (broken) to transp_0: 6228887050712043296
+      stone ground-path (broken) to transp_1: 8508488089404594324
+      stone ground-path (broken) to transp_10: 3191084831521528370
+      stone ground-path (broken) to transp_11: 7585709347800057278
+      stone ground-path (broken) to transp_12: 848789590637185062
+      stone ground-path (broken) to transp_13: -7016509023781599450
+      stone ground-path (broken) to transp_14: -164774791784949762
+      stone ground-path (broken) to transp_15: -6330270307368214134
+      stone ground-path (broken) to transp_16: -6776808863214600138
+      stone ground-path (broken) to transp_17: -2116288174742372833
+      stone ground-path (broken) to transp_18: -2076693883180679019
+      stone ground-path (broken) to transp_19: -1136073012578208846
+      stone ground-path (broken) to transp_2: 2557144012213605481
+      stone ground-path (broken) to transp_20: -7594488413968286275
+      stone ground-path (broken) to transp_21: -3755951302056698903
+      stone ground-path (broken) to transp_22: 8332085618304848175
+      stone ground-path (broken) to transp_23: -530598296184093985
+      stone ground-path (broken) to transp_24: 2228198146962248701
+      stone ground-path (broken) to transp_25: 1403150252248184087
+      stone ground-path (broken) to transp_26: 8728370207988141517
+      stone ground-path (broken) to transp_27: -3043971915932617381
+      stone ground-path (broken) to transp_3: 4338485873331930557
+      stone ground-path (broken) to transp_4: 7259816293005770062
+      stone ground-path (broken) to transp_5: -333364047468931878
+      stone ground-path (broken) to transp_6: 2871587225043530853
+      stone ground-path (broken) to transp_7: -851315579726211880
+      stone ground-path (broken) to transp_8: -4795702347421242054
+      stone ground-path (broken) to transp_9: -7648727171394762071
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1014 @@
+fileFormatVersion: 2
+guid: 76b25de48ad4a4e49845ff2ec8c2f763
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6969574866862379128
+    second: abandoned-structures-day-light-parts-e8_0
+  - first:
+      213: -3672951708684441777
+    second: abandoned-structures-day-light-parts-e8_1
+  - first:
+      213: 5084686188351674033
+    second: abandoned-structures-day-light-parts-e8_2
+  - first:
+      213: 149789685422100961
+    second: abandoned-structures-day-light-parts-e8_3
+  - first:
+      213: 1071449651284455220
+    second: abandoned-structures-day-light-parts-e8_4
+  - first:
+      213: 6183348332964087489
+    second: abandoned-structures-day-light-parts-e8_5
+  - first:
+      213: -852503954143013030
+    second: abandoned-structures-day-light-parts-e8_6
+  - first:
+      213: 3145357670993160220
+    second: abandoned-structures-day-light-parts-e8_7
+  - first:
+      213: -8787444022700556889
+    second: abandoned-structures-day-light-parts-e8_8
+  - first:
+      213: 5664639440986084389
+    second: abandoned-structures-day-light-parts-e8_9
+  - first:
+      213: 4354569095190510627
+    second: abandoned-structures-day-light-parts-e8_10
+  - first:
+      213: -717939859445098804
+    second: abandoned-structures-day-light-parts-e8_11
+  - first:
+      213: 8561298935623876178
+    second: abandoned-structures-day-light-parts-e8_12
+  - first:
+      213: -5109055853247482428
+    second: abandoned-structures-day-light-parts-e8_13
+  - first:
+      213: 8502382381371132632
+    second: abandoned-structures-day-light-parts-e8_14
+  - first:
+      213: 964436148141249884
+    second: abandoned-structures-day-light-parts-e8_15
+  - first:
+      213: -5466301204197045230
+    second: abandoned-structures-day-light-parts-e8_16
+  - first:
+      213: -967155151969340643
+    second: abandoned-structures-day-light-parts-e8_17
+  - first:
+      213: 156213458731724337
+    second: abandoned-structures-day-light-parts-e8_18
+  - first:
+      213: 8183205279321767164
+    second: abandoned-structures-day-light-parts-e8_19
+  - first:
+      213: 4666722557434439487
+    second: abandoned-structures-day-light-parts-e8_20
+  - first:
+      213: -3546492313487207713
+    second: abandoned-structures-day-light-parts-e8_21
+  - first:
+      213: -1962939529898583267
+    second: abandoned-structures-day-light-parts-e8_22
+  - first:
+      213: 1773224026497355471
+    second: abandoned-structures-day-light-parts-e8_23
+  - first:
+      213: 9195160256200386612
+    second: abandoned-structures-day-light-parts-e8_24
+  - first:
+      213: 4056539004622062514
+    second: abandoned-structures-day-light-parts-e8_25
+  - first:
+      213: 3474712836809525449
+    second: abandoned-structures-day-light-parts-e8_26
+  - first:
+      213: 7063727869644140748
+    second: abandoned-structures-day-light-parts-e8_27
+  - first:
+      213: -4704447077536632142
+    second: abandoned-structures-day-light-parts-e8_28
+  - first:
+      213: -8536481662450003883
+    second: abandoned-structures-day-light-parts-e8_29
+  - first:
+      213: -6482347643627110843
+    second: abandoned-structures-day-light-parts-e8_30
+  - first:
+      213: -2984159706747502828
+    second: abandoned-structures-day-light-parts-e8_31
+  - first:
+      213: 1441517857021787526
+    second: abandoned-structures-day-light-parts-e8_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: abandoned-structures-day-light-parts-e8_0
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 424
+        width: 119
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88f6d21c598174f90800000000000000
+      internalID: -6969574866862379128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-day-light-parts-e8_1
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 290
+        width: 145
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4723be81ed070dc0800000000000000
+      internalID: -3672951708684441777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-day-light-parts-e8_2
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 360
+        width: 79
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b65903062f609640800000000000000
+      internalID: 5084686188351674033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-day-light-parts-e8_3
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 357
+        width: 66
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e11a9edce8241200800000000000000
+      internalID: 149789685422100961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-day-light-parts-e8_4
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 355
+        width: 20
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43fa683f7cd8ede00800000000000000
+      internalID: 1071449651284455220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-day-light-parts-e8_5
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 388
+        width: 66
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c604dc4c8aafc550800000000000000
+      internalID: 6183348332964087489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-day-light-parts-e8_6
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 452
+        width: 89
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5790b3ab2c4b24f0800000000000000
+      internalID: -852503954143013030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-day-light-parts-e8_7
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 226
+        width: 30
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c18e81f032e86ab20800000000000000
+      internalID: 3145357670993160220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-day-light-parts-e8_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 303
+        width: 16
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7adbd4f183abc0680800000000000000
+      internalID: -8787444022700556889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-day-light-parts-e8_9
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 300
+        width: 17
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52494ac1f87dc9e40800000000000000
+      internalID: 5664639440986084389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-day-light-parts-e8_10
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 421
+        width: 74
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32c79b445898e6c30800000000000000
+      internalID: 4354569095190510627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-day-light-parts-e8_11
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 302
+        width: 16
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc65eab608d5906f0800000000000000
+      internalID: -717939859445098804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-day-light-parts-e8_12
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 303
+        width: 17
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25e7ac1b508dfc670800000000000000
+      internalID: 8561298935623876178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-day-light-parts-e8_13
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 302
+        width: 15
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c5bd8935ccf819b0800000000000000
+      internalID: -5109055853247482428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-day-light-parts-e8_14
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 301
+        width: 16
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8da8a227ab78ef570800000000000000
+      internalID: 8502382381371132632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-day-light-parts-e8_15
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 271
+        width: 14
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c555182219d526d00800000000000000
+      internalID: 964436148141249884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-day-light-parts-e8_16
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 175
+        width: 148
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21c8b88340cc324b0800000000000000
+      internalID: -5466301204197045230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-day-light-parts-e8_17
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 261
+        width: 28
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d13bd247389f392f0800000000000000
+      internalID: -967155151969340643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-day-light-parts-e8_18
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 290
+        width: 20
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13ee6d4205bfa2200800000000000000
+      internalID: 156213458731724337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-day-light-parts-e8_19
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 258
+        width: 76
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfc331658d5909170800000000000000
+      internalID: 8183205279321767164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-day-light-parts-e8_20
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 239
+        width: 38
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f37ae2dc07783c040800000000000000
+      internalID: 4666722557434439487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-day-light-parts-e8_21
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 139
+        width: 193
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd211ffe70458cec0800000000000000
+      internalID: -3546492313487207713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-day-light-parts-e8_22
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 199
+        width: 151
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1b92dcc5ec32c4e0800000000000000
+      internalID: -1962939529898583267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-day-light-parts-e8_23
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 173
+        width: 22
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce009e6bd1cb9810800000000000000
+      internalID: 1773224026497355471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-day-light-parts-e8_24
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 173
+        width: 22
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4382d93f885cb9f70800000000000000
+      internalID: 9195160256200386612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-day-light-parts-e8_25
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 170
+        width: 22
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b3c3047bb8bb4830800000000000000
+      internalID: 4056539004622062514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-day-light-parts-e8_26
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 12
+        width: 175
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c8858e4ae8a83030800000000000000
+      internalID: 3474712836809525449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-day-light-parts-e8_27
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 77
+        width: 129
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc07a2c7217670260800000000000000
+      internalID: 7063727869644140748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-day-light-parts-e8_28
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 77
+        width: 88
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b2fdc6ee4276beb0800000000000000
+      internalID: -4704447077536632142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-day-light-parts-e8_29
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 4
+        width: 199
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 550180ef723588980800000000000000
+      internalID: -8536481662450003883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-day-light-parts-e8_30
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 3
+        width: 132
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54ef30fb9231a06a0800000000000000
+      internalID: -6482347643627110843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-day-light-parts-e8_31
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 10
+        width: 99
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ff746be822696d0800000000000000
+      internalID: -2984159706747502828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-day-light-parts-e8_32
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 13
+        width: 58
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68d7a2d7adc410410800000000000000
+      internalID: 1441517857021787526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      abandoned-structures-day-light-parts-e8_0: -6969574866862379128
+      abandoned-structures-day-light-parts-e8_1: -3672951708684441777
+      abandoned-structures-day-light-parts-e8_10: 4354569095190510627
+      abandoned-structures-day-light-parts-e8_11: -717939859445098804
+      abandoned-structures-day-light-parts-e8_12: 8561298935623876178
+      abandoned-structures-day-light-parts-e8_13: -5109055853247482428
+      abandoned-structures-day-light-parts-e8_14: 8502382381371132632
+      abandoned-structures-day-light-parts-e8_15: 964436148141249884
+      abandoned-structures-day-light-parts-e8_16: -5466301204197045230
+      abandoned-structures-day-light-parts-e8_17: -967155151969340643
+      abandoned-structures-day-light-parts-e8_18: 156213458731724337
+      abandoned-structures-day-light-parts-e8_19: 8183205279321767164
+      abandoned-structures-day-light-parts-e8_2: 5084686188351674033
+      abandoned-structures-day-light-parts-e8_20: 4666722557434439487
+      abandoned-structures-day-light-parts-e8_21: -3546492313487207713
+      abandoned-structures-day-light-parts-e8_22: -1962939529898583267
+      abandoned-structures-day-light-parts-e8_23: 1773224026497355471
+      abandoned-structures-day-light-parts-e8_24: 9195160256200386612
+      abandoned-structures-day-light-parts-e8_25: 4056539004622062514
+      abandoned-structures-day-light-parts-e8_26: 3474712836809525449
+      abandoned-structures-day-light-parts-e8_27: 7063727869644140748
+      abandoned-structures-day-light-parts-e8_28: -4704447077536632142
+      abandoned-structures-day-light-parts-e8_29: -8536481662450003883
+      abandoned-structures-day-light-parts-e8_3: 149789685422100961
+      abandoned-structures-day-light-parts-e8_30: -6482347643627110843
+      abandoned-structures-day-light-parts-e8_31: -2984159706747502828
+      abandoned-structures-day-light-parts-e8_32: 1441517857021787526
+      abandoned-structures-day-light-parts-e8_4: 1071449651284455220
+      abandoned-structures-day-light-parts-e8_5: 6183348332964087489
+      abandoned-structures-day-light-parts-e8_6: -852503954143013030
+      abandoned-structures-day-light-parts-e8_7: 3145357670993160220
+      abandoned-structures-day-light-parts-e8_8: -8787444022700556889
+      abandoned-structures-day-light-parts-e8_9: 5664639440986084389
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

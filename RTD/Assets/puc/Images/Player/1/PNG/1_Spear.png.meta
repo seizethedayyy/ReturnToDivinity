@@ -1,0 +1,603 @@
+fileFormatVersion: 2
+guid: b50496a643f70ab41bdc6a34874a6938
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2195833693896499290
+    second: 1_Spear_0
+  - first:
+      213: -4152657105990340017
+    second: 1_Spear_1
+  - first:
+      213: -4175420754520751766
+    second: 1_Spear_2
+  - first:
+      213: -4431330997953091017
+    second: 1_Spear_3
+  - first:
+      213: 2044419760245051496
+    second: 1_Spear_4
+  - first:
+      213: -106182655391342125
+    second: 1_Spear_5
+  - first:
+      213: 6537045285760656879
+    second: 1_Spear_6
+  - first:
+      213: -4612033811525979754
+    second: 1_Spear_7
+  - first:
+      213: -9034053156518041240
+    second: 1_Spear_8
+  - first:
+      213: -7684726267235452778
+    second: 1_Spear_9
+  - first:
+      213: -6213633764968867780
+    second: 1_Spear_10
+  - first:
+      213: 2494007356148623000
+    second: 1_Spear_11
+  - first:
+      213: 4441246743924950034
+    second: 1_Spear_12
+  - first:
+      213: 3824430205183918868
+    second: 1_Spear_13
+  - first:
+      213: 5991348726751365508
+    second: 1_Spear_14
+  - first:
+      213: -7035442785080082217
+    second: 1_Spear_15
+  - first:
+      213: 8568619729516059908
+    second: 1_Spear_16
+  - first:
+      213: 2780130668586873881
+    second: 1_Spear_17
+  - first:
+      213: -4099550028955922026
+    second: 1_Spear_18
+  - first:
+      213: 708972540603804702
+    second: 1_Spear_19
+  - first:
+      213: -4408550967900338327
+    second: 1_Spear_20
+  - first:
+      213: -324837945195598842
+    second: 1_Spear_21
+  - first:
+      213: -4755281683984896815
+    second: 1_Spear_22
+  - first:
+      213: -3428116866345223506
+    second: 1_Spear_23
+  - first:
+      213: -9094641968390197222
+    second: 1_Spear_24
+  - first:
+      213: -2166009669383728386
+    second: 1_Spear_25
+  - first:
+      213: 4134394344241329523
+    second: 1_Spear_26
+  - first:
+      213: -1810296198112754820
+    second: 1_Spear_27
+  - first:
+      213: -8654761680454556056
+    second: 1_Spear_28
+  - first:
+      213: 1380911804618214822
+    second: 1_Spear_29
+  - first:
+      213: 7665471501540615848
+    second: 1_Spear_30
+  - first:
+      213: 3682334207432571167
+    second: 1_Spear_31
+  - first:
+      213: -6432665358507773470
+    second: 1_Spear_32
+  - first:
+      213: -7894389379790621561
+    second: 1_Spear_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 1_Spear_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 658
+        width: 145
+        height: 47
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a50e88e4c1b297e10800000000000000
+      internalID: 2195833693896499290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_Spear_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 611
+        width: 145
+        height: 47
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f42b1732d5cce56c0800000000000000
+      internalID: -4152657105990340017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_Spear_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 564
+        width: 145
+        height: 47
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a614ff232fced06c0800000000000000
+      internalID: -4175420754520751766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_Spear_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 517
+        width: 145
+        height: 47
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73a24d08fefb082c0800000000000000
+      internalID: -4431330997953091017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_Spear_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 470
+        width: 145
+        height: 47
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 860123da0fc3f5c10800000000000000
+      internalID: 2044419760245051496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_Spear_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 423
+        width: 145
+        height: 47
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d167100073c68ef0800000000000000
+      internalID: -106182655391342125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_Spear_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 376
+        width: 145
+        height: 47
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe5e76a7d0048ba50800000000000000
+      internalID: 6537045285760656879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_Spear_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 329
+        width: 145
+        height: 47
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69137eb1fa3ceffb0800000000000000
+      internalID: -4612033811525979754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_Spear_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 282
+        width: 145
+        height: 47
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 869eeb3c48890a280800000000000000
+      internalID: -9034053156518041240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_Spear_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 235
+        width: 145
+        height: 47
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6983155ec2e5a5590800000000000000
+      internalID: -7684726267235452778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_Spear_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 188
+        width: 145
+        height: 47
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3858a2130db4c9a0800000000000000
+      internalID: -6213633764968867780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_Spear_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 141
+        width: 145
+        height: 47
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89623720a7e7c9220800000000000000
+      internalID: 2494007356148623000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_Spear_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 94
+        width: 145
+        height: 47
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 214c183026a72ad30800000000000000
+      internalID: 4441246743924950034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_Spear_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 47
+        width: 145
+        height: 47
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4130348420b131530800000000000000
+      internalID: 3824430205183918868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_Spear_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 145
+        height: 47
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48901876ceb852350800000000000000
+      internalID: 5991348726751365508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: fe90ecf14942ff249af60db415e9360b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      1_Spear_0: 2195833693896499290
+      1_Spear_1: -4152657105990340017
+      1_Spear_10: -6213633764968867780
+      1_Spear_11: 2494007356148623000
+      1_Spear_12: 4441246743924950034
+      1_Spear_13: 3824430205183918868
+      1_Spear_14: 5991348726751365508
+      1_Spear_2: -4175420754520751766
+      1_Spear_3: -4431330997953091017
+      1_Spear_4: 2044419760245051496
+      1_Spear_5: -106182655391342125
+      1_Spear_6: 6537045285760656879
+      1_Spear_7: -4612033811525979754
+      1_Spear_8: -9034053156518041240
+      1_Spear_9: -7684726267235452778
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

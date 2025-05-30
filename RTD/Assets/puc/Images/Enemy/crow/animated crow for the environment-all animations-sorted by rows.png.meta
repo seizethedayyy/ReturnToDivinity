@@ -1,0 +1,2379 @@
+fileFormatVersion: 2
+guid: 3700fc63e9bbf1f46ad3f9e28db77034
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5177898491473496189
+    second: animated crow for the environment-all animations-sorted by rows_0
+  - first:
+      213: 5996180571256488743
+    second: animated crow for the environment-all animations-sorted by rows_1
+  - first:
+      213: -7158563998111849698
+    second: animated crow for the environment-all animations-sorted by rows_2
+  - first:
+      213: -1304709700693944116
+    second: animated crow for the environment-all animations-sorted by rows_3
+  - first:
+      213: 1638018266773299571
+    second: animated crow for the environment-all animations-sorted by rows_4
+  - first:
+      213: 9197236564411084824
+    second: animated crow for the environment-all animations-sorted by rows_5
+  - first:
+      213: 3703153702923748666
+    second: animated crow for the environment-all animations-sorted by rows_6
+  - first:
+      213: 4532373008708761803
+    second: animated crow for the environment-all animations-sorted by rows_7
+  - first:
+      213: 4818819712172090891
+    second: animated crow for the environment-all animations-sorted by rows_8
+  - first:
+      213: 7782009703045332893
+    second: animated crow for the environment-all animations-sorted by rows_9
+  - first:
+      213: 4686608685330299992
+    second: animated crow for the environment-all animations-sorted by rows_10
+  - first:
+      213: -2232085592760953169
+    second: animated crow for the environment-all animations-sorted by rows_11
+  - first:
+      213: 6509991387614512135
+    second: animated crow for the environment-all animations-sorted by rows_12
+  - first:
+      213: 6398115470993495575
+    second: animated crow for the environment-all animations-sorted by rows_13
+  - first:
+      213: -7856257792442842939
+    second: animated crow for the environment-all animations-sorted by rows_14
+  - first:
+      213: 4604759442875121018
+    second: animated crow for the environment-all animations-sorted by rows_15
+  - first:
+      213: 3006737785648968724
+    second: animated crow for the environment-all animations-sorted by rows_16
+  - first:
+      213: 1085135828094188377
+    second: animated crow for the environment-all animations-sorted by rows_17
+  - first:
+      213: -7309789218540089407
+    second: animated crow for the environment-all animations-sorted by rows_18
+  - first:
+      213: 6130087436783388011
+    second: animated crow for the environment-all animations-sorted by rows_19
+  - first:
+      213: 298626970139237192
+    second: animated crow for the environment-all animations-sorted by rows_20
+  - first:
+      213: 3501848592689304963
+    second: animated crow for the environment-all animations-sorted by rows_21
+  - first:
+      213: -8511783020122385715
+    second: animated crow for the environment-all animations-sorted by rows_22
+  - first:
+      213: 1518176240104748308
+    second: animated crow for the environment-all animations-sorted by rows_23
+  - first:
+      213: -7045448933114834055
+    second: animated crow for the environment-all animations-sorted by rows_24
+  - first:
+      213: -7157057890913736508
+    second: animated crow for the environment-all animations-sorted by rows_25
+  - first:
+      213: -8750144094537043536
+    second: animated crow for the environment-all animations-sorted by rows_26
+  - first:
+      213: -1103155221513964380
+    second: animated crow for the environment-all animations-sorted by rows_27
+  - first:
+      213: -4908014392748073512
+    second: animated crow for the environment-all animations-sorted by rows_28
+  - first:
+      213: 1164695633190532134
+    second: animated crow for the environment-all animations-sorted by rows_29
+  - first:
+      213: 6277767876609103152
+    second: animated crow for the environment-all animations-sorted by rows_30
+  - first:
+      213: -7417642805712367003
+    second: animated crow for the environment-all animations-sorted by rows_31
+  - first:
+      213: -5546786130231726925
+    second: animated crow for the environment-all animations-sorted by rows_32
+  - first:
+      213: 2952482297265036155
+    second: animated crow for the environment-all animations-sorted by rows_33
+  - first:
+      213: 8167789669340275341
+    second: animated crow for the environment-all animations-sorted by rows_34
+  - first:
+      213: 3431823330792250431
+    second: animated crow for the environment-all animations-sorted by rows_35
+  - first:
+      213: 8817105808186572189
+    second: animated crow for the environment-all animations-sorted by rows_36
+  - first:
+      213: 976935580413431909
+    second: animated crow for the environment-all animations-sorted by rows_37
+  - first:
+      213: -6437622153720107623
+    second: animated crow for the environment-all animations-sorted by rows_38
+  - first:
+      213: 4767144494676071387
+    second: animated crow for the environment-all animations-sorted by rows_39
+  - first:
+      213: -5821706049565587137
+    second: animated crow for the environment-all animations-sorted by rows_40
+  - first:
+      213: 7583788514147472795
+    second: animated crow for the environment-all animations-sorted by rows_41
+  - first:
+      213: -2922843289404526436
+    second: animated crow for the environment-all animations-sorted by rows_42
+  - first:
+      213: -6545829261429161039
+    second: animated crow for the environment-all animations-sorted by rows_43
+  - first:
+      213: 7241056856092941746
+    second: animated crow for the environment-all animations-sorted by rows_44
+  - first:
+      213: -8361628520647121979
+    second: animated crow for the environment-all animations-sorted by rows_45
+  - first:
+      213: -4232918979537469588
+    second: animated crow for the environment-all animations-sorted by rows_46
+  - first:
+      213: -888424878445949906
+    second: animated crow for the environment-all animations-sorted by rows_47
+  - first:
+      213: 8994620728698216539
+    second: animated crow for the environment-all animations-sorted by rows_48
+  - first:
+      213: 6718943404792497271
+    second: animated crow for the environment-all animations-sorted by rows_49
+  - first:
+      213: -1629413941524231570
+    second: animated crow for the environment-all animations-sorted by rows_50
+  - first:
+      213: -6277856120244248559
+    second: animated crow for the environment-all animations-sorted by rows_51
+  - first:
+      213: -8617444173075223535
+    second: animated crow for the environment-all animations-sorted by rows_52
+  - first:
+      213: 2103174081751838408
+    second: animated crow for the environment-all animations-sorted by rows_53
+  - first:
+      213: 5720674939191793934
+    second: animated crow for the environment-all animations-sorted by rows_54
+  - first:
+      213: -8599024611179836878
+    second: animated crow for the environment-all animations-sorted by rows_55
+  - first:
+      213: -9050415130709531346
+    second: animated crow for the environment-all animations-sorted by rows_56
+  - first:
+      213: 693612351097634717
+    second: animated crow for the environment-all animations-sorted by rows_57
+  - first:
+      213: -8067989522118348348
+    second: animated crow for the environment-all animations-sorted by rows_58
+  - first:
+      213: 7128735407085511638
+    second: animated crow for the environment-all animations-sorted by rows_59
+  - first:
+      213: 7038365948233598255
+    second: animated crow for the environment-all animations-sorted by rows_60
+  - first:
+      213: 913955200968090740
+    second: animated crow for the environment-all animations-sorted by rows_61
+  - first:
+      213: 6020652354875105254
+    second: animated crow for the environment-all animations-sorted by rows_62
+  - first:
+      213: -5710362898067088827
+    second: animated crow for the environment-all animations-sorted by rows_63
+  - first:
+      213: 4336507373783200376
+    second: animated crow for the environment-all animations-sorted by rows_64
+  - first:
+      213: 2389454594658875002
+    second: animated crow for the environment-all animations-sorted by rows_65
+  - first:
+      213: -3692819728384838539
+    second: animated crow for the environment-all animations-sorted by rows_66
+  - first:
+      213: -8351905855788065166
+    second: animated crow for the environment-all animations-sorted by rows_67
+  - first:
+      213: 98132804824372519
+    second: animated crow for the environment-all animations-sorted by rows_68
+  - first:
+      213: 8953634834344590398
+    second: animated crow for the environment-all animations-sorted by rows_69
+  - first:
+      213: 1316231112575914960
+    second: animated crow for the environment-all animations-sorted by rows_70
+  - first:
+      213: 8696298315522643586
+    second: animated crow for the environment-all animations-sorted by rows_71
+  - first:
+      213: -6697730506593068358
+    second: animated crow for the environment-all animations-sorted by rows_72
+  - first:
+      213: 3170341519018600904
+    second: animated crow for the environment-all animations-sorted by rows_73
+  - first:
+      213: -5199489444062747142
+    second: animated crow for the environment-all animations-sorted by rows_74
+  - first:
+      213: -1867193472847355547
+    second: animated crow for the environment-all animations-sorted by rows_75
+  - first:
+      213: 8375151563579026163
+    second: animated crow for the environment-all animations-sorted by rows_76
+  - first:
+      213: 4981899691507384118
+    second: animated crow for the environment-all animations-sorted by rows_77
+  - first:
+      213: -5965101305183897455
+    second: animated crow for the environment-all animations-sorted by rows_78
+  - first:
+      213: 5535887651983186158
+    second: animated crow for the environment-all animations-sorted by rows_79
+  - first:
+      213: 4527826325482113348
+    second: animated crow for the environment-all animations-sorted by rows_80
+  - first:
+      213: -8190944995665573849
+    second: animated crow for the environment-all animations-sorted by rows_81
+  - first:
+      213: -3128798468252843943
+    second: animated crow for the environment-all animations-sorted by rows_82
+  - first:
+      213: 6988768189145416028
+    second: animated crow for the environment-all animations-sorted by rows_83
+  - first:
+      213: -726988497286564456
+    second: animated crow for the environment-all animations-sorted by rows_84
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 345
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 387f0b471c86428b0800000000000000
+      internalID: -5177898491473496189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 345
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72387ded576b63350800000000000000
+      internalID: 5996180571256488743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_2
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 345
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e13a4aea8fba7ac90800000000000000
+      internalID: -7158563998111849698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_3
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 281
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc8912b907db4ede0800000000000000
+      internalID: -1304709700693944116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_4
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 281
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 371af9e5fe86bb610800000000000000
+      internalID: 1638018266773299571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_5
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 281
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 810f4f02de523af70800000000000000
+      internalID: 9197236564411084824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_6
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 281
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3541733cae346330800000000000000
+      internalID: 3703153702923748666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_7
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 281
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc877a5ec3936ee30800000000000000
+      internalID: 4532373008708761803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_8
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 281
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b06eaac3ff2efd240800000000000000
+      internalID: 4818819712172090891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_9
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 281
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9ff8a418904ffb60800000000000000
+      internalID: 7782009703045332893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_10
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 281
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85c7f52c4cd2a0140800000000000000
+      internalID: 4686608685330299992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_11
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 281
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa6573fbaf90601e0800000000000000
+      internalID: -2232085592760953169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_12
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 281
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7048d95fca2285a50800000000000000
+      internalID: 6509991387614512135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_13
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 281
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7169f784f1caac850800000000000000
+      internalID: 6398115470993495575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_14
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 281
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c0cc897927f8f290800000000000000
+      internalID: -7856257792442842939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_15
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 281
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7d72b4f05467ef30800000000000000
+      internalID: 4604759442875121018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_16
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 281
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 414f95ee5141ab920800000000000000
+      internalID: 3006737785648968724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_17
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 281
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95b7a9e494d2f0f00800000000000000
+      internalID: 1085135828094188377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_18
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 217
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf00f54f696e8a90800000000000000
+      internalID: -7309789218540089407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_19
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 217
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b650f8f8b02721550800000000000000
+      internalID: 6130087436783388011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_20
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 217
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84b108ba5afe42400800000000000000
+      internalID: 298626970139237192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_21
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 217
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3859270ddb0199030800000000000000
+      internalID: 3501848592689304963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_22
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 217
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc25768c07210e980800000000000000
+      internalID: -8511783020122385715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_23
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 217
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 415b1e92f35a11510800000000000000
+      internalID: 1518176240104748308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_24
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 217
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97319821689893e90800000000000000
+      internalID: -7045448933114834055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_25
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 217
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c82e2794c50dac90800000000000000
+      internalID: -7157057890913736508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_26
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 217
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b133a76e4e319680800000000000000
+      internalID: -8750144094537043536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_27
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 217
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a4fa89bb2ec0b0f0800000000000000
+      internalID: -1103155221513964380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_28
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 217
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dd1fbfd9ea33ebb0800000000000000
+      internalID: -4908014392748073512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_29
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 217
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62435cfe184d92010800000000000000
+      internalID: 1164695633190532134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_30
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 217
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 035d4ab6f9c1f1750800000000000000
+      internalID: 6277767876609103152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_31
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 217
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56258c62b2d3f0990800000000000000
+      internalID: -7417642805712367003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_32
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 217
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc6976176bd503b0800000000000000
+      internalID: -5546786130231726925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_33
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 217
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b9c16a10359f820800000000000000
+      internalID: 2952482297265036155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_34
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 217
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d82e121fd61d95170800000000000000
+      internalID: 8167789669340275341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_35
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 217
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3c15c3032940af20800000000000000
+      internalID: 3431823330792250431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_36
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 217
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9d7efb7407ac5a70800000000000000
+      internalID: 8817105808186572189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_37
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 217
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5609bfefbb5ce8d00800000000000000
+      internalID: 976935580413431909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_38
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 217
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99de35952c8f8a6a0800000000000000
+      internalID: -6437622153720107623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_39
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 217
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd3502619ac482240800000000000000
+      internalID: 4767144494676071387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_40
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 217
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3986e05135253fa0800000000000000
+      internalID: -5821706049565587137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_41
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 217
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b95927519770f3960800000000000000
+      internalID: 7583788514147472795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_42
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 217
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c90b8e0a389ff67d0800000000000000
+      internalID: -2922843289404526436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_43
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 153
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b34820d7fa8825a0800000000000000
+      internalID: -6545829261429161039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_44
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 153
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bd93d988d66d7460800000000000000
+      internalID: 7241056856092941746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_45
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 153
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c3ad0b892785fb80800000000000000
+      internalID: -8361628520647121979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_46
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 153
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6ff8a57d96a145c0800000000000000
+      internalID: -4232918979537469588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_47
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 153
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c0c96b74eaba3f0800000000000000
+      internalID: -888424878445949906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_48
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 153
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b502c6fa5ef43dc70800000000000000
+      internalID: 8994620728698216539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_49
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 153
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7744c9c9d6b7e3d50800000000000000
+      internalID: 6718943404792497271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_50
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 153
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6a016737a82369e0800000000000000
+      internalID: -1629413941524231570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_51
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 153
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11064d1ce1390e8a0800000000000000
+      internalID: -6277856120244248559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_52
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 153
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11c67188e20b86880800000000000000
+      internalID: -8617444173075223535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_53
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 153
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ce60ab2fa9ff2d10800000000000000
+      internalID: 2103174081751838408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_54
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 153
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e09910a3c8be36f40800000000000000
+      internalID: 5720674939191793934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_55
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 153
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ac8cbfca02aa880800000000000000
+      internalID: -8599024611179836878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_56
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 153
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e25ec38c367766280800000000000000
+      internalID: -9050415130709531346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_57
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 153
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9f7ff622c430a900800000000000000
+      internalID: 693612351097634717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_58
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 153
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c1ff82964eb80090800000000000000
+      internalID: -8067989522118348348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_59
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 100
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d3e415451b5ee260800000000000000
+      internalID: 7128735407085511638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_60
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 99
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f254baff98c4da160800000000000000
+      internalID: 7038365948233598255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_61
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 98
+        width: 28
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 474e256b9650fac00800000000000000
+      internalID: 913955200968090740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_62
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 93
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ef13700b67ad8350800000000000000
+      internalID: 6020652354875105254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_63
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 99
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a1422f237b0c0b0800000000000000
+      internalID: -5710362898067088827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_64
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 98
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 872b53c0b7e5e2c30800000000000000
+      internalID: 4336507373783200376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_65
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 100
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7631914b4c092120800000000000000
+      internalID: 2389454594658875002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_66
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 101
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 574311eb50870ccc0800000000000000
+      internalID: -3692819728384838539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_67
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 36
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e5f3cdfd1181c80800000000000000
+      internalID: -8351905855788065166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_68
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 32
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7259e5c1443ac5100800000000000000
+      internalID: 98132804824372519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_69
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 30
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3c3ca58173b14c70800000000000000
+      internalID: 8953634834344590398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_70
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 27
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d397632931344210800000000000000
+      internalID: 1316231112575914960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_71
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 26
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2861e853e357fa870800000000000000
+      internalID: 8696298315522643586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_72
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 24
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aba19312791ec03a0800000000000000
+      internalID: -6697730506593068358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_73
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 25
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c9a6c970d05ffb20800000000000000
+      internalID: 3170341519018600904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_74
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 25
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af52f3116e3b7d7b0800000000000000
+      internalID: -5199489444062747142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_75
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 25
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5616104ed656616e0800000000000000
+      internalID: -1867193472847355547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_76
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 25
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fa6f2f39f38a3470800000000000000
+      internalID: 8375151563579026163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_77
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 25
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ffceacf53432540800000000000000
+      internalID: 4981899691507384118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_78
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 25
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1987b47a7f3b73da0800000000000000
+      internalID: -5965101305183897455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_79
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 25
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee8dde43d7c63dc40800000000000000
+      internalID: 5535887651983186158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_80
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 25
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4490607bd0216de30800000000000000
+      internalID: 4527826325482113348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_81
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 25
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72807968ceae35e80800000000000000
+      internalID: -8190944995665573849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_82
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 25
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 950c006ce564494d0800000000000000
+      internalID: -3128798468252843943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_83
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 25
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c510093d3a71df060800000000000000
+      internalID: 6988768189145416028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated crow for the environment-all animations-sorted by rows_84
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 25
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 895707f30d739e5f0800000000000000
+      internalID: -726988497286564456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      animated crow for the environment-all animations-sorted by rows_0: -5177898491473496189
+      animated crow for the environment-all animations-sorted by rows_1: 5996180571256488743
+      animated crow for the environment-all animations-sorted by rows_10: 4686608685330299992
+      animated crow for the environment-all animations-sorted by rows_11: -2232085592760953169
+      animated crow for the environment-all animations-sorted by rows_12: 6509991387614512135
+      animated crow for the environment-all animations-sorted by rows_13: 6398115470993495575
+      animated crow for the environment-all animations-sorted by rows_14: -7856257792442842939
+      animated crow for the environment-all animations-sorted by rows_15: 4604759442875121018
+      animated crow for the environment-all animations-sorted by rows_16: 3006737785648968724
+      animated crow for the environment-all animations-sorted by rows_17: 1085135828094188377
+      animated crow for the environment-all animations-sorted by rows_18: -7309789218540089407
+      animated crow for the environment-all animations-sorted by rows_19: 6130087436783388011
+      animated crow for the environment-all animations-sorted by rows_2: -7158563998111849698
+      animated crow for the environment-all animations-sorted by rows_20: 298626970139237192
+      animated crow for the environment-all animations-sorted by rows_21: 3501848592689304963
+      animated crow for the environment-all animations-sorted by rows_22: -8511783020122385715
+      animated crow for the environment-all animations-sorted by rows_23: 1518176240104748308
+      animated crow for the environment-all animations-sorted by rows_24: -7045448933114834055
+      animated crow for the environment-all animations-sorted by rows_25: -7157057890913736508
+      animated crow for the environment-all animations-sorted by rows_26: -8750144094537043536
+      animated crow for the environment-all animations-sorted by rows_27: -1103155221513964380
+      animated crow for the environment-all animations-sorted by rows_28: -4908014392748073512
+      animated crow for the environment-all animations-sorted by rows_29: 1164695633190532134
+      animated crow for the environment-all animations-sorted by rows_3: -1304709700693944116
+      animated crow for the environment-all animations-sorted by rows_30: 6277767876609103152
+      animated crow for the environment-all animations-sorted by rows_31: -7417642805712367003
+      animated crow for the environment-all animations-sorted by rows_32: -5546786130231726925
+      animated crow for the environment-all animations-sorted by rows_33: 2952482297265036155
+      animated crow for the environment-all animations-sorted by rows_34: 8167789669340275341
+      animated crow for the environment-all animations-sorted by rows_35: 3431823330792250431
+      animated crow for the environment-all animations-sorted by rows_36: 8817105808186572189
+      animated crow for the environment-all animations-sorted by rows_37: 976935580413431909
+      animated crow for the environment-all animations-sorted by rows_38: -6437622153720107623
+      animated crow for the environment-all animations-sorted by rows_39: 4767144494676071387
+      animated crow for the environment-all animations-sorted by rows_4: 1638018266773299571
+      animated crow for the environment-all animations-sorted by rows_40: -5821706049565587137
+      animated crow for the environment-all animations-sorted by rows_41: 7583788514147472795
+      animated crow for the environment-all animations-sorted by rows_42: -2922843289404526436
+      animated crow for the environment-all animations-sorted by rows_43: -6545829261429161039
+      animated crow for the environment-all animations-sorted by rows_44: 7241056856092941746
+      animated crow for the environment-all animations-sorted by rows_45: -8361628520647121979
+      animated crow for the environment-all animations-sorted by rows_46: -4232918979537469588
+      animated crow for the environment-all animations-sorted by rows_47: -888424878445949906
+      animated crow for the environment-all animations-sorted by rows_48: 8994620728698216539
+      animated crow for the environment-all animations-sorted by rows_49: 6718943404792497271
+      animated crow for the environment-all animations-sorted by rows_5: 9197236564411084824
+      animated crow for the environment-all animations-sorted by rows_50: -1629413941524231570
+      animated crow for the environment-all animations-sorted by rows_51: -6277856120244248559
+      animated crow for the environment-all animations-sorted by rows_52: -8617444173075223535
+      animated crow for the environment-all animations-sorted by rows_53: 2103174081751838408
+      animated crow for the environment-all animations-sorted by rows_54: 5720674939191793934
+      animated crow for the environment-all animations-sorted by rows_55: -8599024611179836878
+      animated crow for the environment-all animations-sorted by rows_56: -9050415130709531346
+      animated crow for the environment-all animations-sorted by rows_57: 693612351097634717
+      animated crow for the environment-all animations-sorted by rows_58: -8067989522118348348
+      animated crow for the environment-all animations-sorted by rows_59: 7128735407085511638
+      animated crow for the environment-all animations-sorted by rows_6: 3703153702923748666
+      animated crow for the environment-all animations-sorted by rows_60: 7038365948233598255
+      animated crow for the environment-all animations-sorted by rows_61: 913955200968090740
+      animated crow for the environment-all animations-sorted by rows_62: 6020652354875105254
+      animated crow for the environment-all animations-sorted by rows_63: -5710362898067088827
+      animated crow for the environment-all animations-sorted by rows_64: 4336507373783200376
+      animated crow for the environment-all animations-sorted by rows_65: 2389454594658875002
+      animated crow for the environment-all animations-sorted by rows_66: -3692819728384838539
+      animated crow for the environment-all animations-sorted by rows_67: -8351905855788065166
+      animated crow for the environment-all animations-sorted by rows_68: 98132804824372519
+      animated crow for the environment-all animations-sorted by rows_69: 8953634834344590398
+      animated crow for the environment-all animations-sorted by rows_7: 4532373008708761803
+      animated crow for the environment-all animations-sorted by rows_70: 1316231112575914960
+      animated crow for the environment-all animations-sorted by rows_71: 8696298315522643586
+      animated crow for the environment-all animations-sorted by rows_72: -6697730506593068358
+      animated crow for the environment-all animations-sorted by rows_73: 3170341519018600904
+      animated crow for the environment-all animations-sorted by rows_74: -5199489444062747142
+      animated crow for the environment-all animations-sorted by rows_75: -1867193472847355547
+      animated crow for the environment-all animations-sorted by rows_76: 8375151563579026163
+      animated crow for the environment-all animations-sorted by rows_77: 4981899691507384118
+      animated crow for the environment-all animations-sorted by rows_78: -5965101305183897455
+      animated crow for the environment-all animations-sorted by rows_79: 5535887651983186158
+      animated crow for the environment-all animations-sorted by rows_8: 4818819712172090891
+      animated crow for the environment-all animations-sorted by rows_80: 4527826325482113348
+      animated crow for the environment-all animations-sorted by rows_81: -8190944995665573849
+      animated crow for the environment-all animations-sorted by rows_82: -3128798468252843943
+      animated crow for the environment-all animations-sorted by rows_83: 6988768189145416028
+      animated crow for the environment-all animations-sorted by rows_84: -726988497286564456
+      animated crow for the environment-all animations-sorted by rows_9: 7782009703045332893
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

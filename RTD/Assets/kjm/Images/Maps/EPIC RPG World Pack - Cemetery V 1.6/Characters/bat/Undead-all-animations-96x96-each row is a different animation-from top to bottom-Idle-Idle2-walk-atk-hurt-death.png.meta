@@ -1,0 +1,2088 @@
+fileFormatVersion: 2
+guid: ea0b8ea59117c0d46ab73fdb12538b9a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7241694746846697564
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_0
+  - first:
+      213: -1941664166431852742
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_1
+  - first:
+      213: -2388878458409324109
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_2
+  - first:
+      213: 9007346145267078899
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_3
+  - first:
+      213: 8781396842491032948
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_4
+  - first:
+      213: 4126290671291279633
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_5
+  - first:
+      213: -6490191560254358213
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_6
+  - first:
+      213: -8195288861559607400
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_7
+  - first:
+      213: 7767746160203798231
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_8
+  - first:
+      213: 3340182082764262176
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_9
+  - first:
+      213: 4462159700135395594
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_10
+  - first:
+      213: -2748516087485063401
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_11
+  - first:
+      213: 1958732126796032011
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_12
+  - first:
+      213: 3926746940361917786
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_13
+  - first:
+      213: 8525265416351098826
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_14
+  - first:
+      213: 8035292573559354157
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_15
+  - first:
+      213: 4783487005915634981
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_16
+  - first:
+      213: 6882973618871268001
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_17
+  - first:
+      213: 4897611931418143383
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_18
+  - first:
+      213: 6584866084329823452
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_19
+  - first:
+      213: -3617604818901499076
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_20
+  - first:
+      213: -2623691268738232259
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_21
+  - first:
+      213: 3932548442440075775
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_22
+  - first:
+      213: 6874739896810886996
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_23
+  - first:
+      213: 6201152928074219983
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_24
+  - first:
+      213: 2782940637309307680
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_25
+  - first:
+      213: 8144172245962535440
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_26
+  - first:
+      213: -2375985519412334971
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_27
+  - first:
+      213: -4898767658515493302
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_28
+  - first:
+      213: 7361471630067771257
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_29
+  - first:
+      213: 7798849797621934280
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_30
+  - first:
+      213: -6954715147184809817
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_31
+  - first:
+      213: -2494750340750026532
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_32
+  - first:
+      213: -5190469779236991661
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_33
+  - first:
+      213: 5894406420653605996
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_34
+  - first:
+      213: -4974545628249081697
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_35
+  - first:
+      213: 3381574964559679392
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_36
+  - first:
+      213: 3598485780828624192
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_37
+  - first:
+      213: -1784946710888758496
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_38
+  - first:
+      213: 5273000801784907248
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_39
+  - first:
+      213: 626874300200047873
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_40
+  - first:
+      213: 5558911140592135396
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_41
+  - first:
+      213: -4903524664966881977
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_42
+  - first:
+      213: 4054474658054848461
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_43
+  - first:
+      213: -1621376354860406207
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_44
+  - first:
+      213: 2053681616087210656
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_45
+  - first:
+      213: -4868434115723365497
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_46
+  - first:
+      213: -451041511592774083
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_47
+  - first:
+      213: -6943675304479608197
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_48
+  - first:
+      213: -6953393295781212736
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_49
+  - first:
+      213: -91193610181680873
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_50
+  - first:
+      213: 4806375779309619597
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_51
+  - first:
+      213: 1091128531867259963
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_52
+  - first:
+      213: -5471261636529490719
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_53
+  - first:
+      213: 2447568778807501913
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_54
+  - first:
+      213: -7760487903791567210
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_55
+  - first:
+      213: -7060600627014067142
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_56
+  - first:
+      213: 2295121200619927405
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_57
+  - first:
+      213: -8815035233626286671
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_58
+  - first:
+      213: -8892293560322271283
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_59
+  - first:
+      213: 3261495534386382003
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_60
+  - first:
+      213: 3046672378016440602
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_61
+  - first:
+      213: -1519524522178687571
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_62
+  - first:
+      213: -7204860687135329406
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_63
+  - first:
+      213: 1987901186380586377
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_64
+  - first:
+      213: -2139884938626618269
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_65
+  - first:
+      213: 2584634649088278753
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_66
+  - first:
+      213: -3972564504524894457
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_67
+  - first:
+      213: 5475043571034561851
+    second: Undead-all-animations-96x96-each row is a different animation-from top
+      to bottom-Idle-Idle2-walk-atk-hurt-death_68
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 513
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a7e362fef4508b90800000000000000
+      internalID: -7241694746846697564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_1
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 513
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3779be5ab2dd05e0800000000000000
+      internalID: -1941664166431852742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_2
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 513
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b1fdeae2bff8ded0800000000000000
+      internalID: -2388878458409324109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_3
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 513
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f6d0ad9895800d70800000000000000
+      internalID: 9007346145267078899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_4
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 513
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4753a6407e9cdd970800000000000000
+      internalID: 8781396842491032948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_5
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 513
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1192356e087834930800000000000000
+      internalID: 4126290671291279633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_6
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 513
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3dfcc699253ee5a0800000000000000
+      internalID: -6490191560254358213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_7
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 513
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f260f633c744e80800000000000000
+      internalID: -8195288861559607400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 417
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d61a583af39ccb60800000000000000
+      internalID: 7767746160203798231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_9
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 417
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02bc94048e5ba5e20800000000000000
+      internalID: 3340182082764262176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_10
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 417
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0142a11b96cced30800000000000000
+      internalID: 4462159700135395594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_11
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 417
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71f91024e2f4bd9d0800000000000000
+      internalID: -2748516087485063401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_12
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 417
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b08a2d3dd70de2b10800000000000000
+      internalID: 1958732126796032011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_13
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 417
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a55cf17998b9e7630800000000000000
+      internalID: 3926746940361917786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_14
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 417
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac7a7853ab3df4670800000000000000
+      internalID: 8525265416351098826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_15
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 417
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d23f659d508138f60800000000000000
+      internalID: 8035292573559354157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_16
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 321
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52d5c4f761c526240800000000000000
+      internalID: 4783487005915634981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_17
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 321
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a2f43fe90c358f50800000000000000
+      internalID: 6882973618871268001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_18
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 321
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79aa4eb5a10d7f340800000000000000
+      internalID: 4897611931418143383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_19
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 321
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc1ff9c0d4226b50800000000000000
+      internalID: 6584866084329823452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_20
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 321
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3382a7859fabcdc0800000000000000
+      internalID: -3617604818901499076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_21
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 321
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d30509621b6c69bd0800000000000000
+      internalID: -2623691268738232259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_22
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 321
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff908ad09f7339630800000000000000
+      internalID: 3932548442440075775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_23
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 321
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4575e90238bf76f50800000000000000
+      internalID: 6874739896810886996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_24
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 225
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc1ccb3abbbee0650800000000000000
+      internalID: 6201152928074219983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_25
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 225
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02b02d5d3cdfe9620800000000000000
+      internalID: 2782940637309307680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_26
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 225
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 012313e0289e50170800000000000000
+      internalID: 8144172245962535440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_27
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 225
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ea4f332cdc60fd0800000000000000
+      internalID: -2375985519412334971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_28
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 225
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e0305f4c4140cb0800000000000000
+      internalID: -4898767658515493302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_29
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 225
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9772e4ed173392660800000000000000
+      internalID: 7361471630067771257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_30
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 225
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c8e1e322941b3c60800000000000000
+      internalID: 7798849797621934280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_31
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 225
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a8550adb63eb7f90800000000000000
+      internalID: -6954715147184809817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_32
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 225
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd85f4868cdd06dd0800000000000000
+      internalID: -2494750340750026532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_33
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 225
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35dcd2f6c3fb7f7b0800000000000000
+      internalID: -5190469779236991661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_34
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 225
+        width: 21
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6407d0e8632dc150800000000000000
+      internalID: 5894406420653605996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_35
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 225
+        width: 20
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f98bd3d7b1dd6fab0800000000000000
+      internalID: -4974545628249081697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_36
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 225
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0af0fef8384cdee20800000000000000
+      internalID: 3381574964559679392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_37
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 225
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 045959780c360f130800000000000000
+      internalID: 3598485780828624192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_38
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 225
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 023497a6c689a37e0800000000000000
+      internalID: -1784946710888758496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_39
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 225
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f54dbaaa467d2940800000000000000
+      internalID: 5273000801784907248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_40
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 225
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 105de3ecada13b800800000000000000
+      internalID: 626874300200047873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_41
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 225
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eca4f0ea38352d40800000000000000
+      internalID: 5558911140592135396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_42
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 129
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74d58451c4e23fbb0800000000000000
+      internalID: -4903524664966881977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_43
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 129
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcfbe205833644830800000000000000
+      internalID: 4054474658054848461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_44
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 129
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14ae351bbc6bf79e0800000000000000
+      internalID: -1621376354860406207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_45
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 129
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aad0a88c84208c10800000000000000
+      internalID: 2053681616087210656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_46
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 129
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7837aef37f8df6cb0800000000000000
+      internalID: -4868434115723365497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_47
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 129
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d36be8a82249db9f0800000000000000
+      internalID: -451041511592774083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_48
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 129
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7237d8891c13af90800000000000000
+      internalID: -6943675304479608197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_49
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 129
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cdc06d53a5908f90800000000000000
+      internalID: -6953393295781212736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_50
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 129
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 711e55b05e30cbef0800000000000000
+      internalID: -91193610181680873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_51
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 33
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d898ac65e4da3b240800000000000000
+      internalID: 4806375779309619597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_52
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 33
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b34dd326e97742f00800000000000000
+      internalID: 1091128531867259963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_53
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 33
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e4ff61978c2214b0800000000000000
+      internalID: -5471261636529490719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_54
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 35
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 954682826d287f120800000000000000
+      internalID: 2447568778807501913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_55
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 36
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69ea9ca4e553d4490800000000000000
+      internalID: -7760487903791567210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_56
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 34
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3c1ded6325b30e90800000000000000
+      internalID: -7060600627014067142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_57
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 54
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d673b676298e9df10800000000000000
+      internalID: 2295121200619927405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_58
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 31
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b51729b824baa580800000000000000
+      internalID: -8815035233626286671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_59
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 51
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc75f7ace1a389480800000000000000
+      internalID: -8892293560322271283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_60
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 31
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b48f9b88e8234d20800000000000000
+      internalID: 3261495534386382003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_61
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 31
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a112aa6c264f74a20800000000000000
+      internalID: 3046672378016440602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_62
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 44
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad4b047f7099eae0800000000000000
+      internalID: -1519524522178687571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_63
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 31
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2833f17c061330c90800000000000000
+      internalID: -7204860687135329406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_64
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 44
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98ddaceb891769b10800000000000000
+      internalID: 1987901186380586377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_65
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 31
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36ca3f46cf99d42e0800000000000000
+      internalID: -2139884938626618269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_66
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 44
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e0c215f4877ed320800000000000000
+      internalID: 2584634649088278753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_67
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 31
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70fc77471ad9ed8c0800000000000000
+      internalID: -3972564504524894457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead-all-animations-96x96-each row is a different animation-from top
+        to bottom-Idle-Idle2-walk-atk-hurt-death_68
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 44
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d1d4dae134bfb40800000000000000
+      internalID: 5475043571034561851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_0: -7241694746846697564
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_1: -1941664166431852742
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_10: 4462159700135395594
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_11: -2748516087485063401
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_12: 1958732126796032011
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_13: 3926746940361917786
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_14: 8525265416351098826
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_15: 8035292573559354157
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_16: 4783487005915634981
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_17: 6882973618871268001
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_18: 4897611931418143383
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_19: 6584866084329823452
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_2: -2388878458409324109
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_20: -3617604818901499076
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_21: -2623691268738232259
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_22: 3932548442440075775
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_23: 6874739896810886996
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_24: 6201152928074219983
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_25: 2782940637309307680
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_26: 8144172245962535440
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_27: -2375985519412334971
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_28: -4898767658515493302
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_29: 7361471630067771257
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_3: 9007346145267078899
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_30: 7798849797621934280
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_31: -6954715147184809817
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_32: -2494750340750026532
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_33: -5190469779236991661
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_34: 5894406420653605996
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_35: -4974545628249081697
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_36: 3381574964559679392
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_37: 3598485780828624192
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_38: -1784946710888758496
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_39: 5273000801784907248
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_4: 8781396842491032948
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_40: 626874300200047873
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_41: 5558911140592135396
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_42: -4903524664966881977
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_43: 4054474658054848461
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_44: -1621376354860406207
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_45: 2053681616087210656
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_46: -4868434115723365497
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_47: -451041511592774083
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_48: -6943675304479608197
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_49: -6953393295781212736
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_5: 4126290671291279633
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_50: -91193610181680873
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_51: 4806375779309619597
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_52: 1091128531867259963
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_53: -5471261636529490719
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_54: 2447568778807501913
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_55: -7760487903791567210
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_56: -7060600627014067142
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_57: 2295121200619927405
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_58: -8815035233626286671
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_59: -8892293560322271283
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_6: -6490191560254358213
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_60: 3261495534386382003
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_61: 3046672378016440602
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_62: -1519524522178687571
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_63: -7204860687135329406
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_64: 1987901186380586377
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_65: -2139884938626618269
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_66: 2584634649088278753
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_67: -3972564504524894457
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_68: 5475043571034561851
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_7: -8195288861559607400
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_8: 7767746160203798231
+      Undead-all-animations-96x96-each row is a different animation-from top to bottom-Idle-Idle2-walk-atk-hurt-death_9: 3340182082764262176
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

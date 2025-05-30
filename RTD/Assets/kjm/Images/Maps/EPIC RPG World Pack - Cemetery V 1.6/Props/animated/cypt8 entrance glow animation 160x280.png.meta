@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 41c60ce62bb74f242b4ec2477b09446a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1462997527007347110
+    second: cypt8 entrance glow animation 160x280_0
+  - first:
+      213: 653232078763764410
+    second: cypt8 entrance glow animation 160x280_1
+  - first:
+      213: 5054396241760038604
+    second: cypt8 entrance glow animation 160x280_2
+  - first:
+      213: -4932711310090007105
+    second: cypt8 entrance glow animation 160x280_3
+  - first:
+      213: 6332589850772832001
+    second: cypt8 entrance glow animation 160x280_4
+  - first:
+      213: -784153824661998229
+    second: cypt8 entrance glow animation 160x280_5
+  - first:
+      213: -3214668995538504074
+    second: cypt8 entrance glow animation 160x280_6
+  - first:
+      213: 7503783935674181701
+    second: cypt8 entrance glow animation 160x280_7
+  - first:
+      213: 8168318199682185578
+    second: cypt8 entrance glow animation 160x280_8
+  - first:
+      213: 7107985690799453307
+    second: cypt8 entrance glow animation 160x280_9
+  - first:
+      213: 6193281453766366710
+    second: cypt8 entrance glow animation 160x280_10
+  - first:
+      213: -4026541285204914522
+    second: cypt8 entrance glow animation 160x280_11
+  - first:
+      213: -963393544429316143
+    second: cypt8 entrance glow animation 160x280_12
+  - first:
+      213: -5180713818122969258
+    second: cypt8 entrance glow animation 160x280_13
+  - first:
+      213: 5771248332727991905
+    second: cypt8 entrance glow animation 160x280_14
+  - first:
+      213: 2806538286432565785
+    second: cypt8 entrance glow animation 160x280_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cypt8 entrance glow animation 160x280_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 18
+        width: 142
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5eb37f108362bbe0800000000000000
+      internalID: -1462997527007347110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cypt8 entrance glow animation 160x280_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 18
+        width: 142
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abaaa9a5d1fb01900800000000000000
+      internalID: 653232078763764410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cypt8 entrance glow animation 160x280_2
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 18
+        width: 142
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce2d204a92d42640800000000000000
+      internalID: 5054396241760038604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cypt8 entrance glow animation 160x280_3
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 18
+        width: 142
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd8886b23d7b8bb0800000000000000
+      internalID: -4932711310090007105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cypt8 entrance glow animation 160x280_4
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 18
+        width: 142
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10ffe83fae0e1e750800000000000000
+      internalID: 6332589850772832001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cypt8 entrance glow animation 160x280_5
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 18
+        width: 142
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b65f1c740402e15f0800000000000000
+      internalID: -784153824661998229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cypt8 entrance glow animation 160x280_6
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 18
+        width: 142
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6763772a4933363d0800000000000000
+      internalID: -3214668995538504074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cypt8 entrance glow animation 160x280_7
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 18
+        width: 142
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54864259bbbc22860800000000000000
+      internalID: 7503783935674181701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cypt8 entrance glow animation 160x280_8
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 18
+        width: 142
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a693a600022bb5170800000000000000
+      internalID: 8168318199682185578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cypt8 entrance glow animation 160x280_9
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 18
+        width: 142
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7439a87353a4a260800000000000000
+      internalID: 7107985690799453307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cypt8 entrance glow animation 160x280_10
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 18
+        width: 142
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f552c53ba4f2f550800000000000000
+      internalID: 6193281453766366710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cypt8 entrance glow animation 160x280_11
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 18
+        width: 142
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ae8aedd80ade18c0800000000000000
+      internalID: -4026541285204914522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cypt8 entrance glow animation 160x280_12
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 18
+        width: 142
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d7d265fca651a2f0800000000000000
+      internalID: -963393544429316143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cypt8 entrance glow animation 160x280_13
+      rect:
+        serializedVersion: 2
+        x: 2090
+        y: 18
+        width: 142
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65f92d32b386a18b0800000000000000
+      internalID: -5180713818122969258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cypt8 entrance glow animation 160x280_14
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 18
+        width: 142
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16e31def7c7971050800000000000000
+      internalID: 5771248332727991905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cypt8 entrance glow animation 160x280_15
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 18
+        width: 142
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ab85ba3b3d2f620800000000000000
+      internalID: 2806538286432565785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      cypt8 entrance glow animation 160x280_0: -1462997527007347110
+      cypt8 entrance glow animation 160x280_1: 653232078763764410
+      cypt8 entrance glow animation 160x280_10: 6193281453766366710
+      cypt8 entrance glow animation 160x280_11: -4026541285204914522
+      cypt8 entrance glow animation 160x280_12: -963393544429316143
+      cypt8 entrance glow animation 160x280_13: -5180713818122969258
+      cypt8 entrance glow animation 160x280_14: 5771248332727991905
+      cypt8 entrance glow animation 160x280_15: 2806538286432565785
+      cypt8 entrance glow animation 160x280_2: 5054396241760038604
+      cypt8 entrance glow animation 160x280_3: -4932711310090007105
+      cypt8 entrance glow animation 160x280_4: 6332589850772832001
+      cypt8 entrance glow animation 160x280_5: -784153824661998229
+      cypt8 entrance glow animation 160x280_6: -3214668995538504074
+      cypt8 entrance glow animation 160x280_7: 7503783935674181701
+      cypt8 entrance glow animation 160x280_8: 8168318199682185578
+      cypt8 entrance glow animation 160x280_9: 7107985690799453307
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

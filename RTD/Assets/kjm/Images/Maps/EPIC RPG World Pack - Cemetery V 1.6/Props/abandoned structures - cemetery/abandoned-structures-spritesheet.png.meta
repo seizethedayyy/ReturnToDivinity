@@ -1,0 +1,2600 @@
+fileFormatVersion: 2
+guid: 4a38e28f9b09a8f41b1387ec62d732be
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3405860650461479809
+    second: abandoned-structures-spritesheet_0
+  - first:
+      213: 8578548982338125348
+    second: abandoned-structures-spritesheet_1
+  - first:
+      213: 8647761175518263885
+    second: abandoned-structures-spritesheet_2
+  - first:
+      213: 3331132841325814978
+    second: abandoned-structures-spritesheet_3
+  - first:
+      213: 208298807880357219
+    second: abandoned-structures-spritesheet_4
+  - first:
+      213: -9050295289393662005
+    second: abandoned-structures-spritesheet_5
+  - first:
+      213: 3917151660576484509
+    second: abandoned-structures-spritesheet_6
+  - first:
+      213: -1739635386458792867
+    second: abandoned-structures-spritesheet_7
+  - first:
+      213: -6489505371604024331
+    second: abandoned-structures-spritesheet_8
+  - first:
+      213: -2613320702191506977
+    second: abandoned-structures-spritesheet_9
+  - first:
+      213: 7426563618444298736
+    second: abandoned-structures-spritesheet_10
+  - first:
+      213: 6258830665053706966
+    second: abandoned-structures-spritesheet_11
+  - first:
+      213: 87736663040295033
+    second: abandoned-structures-spritesheet_12
+  - first:
+      213: -4439635588276055972
+    second: abandoned-structures-spritesheet_13
+  - first:
+      213: 8231392914408351849
+    second: abandoned-structures-spritesheet_14
+  - first:
+      213: -5042119845546179391
+    second: abandoned-structures-spritesheet_15
+  - first:
+      213: 5271629705684897368
+    second: abandoned-structures-spritesheet_16
+  - first:
+      213: 6845217591349790639
+    second: abandoned-structures-spritesheet_17
+  - first:
+      213: -8457358023812021371
+    second: abandoned-structures-spritesheet_18
+  - first:
+      213: 5877566213773960493
+    second: abandoned-structures-spritesheet_19
+  - first:
+      213: -1835321017194493547
+    second: abandoned-structures-spritesheet_20
+  - first:
+      213: 5686530792143219884
+    second: abandoned-structures-spritesheet_21
+  - first:
+      213: 328611187339962786
+    second: abandoned-structures-spritesheet_22
+  - first:
+      213: -4826017747162820671
+    second: abandoned-structures-spritesheet_23
+  - first:
+      213: 9123693234785824101
+    second: abandoned-structures-spritesheet_24
+  - first:
+      213: -1473083948699623456
+    second: abandoned-structures-spritesheet_25
+  - first:
+      213: 9042125599066886745
+    second: abandoned-structures-spritesheet_26
+  - first:
+      213: 7579753227952279027
+    second: abandoned-structures-spritesheet_27
+  - first:
+      213: 2096151515518786880
+    second: abandoned-structures-spritesheet_28
+  - first:
+      213: -3672221022258431564
+    second: abandoned-structures-spritesheet_29
+  - first:
+      213: 980472350728742451
+    second: abandoned-structures-spritesheet_30
+  - first:
+      213: 1715332277358168206
+    second: abandoned-structures-spritesheet_31
+  - first:
+      213: -7194322859903521495
+    second: abandoned-structures-spritesheet_32
+  - first:
+      213: 6642541480671669262
+    second: abandoned-structures-spritesheet_33
+  - first:
+      213: 3146783173870692310
+    second: abandoned-structures-spritesheet_34
+  - first:
+      213: 2899679130513565946
+    second: abandoned-structures-spritesheet_35
+  - first:
+      213: 4625699379507176836
+    second: abandoned-structures-spritesheet_36
+  - first:
+      213: 8540799224747437209
+    second: abandoned-structures-spritesheet_37
+  - first:
+      213: -7263081282438048188
+    second: abandoned-structures-spritesheet_38
+  - first:
+      213: -2379708218359074580
+    second: abandoned-structures-spritesheet_39
+  - first:
+      213: -2478149998471576824
+    second: abandoned-structures-spritesheet_40
+  - first:
+      213: -4424174635142591470
+    second: abandoned-structures-spritesheet_41
+  - first:
+      213: 5366528169200068530
+    second: abandoned-structures-spritesheet_42
+  - first:
+      213: -4011440236232047360
+    second: abandoned-structures-spritesheet_43
+  - first:
+      213: -4624222306177396111
+    second: abandoned-structures-spritesheet_44
+  - first:
+      213: -5211759272921920295
+    second: abandoned-structures-spritesheet_45
+  - first:
+      213: -5347928862834256888
+    second: abandoned-structures-spritesheet_46
+  - first:
+      213: -6234728486316141130
+    second: abandoned-structures-spritesheet_47
+  - first:
+      213: -1384980176463491233
+    second: abandoned-structures-spritesheet_48
+  - first:
+      213: -2878049892117640741
+    second: abandoned-structures-spritesheet_49
+  - first:
+      213: -7479888817560677208
+    second: abandoned-structures-spritesheet_50
+  - first:
+      213: -5077815109411186055
+    second: abandoned-structures-spritesheet_51
+  - first:
+      213: -5874613799161405520
+    second: abandoned-structures-spritesheet_52
+  - first:
+      213: -8133884043277230387
+    second: abandoned-structures-spritesheet_53
+  - first:
+      213: -4415604744899338328
+    second: abandoned-structures-spritesheet_54
+  - first:
+      213: 7591483075119466718
+    second: abandoned-structures-spritesheet_55
+  - first:
+      213: 6409244793199454518
+    second: abandoned-structures-spritesheet_56
+  - first:
+      213: 3750646449922545060
+    second: abandoned-structures-spritesheet_57
+  - first:
+      213: 1942935156491500694
+    second: abandoned-structures-spritesheet_58
+  - first:
+      213: -3302022532134907195
+    second: abandoned-structures-spritesheet_59
+  - first:
+      213: 8442770852235078649
+    second: abandoned-structures-spritesheet_60
+  - first:
+      213: -5137479061061183992
+    second: abandoned-structures-spritesheet_61
+  - first:
+      213: -2752436946639524200
+    second: abandoned-structures-spritesheet_62
+  - first:
+      213: -4831078272646302836
+    second: abandoned-structures-spritesheet_63
+  - first:
+      213: -1416169282932548475
+    second: abandoned-structures-spritesheet_64
+  - first:
+      213: -832054017963576024
+    second: abandoned-structures-spritesheet_65
+  - first:
+      213: 3409147163689657535
+    second: abandoned-structures-spritesheet_66
+  - first:
+      213: 3347816470735893619
+    second: abandoned-structures-spritesheet_67
+  - first:
+      213: 6900926287094843755
+    second: abandoned-structures-spritesheet_68
+  - first:
+      213: 2986589072307690956
+    second: abandoned-structures-spritesheet_69
+  - first:
+      213: 4914866492342087231
+    second: abandoned-structures-spritesheet_70
+  - first:
+      213: 775547234376096729
+    second: abandoned-structures-spritesheet_71
+  - first:
+      213: -4371712668520586101
+    second: abandoned-structures-spritesheet_72
+  - first:
+      213: -4088688603442213796
+    second: abandoned-structures-spritesheet_73
+  - first:
+      213: -516713120442372805
+    second: abandoned-structures-spritesheet_74
+  - first:
+      213: -8427765444686265992
+    second: abandoned-structures-spritesheet_75
+  - first:
+      213: -7856373102917661207
+    second: abandoned-structures-spritesheet_76
+  - first:
+      213: 1094976424328732683
+    second: abandoned-structures-spritesheet_77
+  - first:
+      213: 7198092464607023730
+    second: abandoned-structures-spritesheet_78
+  - first:
+      213: 1240005050651587165
+    second: abandoned-structures-spritesheet_79
+  - first:
+      213: -5108842034888839594
+    second: abandoned-structures-spritesheet_80
+  - first:
+      213: -1735722941470939550
+    second: abandoned-structures-spritesheet_81
+  - first:
+      213: -832479364166446155
+    second: abandoned-structures-spritesheet_82
+  - first:
+      213: 785731252223779800
+    second: abandoned-structures-spritesheet_83
+  - first:
+      213: -7313115866173194834
+    second: abandoned-structures-spritesheet_84
+  - first:
+      213: -8063603650787513766
+    second: abandoned-structures-spritesheet_85
+  - first:
+      213: -2103754440287117214
+    second: abandoned-structures-spritesheet_86
+  - first:
+      213: -6003642463776172363
+    second: abandoned-structures-spritesheet_87
+  - first:
+      213: 2479427335967079233
+    second: abandoned-structures-spritesheet_88
+  - first:
+      213: -5168361675018580282
+    second: abandoned-structures-spritesheet_89
+  - first:
+      213: -7436797032151063357
+    second: abandoned-structures-spritesheet_90
+  - first:
+      213: -6600313834013306666
+    second: abandoned-structures-spritesheet_91
+  - first:
+      213: 7901316254217724132
+    second: abandoned-structures-spritesheet_92
+  - first:
+      213: -7314175595003886692
+    second: abandoned-structures-spritesheet_93
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1366
+        width: 217
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 183cc31773c044f20800000000000000
+      internalID: 3405860650461479809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1337
+        width: 197
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e7d8c29d02d0770800000000000000
+      internalID: 8578548982338125348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 1448
+        width: 139
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4a3e29a8f4030870800000000000000
+      internalID: 8647761175518263885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 1509
+        width: 17
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c4ecda8baf8a3e20800000000000000
+      internalID: 3331132841325814978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 1338
+        width: 193
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36598d289a604e200800000000000000
+      internalID: 208298807880357219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1450
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc7bc438264e66280800000000000000
+      internalID: -9050295289393662005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1436
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9c2efb6ea48c5630800000000000000
+      internalID: 3917151660576484509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1320
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5c9c6f35d29bd7e0800000000000000
+      internalID: -1739635386458792867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1334
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f38d855f35a0f5a0800000000000000
+      internalID: -6489505371604024331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1318
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd963b5daae9bbbd0800000000000000
+      internalID: -2613320702191506977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1299
+        width: 20
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f9463b6344701760800000000000000
+      internalID: 7426563618444298736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1312
+        width: 20
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6da19d34455dbd650800000000000000
+      internalID: 6258830665053706966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 1332
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9708b4ab704b73100800000000000000
+      internalID: 87736663040295033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1180
+        width: 199
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c509f9464fe3362c0800000000000000
+      internalID: -4439635588276055972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1249
+        width: 28
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9682afd6e38cb3270800000000000000
+      internalID: 8231392914408351849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 1179
+        width: 91
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c4c54bf6bac60ab0800000000000000
+      internalID: -5042119845546179391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 1181
+        width: 84
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85eceba7947982940800000000000000
+      internalID: 5271629705684897368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1024
+        width: 20
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa7c8aeb1291ffe50800000000000000
+      internalID: 6845217591349790639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 890
+        width: 193
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5838264bfad61aa80800000000000000
+      internalID: -8457358023812021371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 888
+        width: 193
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d25a5dba45f419150800000000000000
+      internalID: 5877566213773960493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 894
+        width: 54
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59940514241a786e0800000000000000
+      internalID: -1835321017194493547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 922
+        width: 277
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cac640e70ad9aee40800000000000000
+      internalID: 5686530792143219884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 958
+        width: 88
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a92e9242267f8400800000000000000
+      internalID: 328611187339962786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 916
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf01a4ad6a860db0800000000000000
+      internalID: -4826017747162820671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 902
+        width: 51
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56d2b0b58aedd9e70800000000000000
+      internalID: 9123693234785824101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 913
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0efdd6114fd8e8be0800000000000000
+      internalID: -1473083948699623456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 910
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95219da33551c7d70800000000000000
+      internalID: 9042125599066886745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 897
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd473dc661b03960800000000000000
+      internalID: 7579753227952279027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 836
+        width: 52
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04dd4ed82b6071d10800000000000000
+      internalID: 2096151515518786880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 884
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b9709fbf66a90dc0800000000000000
+      internalID: -3672221022258431564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 881
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 336674188665b9d00800000000000000
+      internalID: 980472350728742451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 884
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8802b73e951ec710800000000000000
+      internalID: 1715332277358168206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 885
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92d6affd971a82c90800000000000000
+      internalID: -7194322859903521495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 731
+        width: 91
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c6b31784c0f2c50800000000000000
+      internalID: 6642541480671669262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 733
+        width: 84
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d72dbfcf9e9bab20800000000000000
+      internalID: 3146783173870692310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 590
+        width: 192
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af8efd85ecabd3820800000000000000
+      internalID: 2899679130513565946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 798
+        width: 115
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4852541e319c13040800000000000000
+      internalID: 4625699379507176836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 701
+        width: 117
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ca001d4a3078670800000000000000
+      internalID: 8540799224747437209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 700
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 446dd791e0a543b90800000000000000
+      internalID: -7263081282438048188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 698
+        width: 44
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce031afcbf399fed0800000000000000
+      internalID: -2379708218359074580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 646
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80387f8c4b7db9dd0800000000000000
+      internalID: -2478149998471576824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 643
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21c48001c9c2a92c0800000000000000
+      internalID: -4424174635142591470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 632
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b72c42dfecb97a40800000000000000
+      internalID: 5366528169200068530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 613
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0050ea1db508458c0800000000000000
+      internalID: -4011440236232047360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 633
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 172dbdd005673dfb0800000000000000
+      internalID: -4624222306177396111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 410
+        width: 277
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dc04aaed8c1ca7b0800000000000000
+      internalID: -5211759272921920295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 623
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80494b6a80758c5b0800000000000000
+      internalID: -5347928862834256888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 602
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b51e16897bc979a0800000000000000
+      internalID: -6234728486316141130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 447
+        width: 16
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5f8fe01edf87cce0800000000000000
+      internalID: -1384980176463491233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 483
+        width: 14
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd90a762fdc1f08d0800000000000000
+      internalID: -2878049892117640741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 452
+        width: 16
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a411e520c8123890800000000000000
+      internalID: -7479888817560677208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 459
+        width: 14
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97a5f68bf0af789b0800000000000000
+      internalID: -5077815109411186055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 480
+        width: 14
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bf506cefdd297ea0800000000000000
+      internalID: -5874613799161405520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 363
+        width: 144
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dce1e3cce83ae1f80800000000000000
+      internalID: -8133884043277230387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 450
+        width: 78
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8afdebf11ee98b2c0800000000000000
+      internalID: -4415604744899338328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 447
+        width: 66
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed8c2eaa2ad5a5960800000000000000
+      internalID: 7591483075119466718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 445
+        width: 20
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 639ec298e2632f850800000000000000
+      internalID: 6409244793199454518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 477
+        width: 66
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a596bd0319fc0430800000000000000
+      internalID: 3750646449922545060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 542
+        width: 88
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69c3b401b31b6fa10800000000000000
+      internalID: 1942935156491500694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 315
+        width: 30
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c253cb700cdc22d0800000000000000
+      internalID: -3302022532134907195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 484
+        width: 99
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fb6e7fbb5fba2570800000000000000
+      internalID: 8442770852235078649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 511
+        width: 74
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 806d074730204b8b0800000000000000
+      internalID: -5137479061061183992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 404
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ee3e81e216dc9d0800000000000000
+      internalID: -2752436946639524200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 390
+        width: 51
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c833fcc38ef84fcb0800000000000000
+      internalID: -4831078272646302836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 398
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58c5cf45a81c85ce0800000000000000
+      internalID: -1416169282932548475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 338
+        width: 14
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82538517743f374f0800000000000000
+      internalID: -832054017963576024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 358
+        width: 16
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb4a0ce6849bf4f20800000000000000
+      internalID: 3409147163689657535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 416
+        width: 119
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3743a67b755d57e20800000000000000
+      internalID: 3347816470735893619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 265
+        width: 148
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b69817b35e305cf50800000000000000
+      internalID: 6900926287094843755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 349
+        width: 20
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd96f800fe727920800000000000000
+      internalID: 2986589072307690956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 351
+        width: 27
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3e2582e80d153440800000000000000
+      internalID: 4914866492342087231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 316
+        width: 76
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db1683c91c43ca00800000000000000
+      internalID: 775547234376096729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 331
+        width: 38
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8461c48d7e8453c0800000000000000
+      internalID: -4371712668520586101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 401
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5c83a2c06f0247c0800000000000000
+      internalID: -4088688603442213796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 385
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3daf35972444d8f0800000000000000
+      internalID: -516713120442372805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 324
+        width: 52
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 871c923faff8a0b80800000000000000
+      internalID: -8427765444686265992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 362
+        width: 58
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9edc8a9a94e88f290800000000000000
+      internalID: -7856373102917661207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 269
+        width: 17
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b00aa89a143223f00800000000000000
+      internalID: 1094976424328732683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 369
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 272515d95f2c4e360800000000000000
+      internalID: 7198092464607023730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 372
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5237c31602653110800000000000000
+      internalID: 1240005050651587165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 373
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65eedd0bc3fb919b0800000000000000
+      internalID: -5108842034888839594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 286
+        width: 115
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 266e0255e2979e7e0800000000000000
+      internalID: -1735722941470939550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 189
+        width: 117
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b31400dd607274f0800000000000000
+      internalID: -832479364166446155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 206
+        width: 193
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d3a8b1396a77ea00800000000000000
+      internalID: 785731252223779800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 289
+        width: 151
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead3973cdd7928a90800000000000000
+      internalID: -7313115866173194834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 272
+        width: 22
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a6441d333581090800000000000000
+      internalID: -8063603650787513766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 270
+        width: 22
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26029049b76fdc2e0800000000000000
+      internalID: -2103754440287117214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 260
+        width: 22
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b69b24ecf6ceaca0800000000000000
+      internalID: -6003642463776172363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_88
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 188
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14bf5b68602b86220800000000000000
+      internalID: 2479427335967079233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_89
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 103
+        width: 175
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ce46c1907a4648b0800000000000000
+      internalID: -5168361675018580282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_90
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 167
+        width: 129
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c4e4f740803bc890800000000000000
+      internalID: -7436797032151063357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_91
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 167
+        width: 88
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d05a85b989f664a0800000000000000
+      internalID: -6600313834013306666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_92
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 94
+        width: 199
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e0eaae254d17ad60800000000000000
+      internalID: 7901316254217724132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abandoned-structures-spritesheet_93
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 93
+        width: 132
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9346fa6c04de7a90800000000000000
+      internalID: -7314175595003886692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      abandoned-structures-spritesheet_0: 3405860650461479809
+      abandoned-structures-spritesheet_1: 8578548982338125348
+      abandoned-structures-spritesheet_10: 7426563618444298736
+      abandoned-structures-spritesheet_11: 6258830665053706966
+      abandoned-structures-spritesheet_12: 87736663040295033
+      abandoned-structures-spritesheet_13: -4439635588276055972
+      abandoned-structures-spritesheet_14: 8231392914408351849
+      abandoned-structures-spritesheet_15: -5042119845546179391
+      abandoned-structures-spritesheet_16: 5271629705684897368
+      abandoned-structures-spritesheet_17: 6845217591349790639
+      abandoned-structures-spritesheet_18: -8457358023812021371
+      abandoned-structures-spritesheet_19: 5877566213773960493
+      abandoned-structures-spritesheet_2: 8647761175518263885
+      abandoned-structures-spritesheet_20: -1835321017194493547
+      abandoned-structures-spritesheet_21: 5686530792143219884
+      abandoned-structures-spritesheet_22: 328611187339962786
+      abandoned-structures-spritesheet_23: -4826017747162820671
+      abandoned-structures-spritesheet_24: 9123693234785824101
+      abandoned-structures-spritesheet_25: -1473083948699623456
+      abandoned-structures-spritesheet_26: 9042125599066886745
+      abandoned-structures-spritesheet_27: 7579753227952279027
+      abandoned-structures-spritesheet_28: 2096151515518786880
+      abandoned-structures-spritesheet_29: -3672221022258431564
+      abandoned-structures-spritesheet_3: 3331132841325814978
+      abandoned-structures-spritesheet_30: 980472350728742451
+      abandoned-structures-spritesheet_31: 1715332277358168206
+      abandoned-structures-spritesheet_32: -7194322859903521495
+      abandoned-structures-spritesheet_33: 6642541480671669262
+      abandoned-structures-spritesheet_34: 3146783173870692310
+      abandoned-structures-spritesheet_35: 2899679130513565946
+      abandoned-structures-spritesheet_36: 4625699379507176836
+      abandoned-structures-spritesheet_37: 8540799224747437209
+      abandoned-structures-spritesheet_38: -7263081282438048188
+      abandoned-structures-spritesheet_39: -2379708218359074580
+      abandoned-structures-spritesheet_4: 208298807880357219
+      abandoned-structures-spritesheet_40: -2478149998471576824
+      abandoned-structures-spritesheet_41: -4424174635142591470
+      abandoned-structures-spritesheet_42: 5366528169200068530
+      abandoned-structures-spritesheet_43: -4011440236232047360
+      abandoned-structures-spritesheet_44: -4624222306177396111
+      abandoned-structures-spritesheet_45: -5211759272921920295
+      abandoned-structures-spritesheet_46: -5347928862834256888
+      abandoned-structures-spritesheet_47: -6234728486316141130
+      abandoned-structures-spritesheet_48: -1384980176463491233
+      abandoned-structures-spritesheet_49: -2878049892117640741
+      abandoned-structures-spritesheet_5: -9050295289393662005
+      abandoned-structures-spritesheet_50: -7479888817560677208
+      abandoned-structures-spritesheet_51: -5077815109411186055
+      abandoned-structures-spritesheet_52: -5874613799161405520
+      abandoned-structures-spritesheet_53: -8133884043277230387
+      abandoned-structures-spritesheet_54: -4415604744899338328
+      abandoned-structures-spritesheet_55: 7591483075119466718
+      abandoned-structures-spritesheet_56: 6409244793199454518
+      abandoned-structures-spritesheet_57: 3750646449922545060
+      abandoned-structures-spritesheet_58: 1942935156491500694
+      abandoned-structures-spritesheet_59: -3302022532134907195
+      abandoned-structures-spritesheet_6: 3917151660576484509
+      abandoned-structures-spritesheet_60: 8442770852235078649
+      abandoned-structures-spritesheet_61: -5137479061061183992
+      abandoned-structures-spritesheet_62: -2752436946639524200
+      abandoned-structures-spritesheet_63: -4831078272646302836
+      abandoned-structures-spritesheet_64: -1416169282932548475
+      abandoned-structures-spritesheet_65: -832054017963576024
+      abandoned-structures-spritesheet_66: 3409147163689657535
+      abandoned-structures-spritesheet_67: 3347816470735893619
+      abandoned-structures-spritesheet_68: 6900926287094843755
+      abandoned-structures-spritesheet_69: 2986589072307690956
+      abandoned-structures-spritesheet_7: -1739635386458792867
+      abandoned-structures-spritesheet_70: 4914866492342087231
+      abandoned-structures-spritesheet_71: 775547234376096729
+      abandoned-structures-spritesheet_72: -4371712668520586101
+      abandoned-structures-spritesheet_73: -4088688603442213796
+      abandoned-structures-spritesheet_74: -516713120442372805
+      abandoned-structures-spritesheet_75: -8427765444686265992
+      abandoned-structures-spritesheet_76: -7856373102917661207
+      abandoned-structures-spritesheet_77: 1094976424328732683
+      abandoned-structures-spritesheet_78: 7198092464607023730
+      abandoned-structures-spritesheet_79: 1240005050651587165
+      abandoned-structures-spritesheet_8: -6489505371604024331
+      abandoned-structures-spritesheet_80: -5108842034888839594
+      abandoned-structures-spritesheet_81: -1735722941470939550
+      abandoned-structures-spritesheet_82: -832479364166446155
+      abandoned-structures-spritesheet_83: 785731252223779800
+      abandoned-structures-spritesheet_84: -7313115866173194834
+      abandoned-structures-spritesheet_85: -8063603650787513766
+      abandoned-structures-spritesheet_86: -2103754440287117214
+      abandoned-structures-spritesheet_87: -6003642463776172363
+      abandoned-structures-spritesheet_88: 2479427335967079233
+      abandoned-structures-spritesheet_89: -5168361675018580282
+      abandoned-structures-spritesheet_9: -2613320702191506977
+      abandoned-structures-spritesheet_90: -7436797032151063357
+      abandoned-structures-spritesheet_91: -6600313834013306666
+      abandoned-structures-spritesheet_92: 7901316254217724132
+      abandoned-structures-spritesheet_93: -7314175595003886692
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
