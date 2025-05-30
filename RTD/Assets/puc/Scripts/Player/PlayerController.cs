@@ -42,6 +42,7 @@ public class PlayerController : MonoBehaviour
     public float comboDelay = 1.0f;
 
     private bool hasQueuedThisPhase = false;
+    private bool isFurySkillTriggered = false;
     private bool queuedAttack = false;
     private float queuedAttackTimer = 0f;
     public float inputBufferTime = 0.3f;
@@ -87,7 +88,16 @@ public class PlayerController : MonoBehaviour
     }
 
     private void Update()
-    {   
+    {
+        if (Input.GetMouseButtonDown(1) &&
+            currentFury >= characterStats.furyMax &&
+            !isFurySkillTriggered)
+        {
+            Debug.Log("[PlayerController] ▶ Fury 스킬 우클릭 사용, 애니메이션 트리거");  // Update() 안
+            animator.SetTrigger("UseFury");                                             // Animator에 등록된 Trigger
+            isFurySkillTriggered = true;
+        }
+
         if (isTakingDamage) return;
 
         moveInput.x = Input.GetAxisRaw("Horizontal");
@@ -261,6 +271,15 @@ public class PlayerController : MonoBehaviour
 
         float percent = currentFury / characterStats.furyMax;
         InGameUIManager.Instance?.UpdateFuryGauge(percent);
+        
+    }
+
+    public void OnFurySkillEnd()
+    {
+        // 재사용을 위해 플래그와 게이지 리셋
+        isFurySkillTriggered = false;
+        currentFury = 0f;
+        InGameUIManager.Instance?.UpdateFuryGauge(0f);
     }
 
     private IEnumerator ComboCooldownCoroutine()
