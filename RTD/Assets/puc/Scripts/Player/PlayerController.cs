@@ -87,7 +87,7 @@ public class PlayerController : MonoBehaviour
     }
 
     private void Update()
-    {
+    {   
         if (isTakingDamage) return;
 
         moveInput.x = Input.GetAxisRaw("Horizontal");
@@ -295,7 +295,10 @@ public class PlayerController : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        Debug.Log($"[Player] 데미지 {damage} 받음!");
+        Debug.Log($"[Player] ▶ TakeDamage 실행, damage={damage}");       // ← 이 줄 추가
+        animator.SetTrigger("IsHit");
+        Debug.Log("[Player] ▶ animator.SetTrigger(\"IsHit\") 호출됨");  // ← 이 줄 추가
+
         currentHp -= damage;
         currentHp = Mathf.Clamp(currentHp, 0, characterStats.maxHp);
         InGameUIManager.Instance?.UpdateHpUI(currentHp, characterStats.maxHp);
@@ -310,7 +313,7 @@ public class PlayerController : MonoBehaviour
 
     public void PrepareHitEffect()
     {
-        animator.Play("Hit", 0, 0f);
+        animator.SetTrigger("IsHit");
 
         if (flashCoroutine != null)
             StopCoroutine(flashCoroutine);

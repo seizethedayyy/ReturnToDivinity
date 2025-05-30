@@ -139,7 +139,7 @@ Rigidbody2D:
     serializedVersion: 2
     m_Bits: 0
   m_Interpolate: 0
-  m_SleepingMode: 1
+  m_SleepingMode: 0
   m_CollisionDetection: 0
   m_Constraints: 4
 --- !u!58 &5761599058030704686
@@ -207,26 +207,13 @@ MonoBehaviour:
     attackCooldown: 0
     exp: 0
     gold: 0
+  flipDistanceThreshold: 0.2
   player: {fileID: 0}
   attackLayer:
     serializedVersion: 2
     m_Bits: 64
   enemyId: goblin01
-  id: 
-  enemyName: 
-  level: 0
-  maxHp: 0
   enemyCurrentHp: 0
-  moveSpeed: 0
-  detectionRange: 0
-  attackRadius: 0
-  attackDamage: 0
-  chaseStopRange: 0
-  stopDistance: 0
-  angleThreshold: 0
-  attackCooldown: 0
-  exp: 0
-  gold: 0
 --- !u!1 &5433511381653655770
 GameObject:
   m_ObjectHideFlags: 0
