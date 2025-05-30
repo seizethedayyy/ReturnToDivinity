@@ -13,6 +13,7 @@ public class PlayerSpawnManager : MonoBehaviour
     private CinemachineCamera virtualCamera;
 
     private bool confinerResetDone = false;
+    private Collider2D groundCollider;
 
     private void Awake()
     {
@@ -302,7 +303,21 @@ public class PlayerSpawnManager : MonoBehaviour
 
         if (virtualCamera == null)
         {
-            Debug.LogWarning("[스폰] 일정 시간 내 카메라 찾기 실패 → Follow 설정 불가");
+            // ① CinemachineConfiner2D 컴포넌트 가져오기 또는 추가
+            var confiner = virtualCamera.GetComponent<CinemachineConfiner2D>();
+                            if (confiner == null)
+                                {
+                confiner = virtualCamera.gameObject.AddComponent<CinemachineConfiner2D>();
+                Debug.Log("[PlayerSpawnManager] ResetCameraConfiner → Confiner 컴포넌트 자동 추가됨");
+                                }
+            
+            // ② 바운딩 콜라이더(groundCollider) 할당
+            confiner.BoundingShape2D = groundCollider;
+            
+            // ③ 캐시 무효화 후 적용
+            confiner.InvalidateBoundingShapeCache();
+            Debug.Log("[PlayerSpawnManager] ResetCameraConfiner → Confiner 경계 재설정 완료");
+            confinerResetDone = true;
         }
     }
 }
