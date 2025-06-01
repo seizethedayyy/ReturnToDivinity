@@ -1,0 +1,652 @@
+fileFormatVersion: 2
+guid: a1d984d0b1cfe2a44a840a9717d5cb15
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1989491707562759000
+    second: 2_FurySkill_0
+  - first:
+      213: 7549535004319246611
+    second: 2_FurySkill_1
+  - first:
+      213: -1182347556701017152
+    second: 2_FurySkill_2
+  - first:
+      213: -7211314336086505531
+    second: 2_FurySkill_3
+  - first:
+      213: 2055697920284237786
+    second: 2_FurySkill_4
+  - first:
+      213: 4056513754922906323
+    second: 2_FurySkill_5
+  - first:
+      213: -5449700826108009119
+    second: 2_FurySkill_6
+  - first:
+      213: -6011712043704524737
+    second: 2_FurySkill_7
+  - first:
+      213: -2095863078647014858
+    second: 2_FurySkill_8
+  - first:
+      213: 1217143881817015762
+    second: 2_FurySkill_9
+  - first:
+      213: -4676016060144480262
+    second: 2_FurySkill_10
+  - first:
+      213: 2417893449012382735
+    second: 2_FurySkill_11
+  - first:
+      213: -2220894226397959869
+    second: 2_FurySkill_12
+  - first:
+      213: -2347030326656662261
+    second: 2_FurySkill_13
+  - first:
+      213: -4645868397115987999
+    second: 2_FurySkill_14
+  - first:
+      213: 8554033639847500038
+    second: 2_FurySkill_15
+  - first:
+      213: -2401701490169409516
+    second: 2_FurySkill_16
+  - first:
+      213: 797469840521693153
+    second: 2_FurySkill_17
+  - first:
+      213: 773439344894557085
+    second: 2_FurySkill_18
+  - first:
+      213: 6714845673214159061
+    second: 2_FurySkill_19
+  - first:
+      213: -3636045708911161647
+    second: 2_FurySkill_20
+  - first:
+      213: -3537100208874138032
+    second: 2_FurySkill_21
+  - first:
+      213: 8456963034294337719
+    second: 2_FurySkill_22
+  - first:
+      213: -2545786188764120400
+    second: 2_FurySkill_23
+  - first:
+      213: 3421689064975930558
+    second: 2_FurySkill_24
+  - first:
+      213: 4488397749002161390
+    second: 2_FurySkill_25
+  - first:
+      213: -9085002192554477945
+    second: 2_FurySkill_26
+  - first:
+      213: -367572867036617951
+    second: 2_FurySkill_27
+  - first:
+      213: -1282502770385384436
+    second: 2_FurySkill_28
+  - first:
+      213: 5722138898709054780
+    second: 2_FurySkill_29
+  - first:
+      213: 1280301559224789035
+    second: 2_FurySkill_30
+  - first:
+      213: -3969232278614626379
+    second: 2_FurySkill_31
+  - first:
+      213: 5234444989270804253
+    second: 2_FurySkill_32
+  - first:
+      213: -5734754405734950184
+    second: 2_FurySkill_33
+  - first:
+      213: -8956130428926972026
+    second: 2_FurySkill_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 2_FurySkill_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 736
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ace22f25d7e364e0800000000000000
+      internalID: -1989491707562759000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_FurySkill_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 690
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31963d7561655c860800000000000000
+      internalID: 7549535004319246611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_FurySkill_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 644
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cbe8c95925779fe0800000000000000
+      internalID: -1182347556701017152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_FurySkill_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 598
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c7c1e981d34ceb90800000000000000
+      internalID: -7211314336086505531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_FurySkill_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 552
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf1d00fd5e478c10800000000000000
+      internalID: 2055697920284237786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_FurySkill_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 506
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d27aac84c1ab4830800000000000000
+      internalID: 4056513754922906323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_FurySkill_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 460
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 165edafe8f5ce54b0800000000000000
+      internalID: -5449700826108009119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_FurySkill_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 414
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f30ed076fbb129ca0800000000000000
+      internalID: -6011712043704524737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_FurySkill_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 368
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63a536362aff9e2e0800000000000000
+      internalID: -2095863078647014858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_FurySkill_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 322
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d54e3c69e924e010800000000000000
+      internalID: 1217143881817015762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_FurySkill_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 276
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aff011bfa247b1fb0800000000000000
+      internalID: -4676016060144480262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_FurySkill_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 230
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0c802508451e8120800000000000000
+      internalID: 2417893449012382735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_FurySkill_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 184
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34965d7c77ccd21e0800000000000000
+      internalID: -2220894226397959869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_FurySkill_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 138
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b058f8e5a5cad6fd0800000000000000
+      internalID: -2347030326656662261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_FurySkill_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 92
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e720b4ce4f868fb0800000000000000
+      internalID: -4645868397115987999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_FurySkill_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 46
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6091ad3364806b670800000000000000
+      internalID: 8554033639847500038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_FurySkill_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4101ded28317baed0800000000000000
+      internalID: -2401701490169409516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 227b7d05d2e93b94fba8023674765ecb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      2_FurySkill_0: -1989491707562759000
+      2_FurySkill_1: 7549535004319246611
+      2_FurySkill_10: -4676016060144480262
+      2_FurySkill_11: 2417893449012382735
+      2_FurySkill_12: -2220894226397959869
+      2_FurySkill_13: -2347030326656662261
+      2_FurySkill_14: -4645868397115987999
+      2_FurySkill_15: 8554033639847500038
+      2_FurySkill_16: -2401701490169409516
+      2_FurySkill_2: -1182347556701017152
+      2_FurySkill_3: -7211314336086505531
+      2_FurySkill_4: 2055697920284237786
+      2_FurySkill_5: 4056513754922906323
+      2_FurySkill_6: -5449700826108009119
+      2_FurySkill_7: -6011712043704524737
+      2_FurySkill_8: -2095863078647014858
+      2_FurySkill_9: 1217143881817015762
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

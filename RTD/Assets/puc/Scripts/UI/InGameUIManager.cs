@@ -49,7 +49,10 @@ public class InGameUIManager : MonoBehaviour
     private Coroutine hpBarCoroutine;
     private Color originalHpColor = Color.green;
 
-       
+    [Header("게임 오버 UI")]
+    [SerializeField] private GameObject gameOverPanel;
+    [SerializeField] private float gameOverFadeTime = 1.5f;
+
 
     void Awake()
     {
@@ -92,6 +95,9 @@ public class InGameUIManager : MonoBehaviour
 
     public void RebindUIReferences()
     {
+        if (gameOverPanel == null)
+            gameOverPanel = GameObject.Find("GameOver");
+
         if (menuUI == null)
             menuUI = GameObject.Find("MenuUI");
 
@@ -296,4 +302,44 @@ public class InGameUIManager : MonoBehaviour
         UpdateFuryGauge(0f);
         UpdateComboSlot(0);
     }
+
+    public void ShowGameOverAndReturnToTitle(float gameOverDelay = 2f, float loadDelay = 1f)
+    {
+        StartCoroutine(GameOverSequence(gameOverDelay));
+    }
+
+
+    private IEnumerator GameOverSequence(float delay)
+    {
+        Debug.Log("[GameOver] 게임 오버 처리 시작");
+
+        if (gameOverPanel != null)
+        {
+            gameOverPanel.SetActive(true);
+
+            CanvasGroup cg = gameOverPanel.GetComponent<CanvasGroup>();
+            if (cg == null)
+                cg = gameOverPanel.AddComponent<CanvasGroup>();
+
+            cg.alpha = 0f;
+
+            float t = 0f;
+            while (t < 1f)
+            {
+                t += Time.deltaTime / gameOverFadeTime;
+                cg.alpha = Mathf.Lerp(0, 1, t);
+                yield return null;
+            }
+            cg.alpha = 1f;
+        }
+        else
+        {
+            Debug.LogWarning("[GameOver] gameOverPanel이 인스펙터에 연결되지 않았습니다.");
+        }
+
+        yield return new WaitForSeconds(delay);
+
+        SceneManager.LoadScene("TitleScene");
+    }
+
 }

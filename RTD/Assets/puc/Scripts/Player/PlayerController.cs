@@ -1,12 +1,23 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 using System.Collections;
+using TMPro;
 
 [RequireComponent(typeof(Animator))]
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(SpriteRenderer))]
 public class PlayerController : MonoBehaviour
 {
+    [Header("디버그 메시지 UI")]
+    [SerializeField] private TextMeshProUGUI systemMessageText;
+    [SerializeField] private float messageDuration = 2f;
+
+    private Coroutine messageCoroutine;
+
+    private string systemMessage = "";
+    private float systemMessageTimer = 0f;
+    private readonly float systemMessageDuration = 2f;
+
     [Header("Dash Settings")]
     [Tooltip("대시 지속 시간")]
     public float dashDuration = 0.2f;
@@ -27,6 +38,8 @@ public class PlayerController : MonoBehaviour
 
     private int currentHp;
     private float currentFury = 0f;
+
+    private bool isDead = false;
 
     private Vector2 moveInput;
     private bool isAttacking = false;
@@ -93,6 +106,20 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            isInvulnerable = !isInvulnerable;
+            ShowSystemMessage($"무적 : {(isInvulnerable ? "On" : "Off")}");
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            TakeDamage(characterStats.maxHp);
+            ShowSystemMessage("즉시 사망 발동");
+        }
+
+        if (isDead) return;
+
         if (!isDashing && Input.GetKeyDown(KeyCode.LeftShift) && Time.time >= nextDashTime)
         {
             isDashing = true;
@@ -179,7 +206,7 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (isTakingDamage || isDashing)
+        if (isDead || isTakingDamage || isDashing)
         {
             return;
         }
@@ -329,20 +356,18 @@ public class PlayerController : MonoBehaviour
     {
         if (isInvulnerable) return;
 
-        Debug.Log($"[Player] ▶ TakeDamage 실행, damage={damage}");
-        animator.SetTrigger("IsHit");
-        Debug.Log("[Player] ▶ animator.SetTrigger(\"IsHit\") 호출됨");
-
         currentHp -= damage;
         currentHp = Mathf.Clamp(currentHp, 0, characterStats.maxHp);
-        InGameUIManager.Instance?.UpdateHpUI(currentHp, characterStats.maxHp);
 
-        PrepareHitEffect();
+        InGameUIManager.Instance?.UpdateHpUI(currentHp, characterStats.maxHp);
 
         if (currentHp <= 0)
         {
             Die();
+            return;
         }
+
+        PrepareHitEffect();
     }
 
     public void PrepareHitEffect()
@@ -373,17 +398,55 @@ public class PlayerController : MonoBehaviour
     }
 
     private void Die()
+{
+    if (isDead) return;
+
+    isDead = true;
+    isDashing = false;
+    isAttacking = false;
+    isTakingDamage = false;
+
+    rb.linearVelocity = Vector2.zero;
+    spriteRenderer.color = originalColor;
+
+    animator.SetBool("IsDashing", false);
+    animator.SetBool("Move", false);
+    animator.SetTrigger("Die");
+
+    Debug.Log("[Player] ▶ 사망 처리 완료");
+
+    // 게임 오버 연출 및 씬 전환
+    InGameUIManager.Instance?.ShowGameOverAndReturnToTitle(2.5f); // 2.5초 뒤 Title로
+
+    StartCoroutine(RemoveAfterDeath());
+}
+
+    private IEnumerator RemoveAfterDeath()
     {
-        Debug.Log("[Player] 사망 처리");
+        yield return new WaitForSeconds(1.5f); // 애니메이션 길이만큼
+        gameObject.SetActive(false); // 또는 Destroy(gameObject);
     }
 
-    public int GetCurrentHp() => currentHp;
-    public int GetMaxHp() => characterStats.maxHp;
-
-    private void OnDrawGizmosSelected()
+    private void ShowSystemMessage(string message)
     {
-        if (attackCheck == null) return;
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(attackCheck.position, characterStats.attackRange);
+        systemMessage = message;
+        systemMessageTimer = systemMessageDuration;
     }
+
+    private void OnGUI()
+    {
+        if (systemMessageTimer > 0f)
+        {
+            systemMessageTimer -= Time.deltaTime;
+
+            GUIStyle style = new GUIStyle(GUI.skin.label);
+            style.fontSize = 32;
+            style.normal.textColor = Color.yellow;
+            style.alignment = TextAnchor.UpperCenter;
+
+            Rect rect = new Rect(0, 20, Screen.width, 50);
+            GUI.Label(rect, systemMessage, style);
+        }
+    }
+        
 }
