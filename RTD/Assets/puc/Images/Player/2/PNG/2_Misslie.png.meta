@@ -8,6 +8,21 @@ TextureImporter:
   - first:
       213: -1257948929883365220
     second: 2_Misslie_1
+  - first:
+      213: 4525600548697967113
+    second: 2_Misslie_2
+  - first:
+      213: -1630684441316437948
+    second: 2_Misslie_3
+  - first:
+      213: -3965984234577109562
+    second: 2_Misslie_4
+  - first:
+      213: 2754406027281695086
+    second: 2_Misslie_5
+  - first:
+      213: -8776234822703183826
+    second: 2_Misslie_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -146,7 +161,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 16
+        y: 96
         width: 16
         height: 16
       alignment: 0
@@ -168,7 +183,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -185,11 +200,121 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: 2_Misslie_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a847ca8b92ece30800000000000000
+      internalID: 4525600548697967113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_Misslie_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 440d39ee325ae59e0800000000000000
+      internalID: -1630684441316437948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_Misslie_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cd5b31f95ef5f8c0800000000000000
+      internalID: -3965984234577109562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_Misslie_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e61025730bd993620800000000000000
+      internalID: 2754406027281695086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_Misslie_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e280d5f5dec843680800000000000000
+      internalID: -8776234822703183826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: d842c0405236b154588f0fdb44b35925
+    spriteID: 67a59e1119daf1346a7879c3a4bb2e0c
     internalID: 0
     vertices: []
     indices: 
@@ -201,6 +326,11 @@ TextureImporter:
     nameFileIdTable:
       2_Misslie_0: -254557755078381134
       2_Misslie_1: -1257948929883365220
+      2_Misslie_2: 4525600548697967113
+      2_Misslie_3: -1630684441316437948
+      2_Misslie_4: -3965984234577109562
+      2_Misslie_5: 2754406027281695086
+      2_Misslie_6: -8776234822703183826
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

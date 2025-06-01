@@ -23,7 +23,7 @@ MonoBehaviour:
   defense: 3
   hitStunTime: 0.4
   furySkillIcon: {fileID: 6529246876035109974, guid: 6c1ed9f081b7e3647bcf7ea0eab0c72d, type: 3}
-  furyGainPerHit: 0
+  furyGainPerHit: 8
   furyMax: 100
   comboCooldown: 0
   comboMultipliers:

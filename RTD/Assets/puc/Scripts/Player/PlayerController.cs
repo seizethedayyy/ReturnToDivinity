@@ -2,14 +2,21 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using System.Collections;
 using TMPro;
+using System.Reflection;
 
 [RequireComponent(typeof(Animator))]
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(SpriteRenderer))]
+
 public class PlayerController : MonoBehaviour
 {
-    [Header("디버그 메시지 UI")]
-    [SerializeField] private TextMeshProUGUI systemMessageText;
+    public enum CharacterType { Knight, Castle }
+    [SerializeField] private CharacterType characterType;
+
+    [SerializeField] private GameObject missileObject;
+    [SerializeField] private Transform firePos;
+
+    [Header("디버그 메시지 UI")]    
     [SerializeField] private float messageDuration = 2f;
 
     private Coroutine messageCoroutine;
@@ -36,8 +43,8 @@ public class PlayerController : MonoBehaviour
     [Header("스탯 데이터")]
     [SerializeField] private CharacterStats characterStats;
 
-    private int currentHp;
-    private float currentFury = 0f;
+    [SerializeField] private int currentHp;
+    [SerializeField] private float currentFury = 0f;
 
     private bool isDead = false;
 
@@ -106,6 +113,11 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            OnFurySkillEnd();
+        }
+
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             isInvulnerable = !isInvulnerable;
@@ -181,6 +193,30 @@ public class PlayerController : MonoBehaviour
             queuedAttackTimer -= Time.deltaTime;
             if (!queuedAttack && queuedAttackTimer > 0f) queuedAttack = true;
         }
+
+        if (Input.GetMouseButtonDown(1))
+        {
+            if (isFurySkillTriggered) return;
+
+            int step = Mathf.FloorToInt(currentFury / characterStats.furyMax); // 1~3
+            if (step >= 1)
+            {
+                isFurySkillTriggered = true;
+                animator.SetTrigger("UseFury");
+
+                // 애니메이션이 끝날 시간만큼 딜레이 후 FuryGauge 초기화
+                StartCoroutine(FurySkillDelay(1.0f)); // 길이는 애니메이션 클립 길이에 맞춰 조정
+            }
+        }
+    }
+
+    private IEnumerator FurySkillDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+
+        isFurySkillTriggered = false;
+        currentFury = 0f;
+        InGameUIManager.Instance?.UpdateFuryGauge(0f);
     }
 
     private IEnumerator DashLoop()
@@ -220,11 +256,19 @@ public class PlayerController : MonoBehaviour
 
     private void LateUpdate()
     {
-        if (attackCheck != null)
+        if (characterType == CharacterType.Knight && attackCheck != null)
         {
             float direction = spriteRenderer.flipX ? -1f : 1f;
             Vector3 offset = new Vector3(attackOffsetX * direction, attackOffsetY, 0f);
             attackCheck.localPosition = offset;
+        }
+
+        if (firePos != null)
+        {
+            // Flip 방향에 따라 위치와 회전 조정
+            Vector3 fireScale = firePos.localScale;
+            fireScale.x = spriteRenderer.flipX ? -Mathf.Abs(fireScale.x) : Mathf.Abs(fireScale.x);
+            firePos.localScale = fireScale;
         }
     }
 
@@ -244,22 +288,11 @@ public class PlayerController : MonoBehaviour
         };
 
         InGameUIManager.Instance?.UpdateComboSlot(comboStep);
-
         isAttacking = true;
 
-        string animName = comboStep switch
-        {
-            1 => "Attack1",
-            2 => "Attack2",
-            3 => "Attack3",
-            4 => "Attack4",
-            _ => "Attack1"
-        };
-
+        string animName = characterType == CharacterType.Castle ? "Shoot" : $"Attack{comboStep}";
         if (animator.HasState(0, Animator.StringToHash(animName)))
-        {
             animator.Play(animName, 0);
-        }
 
         if (!hasPlayedSfx)
         {
@@ -267,8 +300,77 @@ public class PlayerController : MonoBehaviour
             hasPlayedSfx = true;
         }
 
-        Invoke(nameof(EndAttack), characterStats.attackSpeed > 0 ? 1f / characterStats.attackSpeed : 0.6f);
+        if (characterType == CharacterType.Castle)
+        {
+            animator.SetBool("IsAttacking", true);
+
+            // 미사일 발사를 약간 지연 (애니메이션에 맞게 설정)
+            float delay = characterStats.attackSpeed > 0 ? 1f / characterStats.attackSpeed : 0.6f;
+            StartCoroutine(DelayedShootAndEnd(delay));
+        }
+        else
+        {
+            // Knight는 항상 경직
+            Invoke(nameof(EndAttack), characterStats.attackSpeed > 0 ? 1f / characterStats.attackSpeed : 0.6f);
+        }
     }
+
+    private IEnumerator DelayEndAttackAfter(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        EndAttack();
+    }
+
+    private IEnumerator DelayedShootAndEnd(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+
+        ShootMissile();
+
+        if (comboStep < 4)
+        {
+            EndAttack(); // 즉시 이동 가능
+        }
+        else
+        {
+            // 4타는 경직 필요 → 약간 더 지연 주거나 현재 상태 유지
+            yield return new WaitForSeconds(0.2f);
+            EndAttack();
+        }
+    }
+
+    private void ShootMissile()
+    {
+        if (missileObject == null || firePos == null) return;
+
+        missileObject.transform.position = firePos.position;
+
+        // 방향 설정
+        Vector2 dir = spriteRenderer.flipX ? Vector2.left : Vector2.right;
+
+        // Missile 스크립트 초기화
+        Missile missile = missileObject.GetComponent<Missile>();
+        missile.Init(dir, GetMissileDamage());
+
+        // Flip 방향에 따라 좌우 반전 (Sprite 기준)
+        SpriteRenderer missileRenderer = missileObject.GetComponent<SpriteRenderer>();
+        if (missileRenderer != null)
+            missileRenderer.flipX = spriteRenderer.flipX;
+
+        missileObject.SetActive(true);
+    }
+
+    private int GetMissileDamage()
+    {
+        float gaugePercent = currentFury / characterStats.furyMax;
+
+        if (gaugePercent >= 3f)
+            return (int)(characterStats.attackDamage * 3f);
+        if (gaugePercent >= 2f)
+            return (int)(characterStats.attackDamage * 2f);
+        return (int)characterStats.attackDamage;
+    }
+
 
     public void EndAttack()
     {
@@ -301,6 +403,14 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
+            // ❗ Castle일 경우 comboStep을 유지 (단, comboTimer는 유지)
+            if (characterType == CharacterType.Castle && comboStep < 4)
+            {
+                // 다음 공격 대기 상태로 유지
+                return;
+            }
+
+            // 그 외에는 초기화
             comboTimer = 0f;
             comboStep = 0;
             InGameUIManager.Instance?.ResetComboSlot();
@@ -336,7 +446,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void GainFury()
+    public void GainFury()
     {
         currentFury += characterStats.furyGainPerHit;
         currentFury = Mathf.Clamp(currentFury, 0f, characterStats.furyMax);
@@ -347,9 +457,20 @@ public class PlayerController : MonoBehaviour
 
     public void OnFurySkillEnd()
     {
+        Debug.Log("[검증] ▶ OnFurySkillEnd() 진입 / currentFury(before) = " + currentFury);
         isFurySkillTriggered = false;
         currentFury = 0f;
-        InGameUIManager.Instance?.UpdateFuryGauge(0f);
+        Debug.Log("[검증] ▶ OnFurySkillEnd() 종료 후 currentFury = " + currentFury);
+
+        if (InGameUIManager.Instance != null)
+        {
+            Debug.Log("[검증] ▶ UIManager.UpdateFuryGauge(0) 호출");
+            InGameUIManager.Instance.UpdateFuryGauge(0f);
+        }
+        else
+        {
+            Debug.LogWarning("[검증] ▶ InGameUIManager.Instance == null");
+        }
     }
 
     public void TakeDamage(int damage)
