@@ -38,4 +38,6 @@ public class CharacterStats : ScriptableObject
     [Header("Castle Àü¿ë")]
     public bool useHitGauge;
     public float hitGaugePerHit;
+
+    public float hitFlashDuration { get; internal set; }
 }

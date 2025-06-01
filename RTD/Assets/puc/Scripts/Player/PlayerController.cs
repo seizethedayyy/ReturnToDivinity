@@ -7,6 +7,17 @@ using System.Collections;
 [RequireComponent(typeof(SpriteRenderer))]
 public class PlayerController : MonoBehaviour
 {
+    [Header("Dash Settings")]
+    [Tooltip("대시 지속 시간")]
+    public float dashDuration = 0.2f;
+    [Tooltip("대시 쿨다운")]
+    public float dashCooldown = 1.0f;
+
+    private bool isDashing;
+    private bool isInvulnerable;
+    private float nextDashTime;
+    private float dashEndTime;
+
     private Animator animator;
     private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
@@ -49,14 +60,13 @@ public class PlayerController : MonoBehaviour
 
     private void Awake()
     {
-        animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
+        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        originalColor = spriteRenderer.color;
 
         currentHp = characterStats.maxHp;
-        originalColor = spriteRenderer.color;
         if (originalColor.a < 1f) originalColor.a = 1f;
-
         enemyLayer = LayerMask.GetMask("Enemy");
     }
 
@@ -81,24 +91,25 @@ public class PlayerController : MonoBehaviour
         InGameUIManager.Instance.UpdateHpUI(currentHp, characterStats.maxHp);
     }
 
-    void ForceColliderWake()
-    {
-        rb.WakeUp();
-        rb.linearVelocity = Vector2.zero;
-    }
-
     private void Update()
     {
-        if (Input.GetMouseButtonDown(1) &&
-            currentFury >= characterStats.furyMax &&
-            !isFurySkillTriggered)
+        if (!isDashing && Input.GetKeyDown(KeyCode.LeftShift) && Time.time >= nextDashTime)
         {
-            Debug.Log("[PlayerController] ▶ Fury 스킬 우클릭 사용, 애니메이션 트리거");  // Update() 안
-            animator.SetTrigger("UseFury");                                             // Animator에 등록된 Trigger
-            isFurySkillTriggered = true;
+            isDashing = true;
+            isInvulnerable = true;
+            nextDashTime = Time.time + dashCooldown;
+            dashEndTime = Time.time + dashDuration;
+            animator.SetBool("IsDashing", true);
+            spriteRenderer.color = new Color(originalColor.r, originalColor.g, originalColor.b, 0.5f);
+            StartCoroutine(DashLoop());
         }
 
-        if (isTakingDamage) return;
+        if (isDashing && (!Input.GetKey(KeyCode.LeftShift) || Time.time >= dashEndTime))
+        {
+            EndDash();
+        }
+
+        if (isDashing || isTakingDamage) return;
 
         moveInput.x = Input.GetAxisRaw("Horizontal");
         moveInput.y = Input.GetAxisRaw("Vertical");
@@ -124,18 +135,13 @@ public class PlayerController : MonoBehaviour
         {
             if (isComboCooldown) return;
 
-            if (EventSystem.current != null && EventSystem.current.IsPointerOverGameObject())
-                return;
+            if (EventSystem.current != null && EventSystem.current.IsPointerOverGameObject()) return;
 
             Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             Collider2D hit = Physics2D.OverlapPoint(mousePos);
-            if (hit != null && hit.CompareTag("NPC"))
-                return;
+            if (hit != null && hit.CompareTag("NPC")) return;
 
-            if (!isAttacking)
-            {
-                StartAttack();
-            }
+            if (!isAttacking) StartAttack();
             else if (!hasQueuedThisPhase)
             {
                 queuedAttackTimer = inputBufferTime;
@@ -146,18 +152,35 @@ public class PlayerController : MonoBehaviour
         if (queuedAttackTimer > 0f)
         {
             queuedAttackTimer -= Time.deltaTime;
-            if (!queuedAttack && queuedAttackTimer > 0f)
-            {
-                queuedAttack = true;
-            }
+            if (!queuedAttack && queuedAttackTimer > 0f) queuedAttack = true;
         }
+    }
+
+    private IEnumerator DashLoop()
+    {
+        float dashSpeed = characterStats.moveSpeed * 4f;
+        Vector2 dashDir = moveInput == Vector2.zero ? (spriteRenderer.flipX ? Vector2.left : Vector2.right) : moveInput.normalized;
+
+        while (isDashing)
+        {
+            rb.linearVelocity = dashDir * dashSpeed;
+            yield return null;
+        }
+    }
+
+    private void EndDash()
+    {
+        isDashing = false;
+        isInvulnerable = false;
+        rb.linearVelocity = Vector2.zero;
+        spriteRenderer.color = originalColor;
+        animator.SetBool("IsDashing", false);
     }
 
     private void FixedUpdate()
     {
-        if (isTakingDamage)
+        if (isTakingDamage || isDashing)
         {
-            rb.linearVelocity = Vector2.zero;
             return;
         }
 
@@ -165,10 +188,6 @@ public class PlayerController : MonoBehaviour
         {
             Vector2 moveDelta = moveInput.normalized * characterStats.moveSpeed * Time.fixedDeltaTime;
             rb.MovePosition(rb.position + moveDelta);
-        }
-        else
-        {
-            rb.linearVelocity = Vector2.zero;
         }
     }
 
@@ -197,7 +216,6 @@ public class PlayerController : MonoBehaviour
             _ => 1
         };
 
-        // ✅ 콤보 슬롯 점등
         InGameUIManager.Instance?.UpdateComboSlot(comboStep);
 
         isAttacking = true;
@@ -234,7 +252,6 @@ public class PlayerController : MonoBehaviour
 
         bool isMoving = moveInput != Vector2.zero;
         animator.SetBool("Move", isMoving);
-                
 
         if (comboStep >= 4)
         {
@@ -243,7 +260,7 @@ public class PlayerController : MonoBehaviour
             queuedAttackTimer = 0f;
             comboTimer = 0f;
 
-            InGameUIManager.Instance?.ResetComboSlot(); // ✅ 콤보 종료 시 초기화
+            InGameUIManager.Instance?.ResetComboSlot();
             StartCoroutine(ComboCooldownCoroutine());
             return;
         }
@@ -259,27 +276,8 @@ public class PlayerController : MonoBehaviour
         {
             comboTimer = 0f;
             comboStep = 0;
-
-            InGameUIManager.Instance?.ResetComboSlot(); // ✅ 콤보 종료 시 초기화
+            InGameUIManager.Instance?.ResetComboSlot();
         }
-    }
-
-    private void GainFury()
-    {
-        currentFury += characterStats.furyGainPerHit;
-        currentFury = Mathf.Clamp(currentFury, 0f, characterStats.furyMax);
-
-        float percent = currentFury / characterStats.furyMax;
-        InGameUIManager.Instance?.UpdateFuryGauge(percent);
-        
-    }
-
-    public void OnFurySkillEnd()
-    {
-        // 재사용을 위해 플래그와 게이지 리셋
-        isFurySkillTriggered = false;
-        currentFury = 0f;
-        InGameUIManager.Instance?.UpdateFuryGauge(0f);
     }
 
     private IEnumerator ComboCooldownCoroutine()
@@ -294,7 +292,6 @@ public class PlayerController : MonoBehaviour
         if (attackCheck == null) return;
 
         Collider2D[] enemies = Physics2D.OverlapCircleAll(attackCheck.position, characterStats.attackRange, enemyLayer);
-
         bool didHit = false;
 
         foreach (Collider2D col in enemies)
@@ -302,7 +299,7 @@ public class PlayerController : MonoBehaviour
             if (col.CompareTag("Enemy") && col.TryGetComponent(out EnemyController enemy))
             {
                 enemy.OnHit((int)characterStats.attackDamage);
-                didHit = true; 
+                didHit = true;
             }
         }
 
@@ -312,17 +309,35 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    private void GainFury()
+    {
+        currentFury += characterStats.furyGainPerHit;
+        currentFury = Mathf.Clamp(currentFury, 0f, characterStats.furyMax);
+
+        float percent = currentFury / characterStats.furyMax;
+        InGameUIManager.Instance?.UpdateFuryGauge(percent);
+    }
+
+    public void OnFurySkillEnd()
+    {
+        isFurySkillTriggered = false;
+        currentFury = 0f;
+        InGameUIManager.Instance?.UpdateFuryGauge(0f);
+    }
+
     public void TakeDamage(int damage)
     {
-        Debug.Log($"[Player] ▶ TakeDamage 실행, damage={damage}");       // ← 이 줄 추가
+        if (isInvulnerable) return;
+
+        Debug.Log($"[Player] ▶ TakeDamage 실행, damage={damage}");
         animator.SetTrigger("IsHit");
-        Debug.Log("[Player] ▶ animator.SetTrigger(\"IsHit\") 호출됨");  // ← 이 줄 추가
+        Debug.Log("[Player] ▶ animator.SetTrigger(\"IsHit\") 호출됨");
 
         currentHp -= damage;
         currentHp = Mathf.Clamp(currentHp, 0, characterStats.maxHp);
         InGameUIManager.Instance?.UpdateHpUI(currentHp, characterStats.maxHp);
 
-        PrepareHitEffect(); // ✅ 피격 모션 추가
+        PrepareHitEffect();
 
         if (currentHp <= 0)
         {
@@ -334,14 +349,12 @@ public class PlayerController : MonoBehaviour
     {
         animator.SetTrigger("IsHit");
 
-        if (flashCoroutine != null)
-            StopCoroutine(flashCoroutine);
+        if (flashCoroutine != null) StopCoroutine(flashCoroutine);
         flashCoroutine = StartCoroutine(FlashRed());
 
         isTakingDamage = true;
 
-        if (hitCoroutine != null)
-            StopCoroutine(hitCoroutine);
+        if (hitCoroutine != null) StopCoroutine(hitCoroutine);
         hitCoroutine = StartCoroutine(EndHitAfter(characterStats.hitStunTime));
     }
 
