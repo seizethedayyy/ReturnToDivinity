@@ -11,6 +11,8 @@ public class SceneLoadData : MonoBehaviour
     [Header("VillageScene이 게임 시작으로부터 진입했는지 여부")]
     public bool EnteredFromGameStart = false;
 
+    public static string nextSceneName { get; internal set; }
+
     private void Awake()
     {
         if (Instance == null)

@@ -200,7 +200,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d673d489acd5cd14ba1649a7f515c736, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  messageDuration: 2
+  dashDuration: 0.2
+  dashCooldown: 1
   characterStats: {fileID: 11400000, guid: 8e11d08975a99734790300ef1b7e8306, type: 2}
+  currentHp: 0
+  currentFury: 0
   attackCheck: {fileID: 3281155454924268501}
   attackOffsetX: 1
   attackOffsetY: 0
