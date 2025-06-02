@@ -1,23 +1,35 @@
-// -------------------------------------------------------
-// 파일 경로: Assets/puc/Scripts/Player/PlayerController.cs
-// -------------------------------------------------------
-
 using UnityEngine;
 using UnityEngine.EventSystems;
 using System.Collections;
 using TMPro;
-using GameData;  // PlayerData를 참조하기 위해 네임스페이스 추가
+using Newtonsoft.Json;
+using GameData;  // PlayerData 네임스페이스
+using Player.States;  // 상태 클래스 네임스페이스
 
 [RequireComponent(typeof(Animator))]
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(SpriteRenderer))]
 public class PlayerController : MonoBehaviour
 {
+    // -------------------------------------------------------
+    // ① FSM 상태 인스턴스 레퍼런스
+    // -------------------------------------------------------
+    private PlayerBaseState currentState;
+    [HideInInspector] public PlayerIdleState IdleState;
+    [HideInInspector] public PlayerMoveState MoveState;
+    [HideInInspector] public PlayerAttackState AttackState;
+    [HideInInspector] public PlayerDashState DashState;
+    [HideInInspector] public PlayerHitState HitState;
+    [HideInInspector] public PlayerDeadState DeadState;
+
+    // -------------------------------------------------------
+    // ② 인스펙터 노출 변수들 (기존 그대로 유지)
+    // -------------------------------------------------------
     public enum CharacterType { Knight, Castle }
     [SerializeField] private CharacterType characterType;
 
     [Header("Player Data (Inspector에 ID 입력)")]
-    [SerializeField] private string playerId; // 인스펙터에서 JSON ID(예: "knight_01")를 직접 입력
+    [SerializeField] private string playerId; // JSON ID
 
     [SerializeField] private GameObject missileObject;
     [SerializeField] private Transform firePos;
@@ -25,25 +37,13 @@ public class PlayerController : MonoBehaviour
     [Header("디버그 메시지 UI")]
     [SerializeField] private float messageDuration = 2f;
 
-    private Coroutine messageCoroutine;
-    private string systemMessage = "";
-    private float systemMessageTimer = 0f;
-    private readonly float systemMessageDuration = 2f;
-
     [Header("Dash Settings")]
     [Tooltip("대시 지속 시간")]
-    public float dashDuration = 0.2f;
+    public float DashDuration = 0.2f;
     [Tooltip("대시 쿨다운")]
-    public float dashCooldown = 1.0f;
-
-    private bool isDashing;
-    private bool isInvulnerable;
-    private float nextDashTime;
-    private float dashEndTime;
-
-    private Animator animator;
-    private Rigidbody2D rb;
-    private SpriteRenderer spriteRenderer;
+    public float DashCooldown = 1.0f;
+    [Tooltip("대시 속도")]
+    public float DashSpeed = 10f;
 
     [Header("변동 데이터")]
     [SerializeField] private int currentLevel;
@@ -52,19 +52,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float currentFury = 0f;
 
     [Header("스탯 데이터")]
-    [SerializeField]
-    private PlayerData playerData;  // 인스펙터에 노출. GameData.PlayerData 타입
+    [SerializeField] private PlayerData playerData;  // JSON으로 로드된 데이터
 
-    private bool isDead = false;
-
-    private Vector2 moveInput;
-    private bool isAttacking = false;
-    private bool isTakingDamage = false;
-    private bool hasPlayedSfx = false;
-
-    private Coroutine flashCoroutine;
-    private Coroutine hitCoroutine;
-    private Color originalColor;
+    // **① 수정**: 외부 상태 클래스에서 읽기 전용으로 접근할 수 있도록 프로퍼티 추가
+    public PlayerData PlayerData => playerData;
 
     [Header("공격 판정")]
     [SerializeField] private Transform attackCheck;
@@ -73,28 +64,114 @@ public class PlayerController : MonoBehaviour
     public LayerMask enemyLayer;
 
     public float knockbackForce = 5f;
-    public float hitFlashDuration = 0.1f;
+    public float HitFlashDuration = 0.1f;
 
-    private bool isComboCooldown = false;
-    private int comboStep = 0;
-    private float comboTimer = 0f;
-    public float comboDelay = 1.0f;
+    public float ComboDelay = 1.0f;
+    public float ComboInputBufferTime = 0.3f;
 
-    private bool hasQueuedThisPhase = false;
-    private bool isFurySkillTriggered = false;
-    private bool queuedAttack = false;
-    private float queuedAttackTimer = 0f;
-    public float inputBufferTime = 0.3f;
+    // -------------------------------------------------------
+    // ③ 내부 제어용 변수들 (기존 로직 그대로)
+    // -------------------------------------------------------
+    private Coroutine messageCoroutine;
+    private string systemMessage = "";
+    private float systemMessageTimer = 0f;
 
-    // Awake()에서는 아직 LoadedPlayerData가 준비되지 않았을 수 있으므로, 코루틴으로 대기합니다.
+    [HideInInspector] public bool IsDashing = false;
+    [HideInInspector] public bool IsInvulnerable = false;
+    [HideInInspector] public float NextDashTime;
+    [HideInInspector] public float DashEndTime;
+
+    [HideInInspector] public Animator Animator;
+    [HideInInspector] public Rigidbody2D Rigidbody2D;
+    [HideInInspector] public SpriteRenderer SpriteRenderer;
+
+    [HideInInspector] public bool IsDead = false;
+    [HideInInspector] public bool IsTakingDamage = false;
+
+    [HideInInspector] public Vector2 MoveInput;
+    [HideInInspector] public bool IsAttacking = false;
+    [HideInInspector] public bool HasPlayedSfx = false;
+
+    [HideInInspector] public Coroutine FlashCoroutine;
+    [HideInInspector] public Coroutine HitCoroutine;
+    [HideInInspector] public Color OriginalColor;
+
+    [HideInInspector] public bool IsComboCooldown = false;
+    [HideInInspector] public int ComboStep = 0;
+    [HideInInspector] public float ComboTimer = 0f;
+
+    [HideInInspector] public bool HasQueuedThisPhase = false;
+    [HideInInspector] public bool IsFurySkillTriggered = false;
+    [HideInInspector] public bool QueuedAttack = false;
+    [HideInInspector] public float QueuedAttackTimer = 0f;
+
+    // ==================================================
+    // ④ 외부 상태(State) 클래스가 참조할 public 프로퍼티/필드들
+    // ==================================================
+
+    // 1) 캐릭터 타입: 상태 클래스에서 controller.CurrentCharacterType 으로 읽어올 수 있도록
+    public CharacterType CurrentCharacterType => characterType;
+
+    // 2) PlayerData: 상태 클래스에서 controller.Data(hitStunTime 등)를 읽기 위해
+    public PlayerData Data => playerData;
+
+    // 3) MissileObject, FirePos: 상태 클래스에서 “미사일 발사” 시 사용
+    public GameObject MissileObject => missileObject;
+    public Transform FirePos => firePos;
+
+    // 4) CurrentFury: 상태 클래스에서 “미사일 데미지 계산” 시 사용
+    public float CurrentFuryAmount => currentFury;
+
+    // =======================================================
+    // ④ Awake(): 데이터 로드 및 상태 인스턴스 생성
+    // =======================================================
     private void Awake()
     {
+        // (1) JSON 로드 대기 코루틴 실행
         StartCoroutine(InitializeAfterDataLoaded());
+
+        // (2) 컴포넌트 참조
+        Rigidbody2D = GetComponent<Rigidbody2D>();
+        Animator = GetComponent<Animator>();
+        SpriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        OriginalColor = SpriteRenderer.color;
+        if (OriginalColor.a < 1f) OriginalColor.a = 1f;
+
+        // (3) 상태 인스턴스 생성 (각 상태 클래스에 this 전달)
+        IdleState = new PlayerIdleState(this);
+        MoveState = new PlayerMoveState(this);
+        AttackState = new PlayerAttackState(this);
+        DashState = new PlayerDashState(this);
+        HitState = new PlayerHitState(this);
+        DeadState = new PlayerDeadState(this);
+
+        // (4) 초기 상태: Idle
+        currentState = IdleState;
+    }
+
+    public void StartAttack()
+    {
+        // Debug.Log("[PlayerController] AnimationEvent StartAttack() 호출됨");
+        DoAttack();
+    }
+
+    public void Dash()
+    {
+        // Debug.Log("[PlayerController] AnimationEvent Dash() 호출됨");
+        // 기존 Anim Event 방식이 아니라, Update에서 직접 SetState(DashState)를 호출하므로
+        // 이 메서드는 주석 처리해도 됩니다.
+        // SetState(DashState);
+    }
+
+    public void OnDashEnd()
+    {
+        // Anim Event로 호출되던 부분을 사용하지 않습니다.
+        // bool isMovingNow = MoveInput != Vector2.zero;
+        // SetState(isMovingNow ? MoveState : IdleState);
     }
 
     /// <summary>
-    /// PlayerDataLoader가 JSON을 모두 불러올 때까지 최대 5초간 대기 후,
-    /// playerData를 가져와 변동 데이터를 초기화합니다.
+    /// JSON 데이터를 최대 5초간 대기 후 가져오는 코루틴
     /// </summary>
     private IEnumerator InitializeAfterDataLoaded()
     {
@@ -104,7 +181,7 @@ public class PlayerController : MonoBehaviour
             yield break;
         }
 
-        // 최대 5초 동안 LoadedPlayerData가 준비되길 대기
+        // 최대 5초 동안 JSON 로드 대기
         float timeout = 5f;
         while (PlayerDataLoader.LoadedPlayerData == null && timeout > 0f)
         {
@@ -118,7 +195,7 @@ public class PlayerController : MonoBehaviour
             yield break;
         }
 
-        // 이제 JSON이 파싱되어 LoadedPlayerData에 값이 들어 있음
+        // JSON에서 playerData 가져오기
         playerData = PlayerDataLoader.GetPlayerDataById(playerId);
         if (playerData == null)
         {
@@ -126,20 +203,12 @@ public class PlayerController : MonoBehaviour
             yield break;
         }
 
-        // 변동 데이터 초기화
         currentHp = playerData.maxHp;
         currentLevel = playerData.level;
         currentExp = playerData.exp;
         currentFury = 0f;
         Debug.Log($"[PlayerController] playerData 로드 성공: ID={playerId}, level={playerData.level}, maxHp={playerData.maxHp}");
 
-        // 컴포넌트 참조
-        rb = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
-        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
-        originalColor = spriteRenderer.color;
-
-        if (originalColor.a < 1f) originalColor.a = 1f;
         enemyLayer = LayerMask.GetMask("Enemy");
     }
 
@@ -161,15 +230,23 @@ public class PlayerController : MonoBehaviour
             InGameUIManager.Instance.UpdateHpUI(currentHp, playerData.maxHp);
     }
 
+    // =======================================================
+    // ⑤ Update(): 상태 실행 및 입력 처리
+    // =======================================================
     private void Update()
     {
+        // (1) Dead 상태면 입력을 완전히 무시
+        if (currentState == DeadState)
+            return;
+
+        // (2) 디버그용 키 입력 (기존 로직 유지)
         if (Input.GetKeyDown(KeyCode.Alpha3))
             OnFurySkillEnd();
 
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            isInvulnerable = !isInvulnerable;
-            ShowSystemMessage($"무적 : {(isInvulnerable ? "On" : "Off")}");
+            IsInvulnerable = !IsInvulnerable;
+            ShowSystemMessage($"무적 : {(IsInvulnerable ? "On" : "Off")}");
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha2))
@@ -179,149 +256,86 @@ public class PlayerController : MonoBehaviour
             ShowSystemMessage("즉시 사망 발동");
         }
 
-        if (isDead) return;
+        // (3) 현재 상태의 Execute() 호출
+        currentState.Execute();
 
-        // 대시 시작
-        if (!isDashing && Input.GetKeyDown(KeyCode.LeftShift) && Time.time >= nextDashTime)
+        // (4) 좌클릭 공격 입력 (Idle/Move 상태에서만)
+        if (Input.GetMouseButtonDown(0) &&
+            (currentState == IdleState || currentState == MoveState))
         {
-            isDashing = true;
-            isInvulnerable = true;
-            nextDashTime = Time.time + dashCooldown;
-            dashEndTime = Time.time + dashDuration;
-            animator.SetBool("IsDashing", true);
-            spriteRenderer.color = new Color(originalColor.r, originalColor.g, originalColor.b, 0.5f);
-            StartCoroutine(DashLoop());
-        }
-        // 대시 종료
-        if (isDashing && (!Input.GetKey(KeyCode.LeftShift) || Time.time >= dashEndTime))
-        {
-            EndDash();
-        }
-
-        if (isDashing || isTakingDamage) return;
-
-        // 이동 입력
-        moveInput.x = Input.GetAxisRaw("Horizontal");
-        moveInput.y = Input.GetAxisRaw("Vertical");
-
-        bool isMoving = (moveInput != Vector2.zero);
-        animator.SetBool("Move", isMoving && !isAttacking);
-
-        if (moveInput.x != 0)
-            spriteRenderer.flipX = (moveInput.x < 0);
-
-        // 콤보 타이머
-        if (comboStep > 0)
-        {
-            comboTimer += Time.deltaTime;
-            if (comboTimer > comboDelay && !isAttacking)
-            {
-                comboStep = 0;
-                comboTimer = 0f;
-                InGameUIManager.Instance?.ResetComboSlot();
-            }
-        }
-
-        // 마우스 왼쪽 클릭: 공격 시작 or 큐잉
-        if (Input.GetMouseButtonDown(0))
-        {
-            if (isComboCooldown) return;
+            if (IsComboCooldown) return;
             if (EventSystem.current != null && EventSystem.current.IsPointerOverGameObject()) return;
 
             Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             Collider2D hit = Physics2D.OverlapPoint(mousePos);
             if (hit != null && hit.CompareTag("NPC")) return;
 
-            if (!isAttacking)
-                StartAttack();
-            else if (!hasQueuedThisPhase)
-            {
-                queuedAttackTimer = inputBufferTime;
-                hasQueuedThisPhase = true;
-            }
+            SetState(AttackState);
         }
 
-        if (queuedAttackTimer > 0f)
+        // (5) 우클릭 Fury 스킬 입력 (Idle/Move 상태에서만)
+        if (Input.GetMouseButtonDown(1) &&
+            (currentState == IdleState || currentState == MoveState))
         {
-            queuedAttackTimer -= Time.deltaTime;
-            if (!queuedAttack && queuedAttackTimer > 0f)
-                queuedAttack = true;
-        }
-
-        // 마우스 오른쪽 클릭: Fury 스킬 사용
-        if (Input.GetMouseButtonDown(1))
-        {
-            if (isFurySkillTriggered || playerData == null) return;
+            if (IsFurySkillTriggered || playerData == null) return;
             int step = Mathf.FloorToInt(currentFury / playerData.furyMax);
             if (step >= 1)
             {
-                isFurySkillTriggered = true;
-                animator.SetTrigger("UseFury");
+                IsFurySkillTriggered = true;
+                Animator.SetTrigger("UseFury");
                 StartCoroutine(FurySkillDelay(1.0f));
+            }
+        }
+
+        // (6) Dash 입력 처리 (Left Shift 키를 누를 때, Idle/Move 상태에서만)
+        if (Input.GetKeyDown(KeyCode.LeftShift) && (currentState == IdleState || currentState == MoveState))
+            SetState(DashState);
+        {
+            if (Time.time >= NextDashTime)
+            {
+                SetState(DashState);
             }
         }
     }
 
-    private IEnumerator FurySkillDelay(float delay)
-    {
-        yield return new WaitForSeconds(delay);
-
-        isFurySkillTriggered = false;
-        currentFury = 0f;
-        InGameUIManager.Instance?.UpdateFuryGauge(0f);
-    }
-
-    private IEnumerator DashLoop()
-    {
-        if (playerData == null) yield break;
-
-        float dashSpeed = playerData.moveSpeed * 4f;
-        Vector2 dashDir = (moveInput == Vector2.zero)
-            ? (spriteRenderer.flipX ? Vector2.left : Vector2.right)
-            : moveInput.normalized;
-
-        while (isDashing)
-        {
-            // Unity6: rb.linearVelocity 사용
-            rb.linearVelocity = dashDir * dashSpeed;
-            yield return null;
-        }
-    }
-
-    private void EndDash()
-    {
-        isDashing = false;
-        isInvulnerable = false;
-        rb.linearVelocity = Vector2.zero;
-        spriteRenderer.color = originalColor;
-        animator.SetBool("IsDashing", false);
-    }
-
+    // =======================================================
+    // ⑥ FixedUpdate(): 물리 이동 (Move 상태에서만)
+    // =======================================================
     private void FixedUpdate()
     {
-        if (isDead || isTakingDamage || isDashing)
+        // 1) Dash 상태면 여기에서 아무것도 하지 않고 바로 반환 → DashLoop()가 velocity를 직접 설정하도록 함
+        if (currentState == DashState)
         {
-            rb.linearVelocity = Vector2.zero;
             return;
         }
 
-        if (playerData != null && !isAttacking)
+        // 2) Hit 상태나 Dead 상태면 이동 속도 0
+        if (currentState == HitState || currentState == DeadState)
         {
-            // Unity6: 이동 시에도 rb.linearVelocity 사용
-            Vector2 velocity = moveInput.normalized * playerData.moveSpeed;
-            rb.linearVelocity = velocity;
+            Rigidbody2D.linearVelocity = Vector2.zero;
+            return;
+        }
+
+        // 3) Move 상태일 때만 속도 세팅
+        if (currentState == MoveState && playerData != null)
+        {
+            Vector2 velocity = MoveInput.normalized * playerData.moveSpeed;
+            Rigidbody2D.linearVelocity = velocity;
         }
         else
         {
-            rb.linearVelocity = Vector2.zero;
+            Rigidbody2D.linearVelocity = Vector2.zero;
         }
     }
 
+    // =======================================================
+    // ⑦ LateUpdate(): 공격 범위 및 발사 위치 유지
+    // =======================================================
     private void LateUpdate()
     {
         if (characterType == CharacterType.Knight && attackCheck != null)
         {
-            float direction = (spriteRenderer.flipX ? -1f : 1f);
+            float direction = (SpriteRenderer.flipX ? -1f : 1f);
             Vector3 offset = new Vector3(attackOffsetX * direction, attackOffsetY, 0f);
             attackCheck.localPosition = offset;
         }
@@ -329,142 +343,109 @@ public class PlayerController : MonoBehaviour
         if (firePos != null)
         {
             Vector3 fireScale = firePos.localScale;
-            fireScale.x = (spriteRenderer.flipX ? -Mathf.Abs(fireScale.x) : Mathf.Abs(fireScale.x));
+            fireScale.x = (SpriteRenderer.flipX ? -Mathf.Abs(fireScale.x) : Mathf.Abs(fireScale.x));
             firePos.localScale = fireScale;
         }
     }
 
-    private void StartAttack()
+    // =======================================================
+    // ⑧ 상태 전이 메서드 (Enter/Exit 호출 포함)
+    // =======================================================
+    public void SetState(PlayerBaseState newState)
     {
-        if (isAttacking) return;
-        CancelInvoke(nameof(EndAttack));
-
-        comboStep = comboStep switch
+        if (currentState == newState)
         {
-            0 => 1,
-            1 when comboTimer <= comboDelay => 2,
-            2 when comboTimer <= comboDelay => 3,
-            3 when comboTimer <= comboDelay => 4,
-            _ => 1
-        };
+            // 1) 현재 상태의 Exit() 호출
+            currentState.Exit();
 
-        InGameUIManager.Instance?.UpdateComboSlot(comboStep);
-        isAttacking = true;
+            // 2) 디버그 로그 (원한다면 상태 이름이 같은 경우에도 찍어 줍니다)
+            Debug.Log($"[PlayerController] Re-enter State: {currentState.StateName}");
 
-        string animName = (characterType == CharacterType.Castle) ? "Shoot" : $"Attack{comboStep}";
-        if (animator.HasState(0, Animator.StringToHash(animName)))
-            animator.Play(animName, 0);
-
-        if (!hasPlayedSfx)
-            AudioManager.Instance?.PlaySfx("attack_sfx");
-        hasPlayedSfx = true;
-
-        if (playerData != null && characterType == CharacterType.Castle)
-        {
-            animator.SetBool("IsAttacking", true);
-            float delay = (playerData.attackSpeed > 0) ? 1f / playerData.attackSpeed : 0.6f;
-            StartCoroutine(DelayedShootAndEnd(delay));
+            // 3) 다시 Enter() 호출
+            currentState.Enter();
+            return;
         }
-        else if (playerData != null)
-        {
-            float delay = (playerData.attackSpeed > 0) ? 1f / playerData.attackSpeed : 0.6f;
-            Invoke(nameof(EndAttack), delay);
-        }
+
+        currentState.Exit();
+        Debug.Log($"[PlayerController] State changed: {currentState.StateName} → {newState.StateName}");
+        currentState = newState;
+        currentState.Enter();
     }
 
-    private IEnumerator DelayedShootAndEnd(float delay)
+    // =======================================================
+    // ⑨ 공격 관련 메서드 (EndAttack, TakeDamage, LevelUp 등)
+    //     – 기존 PlayerController 로직에서 복사·유지
+    // =======================================================
+    public void RestartAttackState()
     {
-        yield return new WaitForSeconds(delay);
-
-        ShootMissile();
-
-        if (comboStep < 4)
-            EndAttack();
+        if (currentState == AttackState)
+        {
+            currentState.Exit();
+            Debug.Log($"[PlayerController] Re-enter AttackState");
+            currentState.Enter();
+        }
         else
         {
-            yield return new WaitForSeconds(0.2f);
-            EndAttack();
+            SetState(AttackState);
         }
-    }
-
-    private void ShootMissile()
-    {
-        if (missileObject == null || firePos == null || playerData == null) return;
-
-        missileObject.transform.position = firePos.position;
-        Vector2 dir = (spriteRenderer.flipX ? Vector2.left : Vector2.right);
-
-        Missile missile = missileObject.GetComponent<Missile>();
-        missile.Init(dir, GetMissileDamage());
-
-        SpriteRenderer missileRend = missileObject.GetComponent<SpriteRenderer>();
-        if (missileRend != null)
-            missileRend.flipX = spriteRenderer.flipX;
-
-        missileObject.SetActive(true);
-    }
-
-    private int GetMissileDamage()
-    {
-        if (playerData == null) return 0;
-
-        float gaugePercent = currentFury / playerData.furyMax;
-        if (gaugePercent >= 3f) return Mathf.FloorToInt(playerData.attackDamage * 3f);
-        if (gaugePercent >= 2f) return Mathf.FloorToInt(playerData.attackDamage * 2f);
-        return Mathf.FloorToInt(playerData.attackDamage);
     }
 
     public void EndAttack()
     {
-        hasQueuedThisPhase = false;
-        isAttacking = false;
-        hasPlayedSfx = false;
-        animator.SetBool("IsAttacking", false);
+        Debug.Log($"[PlayerController] EndAttack() 호출 → ComboStep={ComboStep}, QueuedAttack={QueuedAttack}, MoveInput={MoveInput}");
 
-        bool isMoving = (moveInput != Vector2.zero);
-        animator.SetBool("Move", isMoving);
+        HasQueuedThisPhase = false;
+        IsAttacking = false;
+        HasPlayedSfx = false;
+        Animator.SetBool("IsAttacking", false);
 
-        if (comboStep >= 4)
+        bool isMovingNow = MoveInput != Vector2.zero;
+        Animator.SetBool("Move", isMovingNow);
+
+        if (ComboStep >= 4)
         {
-            comboStep = 0;
-            queuedAttack = false;
-            queuedAttackTimer = 0f;
-            comboTimer = 0f;
+            Debug.Log("[EndAttack] 4콤보 이상, 콤보 리셋");
+            ComboStep = 0;
+            QueuedAttack = false;
+            QueuedAttackTimer = 0f;
+            ComboTimer = 0f;
             InGameUIManager.Instance?.ResetComboSlot();
             StartCoroutine(ComboCooldownCoroutine());
+            SetState(isMovingNow ? MoveState : IdleState);
             return;
         }
 
-        if (queuedAttack)
+        if (QueuedAttack)
         {
-            queuedAttack = false;
-            queuedAttackTimer = 0f;
-            comboTimer = 0f;
-            StartAttack();
+            QueuedAttack = false;
+            QueuedAttackTimer = 0f;
+            ComboTimer = 0f;
+            RestartAttackState();
+            return;
         }
         else
         {
-            if (playerData != null && characterType == CharacterType.Castle && comboStep < 4)
+            if (Data != null && CurrentCharacterType == PlayerController.CharacterType.Castle && ComboStep < 4)
+            {
+                Debug.Log("[EndAttack] Castle 타입 4콤보 미만, 애니메이션만 유지");
                 return;
-
-            comboTimer = 0f;
-            comboStep = 0;
+            }
+            Debug.Log("[EndAttack] queuedAttack=false 이므로 Idle/Move로 전이");
+            ComboTimer = 0f;
+            ComboStep = 0;
             InGameUIManager.Instance?.ResetComboSlot();
+            SetState(MoveInput != Vector2.zero ? MoveState : IdleState);
         }
     }
 
     private IEnumerator ComboCooldownCoroutine()
     {
-        isComboCooldown = true;
+        IsComboCooldown = true;
         if (playerData != null)
             yield return new WaitForSeconds(playerData.comboCooldown);
-        isComboCooldown = false;
+        IsComboCooldown = false;
     }
 
-    /// <summary>
-    /// 공격 판정 (DoAttack)는 애니메이터에서 호출됩니다.
-    /// 적을 타격하면 경험치 +1, 레벨업 체크, Fury 증가
-    /// </summary>
     public void DoAttack()
     {
         if (attackCheck == null || playerData == null) return;
@@ -484,21 +465,15 @@ public class PlayerController : MonoBehaviour
 
         if (didHit)
         {
-            // 경험치 1 증가 예시
             currentExp += 1;
             CheckAndHandleLevelUp();
-
             GainFury();
         }
     }
 
-    /// <summary>
-    /// Fury 획득 (적 타격 시 호출)
-    /// </summary>
     public void GainFury()
     {
         if (playerData == null) return;
-
         currentFury += playerData.furyGainPerHit;
         currentFury = Mathf.Clamp(currentFury, 0f, playerData.furyMax);
         float percent = currentFury / playerData.furyMax;
@@ -508,18 +483,23 @@ public class PlayerController : MonoBehaviour
     public void OnFurySkillEnd()
     {
         Debug.Log($"[검증] ▶ OnFurySkillEnd() 진입 / currentFury(before) = {currentFury}");
-        isFurySkillTriggered = false;
+        IsFurySkillTriggered = false;
         currentFury = 0f;
         Debug.Log($"[검증] ▶ OnFurySkillEnd() 종료 후 currentFury = {currentFury}");
-        if (InGameUIManager.Instance != null)
-            InGameUIManager.Instance.UpdateFuryGauge(0f);
-        else
-            Debug.LogWarning("[검증] ▶ InGameUIManager.Instance == null");
+        InGameUIManager.Instance?.UpdateFuryGauge(0f);
+    }
+
+    private IEnumerator FurySkillDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        IsFurySkillTriggered = false;
+        currentFury = 0f;
+        InGameUIManager.Instance?.UpdateFuryGauge(0f);
     }
 
     public void TakeDamage(int damage)
     {
-        if (isInvulnerable || playerData == null) return;
+        if (IsInvulnerable || playerData == null) return;
 
         currentHp -= damage;
         currentHp = Mathf.Clamp(currentHp, 0, playerData.maxHp);
@@ -527,89 +507,13 @@ public class PlayerController : MonoBehaviour
 
         if (currentHp <= 0)
         {
-            Die();
+            SetState(DeadState);
             return;
         }
 
-        PrepareHitEffect();
+        SetState(HitState);
     }
 
-    public void PrepareHitEffect()
-    {
-        animator.SetTrigger("IsHit");
-        if (flashCoroutine != null) StopCoroutine(flashCoroutine);
-        flashCoroutine = StartCoroutine(FlashRed());
-        isTakingDamage = true;
-
-        if (hitCoroutine != null) StopCoroutine(hitCoroutine);
-        hitCoroutine = StartCoroutine(EndHitAfter(playerData.hitStunTime));
-    }
-
-    private IEnumerator EndHitAfter(float delay)
-    {
-        yield return new WaitForSeconds(delay);
-        isTakingDamage = false;
-        hitCoroutine = null;
-    }
-
-    private IEnumerator FlashRed()
-    {
-        spriteRenderer.color = Color.red;
-        yield return new WaitForSeconds(hitFlashDuration);
-        spriteRenderer.color = originalColor;
-    }
-
-    private void Die()
-    {
-        if (isDead) return;
-        isDead = true;
-        isDashing = false;
-        isAttacking = false;
-        isTakingDamage = false;
-
-        rb.linearVelocity = Vector2.zero;
-        spriteRenderer.color = originalColor;
-
-        animator.SetBool("IsDashing", false);
-        animator.SetBool("Move", false);
-        animator.SetTrigger("Die");
-
-        Debug.Log("[Player] ▶ 사망 처리 완료");
-        InGameUIManager.Instance?.ShowGameOverAndReturnToTitle(2.5f);
-        StartCoroutine(RemoveAfterDeath());
-    }
-
-    private IEnumerator RemoveAfterDeath()
-    {
-        yield return new WaitForSeconds(1.5f);
-        gameObject.SetActive(false);
-    }
-
-    private void ShowSystemMessage(string message)
-    {
-        systemMessage = message;
-        systemMessageTimer = systemMessageDuration;
-    }
-
-    private void OnGUI()
-    {
-        if (systemMessageTimer > 0f)
-        {
-            systemMessageTimer -= Time.deltaTime;
-            GUIStyle style = new GUIStyle(GUI.skin.label)
-            {
-                fontSize = 32,
-                normal = { textColor = Color.yellow },
-                alignment = TextAnchor.UpperCenter
-            };
-            Rect rect = new Rect(0, 20, Screen.width, 50);
-            GUI.Label(rect, systemMessage, style);
-        }
-    }
-
-    /// <summary>
-    /// 경험치를 확인하여 레벨업 처리
-    /// </summary>
     private void CheckAndHandleLevelUp()
     {
         if (playerData == null) return;
@@ -617,18 +521,14 @@ public class PlayerController : MonoBehaviour
         if (currentExp >= playerData.exp)
         {
             string id = playerData.id;
-            if (string.IsNullOrEmpty(id) || !id.Contains("_"))
-                return;
+            if (string.IsNullOrEmpty(id) || !id.Contains("_")) return;
 
             int underscoreIndex = id.LastIndexOf("_");
             string prefix = id.Substring(0, underscoreIndex);
             string numberStr = id.Substring(underscoreIndex + 1);
 
-            if (!int.TryParse(numberStr, out int currentIdNum))
-                return;
-
+            if (!int.TryParse(numberStr, out int currentIdNum)) return;
             int nextIdNum = currentIdNum + 1;
-            // 두 자리 포맷 예: "01", "02", ...
             string nextLevelId = $"{prefix}_{nextIdNum:D2}";
 
             PlayerData nextData = PlayerDataLoader.GetPlayerDataById(nextLevelId);
@@ -645,6 +545,36 @@ public class PlayerController : MonoBehaviour
             {
                 Debug.LogWarning($"[레벨업 실패] 다음 레벨 데이터 없음: {nextLevelId}");
             }
+        }
+    }
+
+    // =======================================================
+    // ⑫ 사망, Hit 상태 처리 후 Remove 루틴은 각 상태 클래스 내부에 구현되어 있으므로,
+    //     PlayerController 내에서는 별도 Die()/EndHitAfter() 호출 불필요
+    // =======================================================
+
+    // =======================================================
+    // ⑬ 시스템 메시지 출력 (OnGUI)
+    // =======================================================
+    private void ShowSystemMessage(string message)
+    {
+        systemMessage = message;
+        systemMessageTimer = messageDuration;
+    }
+
+    private void OnGUI()
+    {
+        if (systemMessageTimer > 0f)
+        {
+            systemMessageTimer -= Time.deltaTime;
+            GUIStyle style = new GUIStyle(GUI.skin.label)
+            {
+                fontSize = 32,
+                normal = { textColor = Color.yellow },
+                alignment = TextAnchor.UpperCenter
+            };
+            Rect rect = new Rect(0, 20, Screen.width, 50);
+            GUI.Label(rect, systemMessage, style);
         }
     }
 }

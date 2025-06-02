@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6441815005610321825}
   - component: {fileID: 1207334574625560500}
   - component: {fileID: 3010650092511370822}
-  - component: {fileID: 4754436869475090328}
+  - component: {fileID: 6839730898618828219}
   - component: {fileID: 2168115289471081972}
   m_Layer: 6
   m_Name: Castle
@@ -189,7 +189,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 4.3, y: 1.5333333}
   m_EdgeRadius: 0
---- !u!114 &4754436869475090328
+--- !u!114 &6839730898618828219
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -198,18 +198,37 @@ MonoBehaviour:
   m_GameObject: {fileID: 936753166206125620}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d673d489acd5cd14ba1649a7f515c736, type: 3}
+  m_Script: {fileID: 11500000, guid: d9aa90b5d94b1cb40a6f49e9beac4d7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   characterType: 1
+  playerId: Castle_01
   missileObject: {fileID: 8231565422095512597}
   firePos: {fileID: 5701939993190421467}
   messageDuration: 2
   dashDuration: 0.2
   dashCooldown: 1
-  characterStats: {fileID: 11400000, guid: 6fafff9421265174596cf49660e6b879, type: 2}
+  currentLevel: 0
+  currentExp: 0
   currentHp: 0
   currentFury: 0
+  playerData:
+    id: 
+    characterName: 
+    characterType: 
+    level: 0
+    exp: 0
+    maxHp: 0
+    recovery: 0
+    attackDamage: 0
+    attackSpeed: 0
+    attackRange: 0
+    moveSpeed: 0
+    defense: 0
+    hitStunTime: 0
+    furyGainPerHit: 0
+    furyMax: 0
+    comboCooldown: 0
   attackCheck: {fileID: 5701939993190421467}
   attackOffsetX: 1
   attackOffsetY: 0

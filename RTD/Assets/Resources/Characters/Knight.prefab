@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 9119693090934117762}
   - component: {fileID: 6559482257890878693}
   - component: {fileID: 2871083399374272543}
+  - component: {fileID: 6627298207202911990}
   - component: {fileID: 8889284955984851813}
   m_Layer: 6
   m_Name: Knight
@@ -187,6 +188,77 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.4, y: 1.0439472}
   m_EdgeRadius: 0
+--- !u!114 &6627298207202911990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483308883690019711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9aa90b5d94b1cb40a6f49e9beac4d7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterType: 0
+  playerId: knight_01
+  missileObject: {fileID: 0}
+  firePos: {fileID: 0}
+  messageDuration: 2
+  DashDuration: 0.2
+  DashCooldown: 1
+  DashSpeed: 10
+  currentLevel: 0
+  currentExp: 0
+  currentHp: 0
+  currentFury: 0
+  playerData:
+    id: 
+    characterName: 
+    characterType: 
+    level: 0
+    exp: 0
+    maxHp: 0
+    recovery: 0
+    attackDamage: 0
+    attackSpeed: 0
+    attackRange: 0
+    moveSpeed: 0
+    defense: 0
+    hitStunTime: 0
+    furyGainPerHit: 0
+    furyMax: 0
+    comboCooldown: 0
+  attackCheck: {fileID: 3281155454924268501}
+  attackOffsetX: 1
+  attackOffsetY: 0
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  knockbackForce: 5
+  HitFlashDuration: 0.1
+  ComboDelay: 1
+  ComboInputBufferTime: 0.3
+  IsDashing: 0
+  IsInvulnerable: 0
+  NextDashTime: 0
+  DashEndTime: 0
+  Animator: {fileID: 0}
+  Rigidbody2D: {fileID: 0}
+  SpriteRenderer: {fileID: 0}
+  IsDead: 0
+  IsTakingDamage: 0
+  MoveInput: {x: 0, y: 0}
+  IsAttacking: 0
+  HasPlayedSfx: 0
+  OriginalColor: {r: 0, g: 0, b: 0, a: 0}
+  IsComboCooldown: 0
+  ComboStep: 0
+  ComboTimer: 0
+  HasQueuedThisPhase: 0
+  IsFurySkillTriggered: 0
+  QueuedAttack: 0
+  QueuedAttackTimer: 0
 --- !u!114 &8889284955984851813
 MonoBehaviour:
   m_ObjectHideFlags: 0

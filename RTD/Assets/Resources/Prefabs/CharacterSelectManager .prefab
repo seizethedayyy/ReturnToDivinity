@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4043001137675143487
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3340658650190615420}
+  - component: {fileID: 2669746343501386952}
+  m_Layer: 0
+  m_Name: 'CharacterSelectManager '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3340658650190615420
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4043001137675143487}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1011.63434, y: 174.23329, z: -1.8222765}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2669746343501386952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4043001137675143487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38fafc3741916a148ab8cc1c1c54cdf3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  descriptionText: {fileID: 0}
+  characterDescriptions:
+  - "Knight\n\uBE5B\uACFC \uAE30\uC5B5\uC744 \uC783\uC5B4 \uBC84\uB9B0 \uB098\uC774\uD2B8\n\uBE60\uB978
+    \uACF5\uACA9\uACFC \uC774\uB3D9\uC744 \uC9C0\uB154\uB2E4"
+  - "Castle\n\uBE5B\uACFC \uAE30\uC5B5\uC744 \uC783\uC5B4 \uBC84\uB9B0 \uCE90\uC2AC\n\uC131\uCC98\uB7FC
+    \uB2E8\uB2E8\uD55C \uBC29\uC5B4\uB825\uC744 \uC9C0\uB154\uB2E4"
+  - 'Bishop
+
+    Coming soon....'
+  characterIds:
+  - Knight
+  - Castle
+  - 3
+  characterNames:
+  - "\uB098\uC774\uD2B8"
+  - "\uCE90\uC2AC"
+  - "\uBE44\uC20D"
+  characterPortraits:
+  - {fileID: -589696249036962087, guid: 23d2efa7ab695834d80cc414104fd1c0, type: 3}
+  - {fileID: 8881545763379579267, guid: 410e880782894dd4fb9dd1b237c9253f, type: 3}
+  - {fileID: 8881545763379579267, guid: 410e880782894dd4fb9dd1b237c9253f, type: 3}
+  furySkillIcons:
+  - {fileID: -4960189880391560060, guid: 487531cf12e1d9e4cae72b27ee67988f, type: 3}
+  - {fileID: 6529246876035109974, guid: 6c1ed9f081b7e3647bcf7ea0eab0c72d, type: 3}
+  furySkillNames:
+  - 1
+  - 2
+  furySkillDescriptions:
+  - "Knight\uC758 \uBD84\uB178 \uC2A4\uD0AC"
+  - "Castle\uC758 \uBD84\uB178 \uC2A4\uD0AC"
+  selectSfx: {fileID: 8300000, guid: 91d2e562af0bf184383c42d01a629d7a, type: 3}
+  confirmSfx: {fileID: 8300000, guid: 91d2e562af0bf184383c42d01a629d7a, type: 3}
