@@ -15,9 +15,7 @@ namespace Player.States
 
         public override void Enter()
         {
-            base.Enter();
-
-            Debug.Log("[AttackState] Enter → ComboStep=" + controller.ComboStep);
+            base.Enter();                       
 
             controller.HasQueuedThisPhase = false;
             controller.QueuedAttack = false;
@@ -25,11 +23,16 @@ namespace Player.States
             controller.IsAttacking = true;
             hasPlayedSfxLocal = false;
 
-            // ───────────────────────────────────────────────────────
-            // 1) 공격 상태 진입 시 초기화
-            // ───────────────────────────────────────────────────────
+            controller.ComboStep++;
+            Debug.Log($"[AttackState] Enter → ComboStep={controller.ComboStep}");
+
+            InGameUIManager.Instance?.UpdateComboSlot(controller.ComboStep);
+
             hasPlayedSfxLocal = false;
             controller.IsAttacking = true;
+
+            controller.Animator.SetBool("IsAttacking", true);
+            controller.Animator.SetInteger("ComboStep", controller.ComboStep);
 
             // 콤보 단계 계산 (이전 상태의 ComboTimer, ComboStep 참고)
             controller.ComboStep = controller.ComboStep switch
@@ -40,7 +43,8 @@ namespace Player.States
                 3 when controller.ComboTimer <= controller.ComboDelay => 4,
                 _ => 1
             };
-
+                          
+            
             // 인게임 UI의 콤보 슬롯 업데이트
             // 기존: controller.InGameUIManager?.UpdateComboSlot(controller.ComboStep);
             // 변경: 싱글턴을 통해 직접 호출
@@ -105,6 +109,28 @@ namespace Player.States
 
         public override void Execute()
         {
+            
+            if (!controller.HasQueuedThisPhase && Input.GetMouseButtonDown(0))
+            {
+                // 다음 콤보 번호 = 현재 콤보 단계(ComboStep) + 1
+                int nextComboIndex = controller.ComboStep + 1;
+
+                // '컨트롤러.MaxUnlockedCombo' 속성으로 해금 여부 검사
+                if (nextComboIndex <= controller.MaxUnlockedCombo)
+                {
+                    controller.QueuedAttack = true;
+                    controller.HasQueuedThisPhase = true;
+                    Debug.Log($"[AttackState] 레벨 {controller.currentLevel} → 콤보 {nextComboIndex} 입력 허용");
+                }
+                else
+                {
+                    // 잠긴 콤보라면 QueuedAttack을 붙이지 않고 무시
+                    controller.QueuedAttack = false;
+                    controller.HasQueuedThisPhase = true;
+                    Debug.Log($"[AttackState] 레벨 {controller.currentLevel} → 콤보 {nextComboIndex} 잠김, 입력 무시");
+                }
+            }
+
             // ② Execute 진입 시 로그
             Debug.Log("[AttackState] Execute → HasQueuedThisPhase=" + controller.HasQueuedThisPhase + ", QueuedAttack=" + controller.QueuedAttack);
 
@@ -123,18 +149,12 @@ namespace Player.States
         public override void Exit()
         {
             base.Exit();
+            Debug.Log($"[AttackState] Exit → ComboStep={controller.ComboStep}");
 
-            // 공격 상태에서 나올 때 애니메이터 파라미터 해제
-            Debug.Log("[AttackState] Exit → 이동 상태 전이 직전");
             controller.IsAttacking = false;
             controller.HasPlayedSfx = false;
             controller.Animator.SetBool("IsAttacking", false);
-
-            // ───────────────────────────────────────────────────────
-            // ★ 디버그 로그 추가 예시:
-            //   공격 상태 Exit 시점에 Debug.Log를 남기고 싶다면 아래 줄 주석 해제
-            // Debug.Log("[PlayerAttackState] Exit → Attack state 종료, 상태 전이 준비됨");
-            // ───────────────────────────────────────────────────────
+                        
         }
 
         // ───────────────────────────────────────────────────────

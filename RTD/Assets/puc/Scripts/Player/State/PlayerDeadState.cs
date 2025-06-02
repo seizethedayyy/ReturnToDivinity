@@ -30,7 +30,7 @@ namespace Player.States
             Debug.Log("[Player] ▶ 사망 처리 완료"); // ← (PlayerDeadState.cs, Enter 메서드, Debug.Log 위치)
 
             // 4) 게임오버 UI
-            InGameUIManager.Instance?.ShowGameOverAndReturnToTitle(2.5f);
+            InGameUIManager.Instance?.ShowGameOver(2.5f);
 
             // 5) 사망 후 오브젝트 비활성화
             controller.StartCoroutine(RemoveAfterDeath());

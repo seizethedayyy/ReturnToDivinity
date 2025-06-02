@@ -20,7 +20,7 @@ namespace Player.States
             controller.IsTakingDamage = true;
             if (controller.HitCoroutine != null)
                 controller.StopCoroutine(controller.HitCoroutine);
-            controller.HitCoroutine = controller.StartCoroutine(EndHitAfter(controller.PlayerData.hitStunTime));
+            controller.HitCoroutine = controller.StartCoroutine(EndHitAfter(controller.Data.hitStunTime));
         }
 
         public override void Execute()
