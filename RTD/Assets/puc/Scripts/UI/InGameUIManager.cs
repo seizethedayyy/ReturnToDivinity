@@ -41,6 +41,10 @@ public class InGameUIManager : MonoBehaviour
     public GameObject furySkillLockOverlay;
     public Image furyGaugeFillImage;
 
+    [Header("경험치 UI")]
+    public Image expBarFillImage;
+    public TextMeshProUGUI expText;
+
     private Image[] comboSlots;
     private int comboLevelUnlocked = 1;
     private int currentComboStep = 0;
@@ -91,6 +95,19 @@ public class InGameUIManager : MonoBehaviour
 
         // ✅ Fury 게이지를 0으로 명확히 초기화
         UpdateFuryGauge(0f);
+
+        // (Optional) 씬 전환 시 경험치 UI 초기화
+        if (expBarFillImage != null)
+            expBarFillImage.fillAmount = 0f;
+        if (expText != null)
+            expText.text = "0 / 0";
+
+    }
+
+    public void UpdateLevelText(int level)
+    {
+        if (levelText != null)
+            levelText.text = $"Lv.{level}";
     }
 
     public void RebindUIReferences()
@@ -141,7 +158,7 @@ public class InGameUIManager : MonoBehaviour
         if (portraitImage != null)
             portraitImage.sprite = info.portraitSprite;
         if (levelText != null)
-            levelText.text = "Lv.1";
+            levelText.text = "";
         if (nameText != null)
             nameText.text = info.characterName;
         if (furySkillIcon != null && info.furySkillIcon != null)
@@ -281,6 +298,21 @@ public class InGameUIManager : MonoBehaviour
 
         if (furySkillLockOverlay != null)
             furySkillLockOverlay.SetActive(!isReady);
+    }
+
+    /// <summary>
+    /// 경험치 UI를 갱신합니다. currentExp(현재 보유치)와 requiredExp(다음 레벨 필요치)를 전달해주세요.
+    /// </summary>
+    public void UpdateExpUI(int currentExp, int requiredExp)
+    {
+        if (expBarFillImage != null && requiredExp > 0)
+        {
+            float percent = Mathf.Clamp01((float)currentExp / requiredExp);
+            expBarFillImage.fillAmount = percent;
+        }
+
+        if (expText != null)
+            expText.text = $"{currentExp} / {requiredExp}";
     }
 
     public void OnClickFurySkill()

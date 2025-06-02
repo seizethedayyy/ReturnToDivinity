@@ -94,4 +94,22 @@ public class EnemyController : EnemyBase
         base.Update();
         enemyCurrentHp = currentHp; // 실시간 표시용 갱신
     }
+
+    protected override void Die()
+    {
+        // 1) 먼저 부모 클래스에서 사망 처리를 수행
+        base.Die();
+
+        // 2) 플레이어에게 경험치 전달
+        var playerObj = GameObject.FindWithTag("Player");
+        if (playerObj != null && playerObj.TryGetComponent<PlayerController>(out var playerCtrl))
+        {
+            playerCtrl.GainExp(exp);
+        }
+        else
+        {
+            Debug.LogWarning("[EnemyController] 사망 시 PlayerController를 찾지 못했습니다. 경험치 미획득.");
+        }
+    }
+
 }

@@ -205,11 +205,17 @@ public class PlayerController : MonoBehaviour
 
         currentHp = playerData.maxHp;
         currentLevel = playerData.level;
-        currentExp = playerData.exp;
+        currentExp = 0;
         currentFury = 0f;
         Debug.Log($"[PlayerController] playerData 로드 성공: ID={playerId}, level={playerData.level}, maxHp={playerData.maxHp}");
 
         enemyLayer = LayerMask.GetMask("Enemy");
+
+        // → 데이터 로드 직후, UI에 초기 레벨 표시
+        InGameUIManager.Instance?.UpdateLevelText(currentLevel);
+        InGameUIManager.Instance?.UpdateHpUI(currentHp, playerData.maxHp);
+        InGameUIManager.Instance?.UpdateExpUI(currentExp, playerData.exp);
+
     }
 
     private void Start()
@@ -464,9 +470,7 @@ public class PlayerController : MonoBehaviour
         }
 
         if (didHit)
-        {
-            currentExp += 1;
-            CheckAndHandleLevelUp();
+        {            
             GainFury();
         }
     }
@@ -540,12 +544,25 @@ public class PlayerController : MonoBehaviour
                 currentExp = 0;
                 currentHp = playerData.maxHp;
                 InGameUIManager.Instance?.UpdateHpUI(currentHp, playerData.maxHp);
+                InGameUIManager.Instance?.UpdateLevelText(currentLevel);
+                InGameUIManager.Instance?.UpdateExpUI(currentExp, playerData.exp);
             }
             else
             {
                 Debug.LogWarning($"[레벨업 실패] 다음 레벨 데이터 없음: {nextLevelId}");
             }
         }
+    }
+
+    public void GainExp(int amount)
+    {
+        currentExp += amount;
+        Debug.Log($"[플레이어] {amount}만큼 경험치 획득 (현재: {currentExp}/{playerData.exp})");
+        CheckAndHandleLevelUp();
+
+        //경험치 변화마다 UI 갱신
+        InGameUIManager.Instance?.UpdateExpUI(currentExp, playerData.exp);
+
     }
 
     // =======================================================
