@@ -148,12 +148,7 @@ public class InGameUIManager : MonoBehaviour
             furySkillIcon.sprite = info.furySkillIcon;
     }
 
-    public void ApplyCharacterStats(CharacterStats stats)
-    {
-        if (furySkillIcon != null && stats.furySkillIcon != null)
-            furySkillIcon.sprite = stats.furySkillIcon;
-    }
-
+    
     public void ShowMenuPopup()
     {
         if (menuUI != null)

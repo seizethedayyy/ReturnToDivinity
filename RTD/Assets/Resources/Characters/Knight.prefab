@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 9119693090934117762}
   - component: {fileID: 6559482257890878693}
   - component: {fileID: 2871083399374272543}
-  - component: {fileID: 4100739469391096870}
   - component: {fileID: 8889284955984851813}
   m_Layer: 6
   m_Name: Knight
@@ -188,34 +187,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.4, y: 1.0439472}
   m_EdgeRadius: 0
---- !u!114 &4100739469391096870
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1483308883690019711}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d673d489acd5cd14ba1649a7f515c736, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  messageDuration: 2
-  dashDuration: 0.2
-  dashCooldown: 1
-  characterStats: {fileID: 11400000, guid: 8e11d08975a99734790300ef1b7e8306, type: 2}
-  currentHp: 0
-  currentFury: 0
-  attackCheck: {fileID: 3281155454924268501}
-  attackOffsetX: 1
-  attackOffsetY: 0
-  enemyLayer:
-    serializedVersion: 2
-    m_Bits: 128
-  knockbackForce: 5
-  hitFlashDuration: 0.1
-  comboDelay: 0.6
-  inputBufferTime: 0.3
 --- !u!114 &8889284955984851813
 MonoBehaviour:
   m_ObjectHideFlags: 0
