@@ -52,7 +52,7 @@ MonoBehaviour:
   bgmSource: {fileID: 2501312948723930336}
   sfxSource: {fileID: 4042518528892013959}
   sfxEntries:
-  - key: testSfx
+  - key: attack_sfx
     clip: {fileID: 8300000, guid: c9b1253eb24cb8641ae4377d1e48156e, type: 3}
   - key: GoblinSfx
     clip: {fileID: 8300000, guid: 64be2deb114c48246823f69e69e9ef2d, type: 3}

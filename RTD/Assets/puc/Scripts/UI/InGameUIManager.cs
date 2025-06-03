@@ -4,269 +4,225 @@ using TMPro;
 using UnityEngine.SceneManagement;
 using System.Collections;
 
+/// <summary>
+/// 인게임 UI를 관리합니다. 캐릭터 정보, HP/Exp/Fury 게이지, 콤보 UI, 메뉴 팝업, GameOver 패널 등을 포함합니다.
+/// </summary>
 public class InGameUIManager : MonoBehaviour
 {
     public static InGameUIManager Instance { get; private set; }
 
     [Header("UI 요소")]
-    public Image portraitImage;
-    public TextMeshProUGUI nameText;
-    public TextMeshProUGUI levelText;
+    [SerializeField] private Image portraitImage;
+    [SerializeField] private TextMeshProUGUI nameText;
+    [SerializeField] private TextMeshProUGUI levelText;
 
     [Header("메뉴 팝업 UI")]
-    public GameObject menuUI;
-    public GameObject optionUI;
+    [SerializeField] private GameObject settingsPanel;
+    [SerializeField] private GameObject inventoryPanel;
+    [SerializeField] private GameObject gameOverPanel;
 
-    [Header("캐릭터 정보 팝업")]
-    public GameObject characterInfoUI;
+    [Header("HP UI")]
+    [SerializeField] public Image hpBarFillImage;
+    [SerializeField] public TextMeshProUGUI hpText;
 
-    [Header("체력 UI")]
-    public Image hpBarFillImage;
-
-    [Header("체력 숫자 UI")]
-    public TextMeshProUGUI hpText;
-
-    [Header("콤보 슬롯 Glow")]
-    public GameObject combo1Glow;
-    public GameObject combo2Glow;
-    public GameObject combo3Glow;
-    public GameObject combo4Glow;
+    [Header("Exp UI")]
+    [SerializeField] private Image expBarFillImage;
+    [SerializeField] private TextMeshProUGUI expText;
 
     [Header("Fury UI")]
-    public Image comboSlot1;
-    public Image comboSlot2;
-    public Image comboSlot3;
-    public Image comboSlot4;
-    public Image furySkillIcon;
-    public GameObject furySkillLockOverlay;
-    public Image furyGaugeFillImage;
+    [SerializeField] private Image furyGaugeFillImage;
 
-    private Image[] comboSlots;
-    private int comboLevelUnlocked = 1;
-    private int currentComboStep = 0;
+    [Header("Fury Skill UI")]
+    [SerializeField] private Image furySkillIconImage;
 
-    private Coroutine hpFlashCoroutine;
-    private Coroutine hpBarCoroutine;
-    private Color originalHpColor = Color.green;
+    [Header("콤보 슬롯 아이콘 (잠금/해금)")]
+    [SerializeField] private Image comboSlot1;
+    [SerializeField] private Image comboSlot2;
+    [SerializeField] private Image comboSlot3;
+    [SerializeField] private Image comboSlot4;
 
-    [Header("게임 오버 UI")]
-    [SerializeField] private GameObject gameOverPanel;
-    [SerializeField] private float gameOverFadeTime = 1.5f;
+    [Header("콤보 슬롯 Glow Objects (애니메이션)")]
+    [SerializeField] private GameObject combo1Glow;
+    [SerializeField] private GameObject combo2Glow;
+    [SerializeField] private GameObject combo3Glow;
+    [SerializeField] private GameObject combo4Glow;
 
+    private Color originalHpColor;
 
-    void Awake()
+    private void Awake()
     {
-        if (Instance != null)
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+            SceneManager.sceneLoaded += OnSceneLoaded;
+        }
+        else
         {
             Destroy(gameObject);
             return;
         }
 
-        Instance = this;
-        DontDestroyOnLoad(gameObject);
+        if (settingsPanel != null) settingsPanel.SetActive(false);
+        if (inventoryPanel != null) inventoryPanel.SetActive(false);
+        if (gameOverPanel != null) gameOverPanel.SetActive(false);
+
+        if (hpBarFillImage != null)
+        {
+            originalHpColor = hpBarFillImage.color;
+            hpBarFillImage.fillAmount = 1f;
+        }
+        if (hpText != null) hpText.text = "0 / 0";
+
+        if (expBarFillImage != null) expBarFillImage.fillAmount = 0f;
+        if (expText != null) expText.text = "0 / 0";
+
+        if (furyGaugeFillImage != null) furyGaugeFillImage.fillAmount = 0f;
+        if (furySkillIconImage != null) furySkillIconImage.enabled = false;
+
+        if (portraitImage != null) portraitImage.sprite = null;
+        if (nameText != null) nameText.text = "";
+        if (levelText != null) levelText.text = "Lv.0";
     }
 
-    void OnEnable()
-    {
-        SceneManager.sceneLoaded += OnSceneLoaded;
-    }
-
-    void OnDisable()
-    {
-        SceneManager.sceneLoaded -= OnSceneLoaded;
-    }
-
-    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         RebindUIReferences();
 
-        if (SelectedCharacterData.Instance != null)
+        if (settingsPanel != null) settingsPanel.SetActive(false);
+        if (inventoryPanel != null) inventoryPanel.SetActive(false);
+        if (gameOverPanel != null)
         {
-            var info = SelectedCharacterData.Instance.selectedCharacter;
-            ApplyCharacterInfo(info);
+            CanvasGroup cg = gameOverPanel.GetComponent<CanvasGroup>();
+            if (cg != null)
+            {
+                cg.alpha = 0f;
+                gameOverPanel.SetActive(false);
+            }
         }
 
         if (hpBarFillImage != null)
             originalHpColor = hpBarFillImage.color;
 
-        // ✅ Fury 게이지를 0으로 명확히 초기화
         UpdateFuryGauge(0f);
-    }
 
-    public void RebindUIReferences()
-    {
-        if (gameOverPanel == null)
-            gameOverPanel = GameObject.Find("GameOver");
+        if (expBarFillImage != null)
+            expBarFillImage.fillAmount = 0f;
+        if (expText != null)
+            expText.text = "0 / 0";
 
-        if (menuUI == null)
-            menuUI = GameObject.Find("MenuUI");
+        if (portraitImage != null) portraitImage.sprite = null;
+        if (nameText != null) nameText.text = "";
+        if (levelText != null) levelText.text = "";
 
-        if (optionUI == null)
-            optionUI = GameObject.Find("OptionUI");
-
-        if (characterInfoUI == null)
-            characterInfoUI = GameObject.Find("CharacterInfoUI");
-
-        if (portraitImage == null)
-            portraitImage = GameObject.Find("Portrait")?.GetComponent<Image>();
-
-        if (nameText == null)
-            nameText = GameObject.Find("NameText")?.GetComponent<TextMeshProUGUI>();
-
-        if (levelText == null)
-            levelText = GameObject.Find("LevelText")?.GetComponent<TextMeshProUGUI>();
-
-        if (hpBarFillImage == null)
-            hpBarFillImage = GameObject.Find("HpBarFill")?.GetComponent<Image>();
-
-        if (hpText == null)
-            hpText = GameObject.Find("HpText")?.GetComponent<TextMeshProUGUI>();
-
-        if (comboSlot1 == null)
-            comboSlot1 = GameObject.Find("ComboSlot1")?.GetComponent<Image>();
-        if (comboSlot2 == null)
-            comboSlot2 = GameObject.Find("ComboSlot2")?.GetComponent<Image>();
-        if (comboSlot3 == null)
-            comboSlot3 = GameObject.Find("ComboSlot3")?.GetComponent<Image>();
-        if (comboSlot4 == null)
-            comboSlot4 = GameObject.Find("ComboSlot4")?.GetComponent<Image>();
-        if (furySkillIcon == null)
-            furySkillIcon = GameObject.Find("FurySkillIcon")?.GetComponent<Image>();
-        if (furyGaugeFillImage == null)
-            furyGaugeFillImage = GameObject.Find("FuryGaugeFill")?.GetComponent<Image>();
-    }
-
-    public void ApplyCharacterInfo(CharacterInfo info)
-    {
-        if (portraitImage != null)
-            portraitImage.sprite = info.portraitSprite;
-        if (levelText != null)
-            levelText.text = "Lv.1";
-        if (nameText != null)
-            nameText.text = info.characterName;
-        if (furySkillIcon != null && info.furySkillIcon != null)
-            furySkillIcon.sprite = info.furySkillIcon;
-    }
-
-    public void ApplyCharacterStats(CharacterStats stats)
-    {
-        if (furySkillIcon != null && stats.furySkillIcon != null)
-            furySkillIcon.sprite = stats.furySkillIcon;
-    }
-
-    public void ShowMenuPopup()
-    {
-        if (menuUI != null)
-            menuUI.SetActive(true);
-        else
-            Debug.LogWarning("[InGameUIManager] menuUI가 연결되지 않았습니다.");
-    }
-
-    public void ResumeGame()
-    {
-        if (menuUI != null)
-            menuUI.SetActive(false);
-    }
-
-    public void OpenOptionPopup()
-    {
-        if (optionUI != null)
+        var playerObj = GameObject.FindWithTag("Player");
+        if (playerObj != null && playerObj.TryGetComponent<PlayerController>(out var playerCtrl))
         {
-            optionUI.SetActive(true);
-            menuUI.SetActive(false);
+            var selectedData = SelectedCharacterData.Instance;
+
+            if (selectedData != null && selectedData.selectedCharacter != null)
+            {
+                if (portraitImage != null)
+                    portraitImage.sprite = selectedData.selectedCharacter.portraitSprite;
+
+                if (nameText != null)
+                    nameText.text = selectedData.selectedCharacter.characterName;
+
+                if (furySkillIconImage != null)
+                {
+                    furySkillIconImage.sprite = selectedData.selectedCharacter.furySkillIcon;
+                    furySkillIconImage.enabled = true;
+                }
+            }
+            else
+            {
+                Debug.LogWarning("[InGameUIManager] CharacterSelectManager에서 올바른 초상화 배열을 찾을 수 없습니다.");
+            }
+
+            UpdateLevelText(playerCtrl.currentLevel);
+            UpdateHpUI(playerCtrl.currentHp, playerCtrl.Data.maxHp);
+            UpdateExpUI(playerCtrl.currentExp, playerCtrl.Data.exp);
+            UpdateFuryGauge(playerCtrl.currentFury / playerCtrl.Data.furyMax);
+
+            UpdateComboLockUI(
+                playerCtrl.currentLevel,
+                playerCtrl.combo2UnlockLevel,
+                playerCtrl.combo3UnlockLevel,
+                playerCtrl.combo4UnlockLevel
+            );
         }
     }
 
-    public void ShowCharacterInfoPopup()
-    {
-        if (characterInfoUI != null)
-            characterInfoUI.SetActive(true);
-        else
-            Debug.LogWarning("[InGameUIManager] characterInfoUI가 연결되지 않았습니다.");
-    }
+    public void RebindUIReferences() { }
 
-    public void CloseCharacterInfoPopup()
+    public void UpdateComboLockUI(int playerLevel, int unlock2, int unlock3, int unlock4)
     {
-        if (characterInfoUI != null)
-            characterInfoUI.SetActive(false);
-    }
-
-    public void ReturnToTitle()
-    {
-        SceneManager.LoadScene("TitleScene");
-    }
-
-    public void QuitGame()
-    {
-        Application.Quit();
-#if UNITY_EDITOR
-        UnityEditor.EditorApplication.isPlaying = false;
-#endif
-    }
-
-    public void UpdateHpUI(int currentHp, int maxHp)
-    {
-        if (hpBarFillImage == null)
+        if (comboSlot1 != null)
         {
-            Debug.LogWarning("[UI] hpBarFillImage가 null입니다. Fill 오브젝트 연결 필요.");
-            return;
+            comboSlot1.gameObject.SetActive(true);
+            comboSlot1.color = Color.white;
+        }
+        if (combo1Glow != null) combo1Glow.SetActive(false);
+
+        if (comboSlot2 != null)
+        {
+            if (playerLevel >= unlock2)
+            {
+                comboSlot2.color = Color.white;
+                comboSlot2.gameObject.SetActive(true);
+            }
+            else
+            {
+                comboSlot2.color = Color.gray;
+                comboSlot2.gameObject.SetActive(false);
+            }
+            if (combo2Glow != null) combo2Glow.SetActive(false);
         }
 
-        float target = Mathf.Clamp01((float)currentHp / maxHp);
-
-        if (hpBarCoroutine != null)
-            StopCoroutine(hpBarCoroutine);
-        hpBarCoroutine = StartCoroutine(AnimateHpBar(target));
-
-        if (hpText != null)
-            hpText.text = $"{currentHp} / {maxHp}";
-
-        if (hpFlashCoroutine != null)
-            StopCoroutine(hpFlashCoroutine);
-        hpFlashCoroutine = StartCoroutine(FlashHpBarFade());
-    }
-
-    private IEnumerator AnimateHpBar(float target)
-    {
-        float current = hpBarFillImage.fillAmount;
-
-        while (Mathf.Abs(current - target) > 0.001f)
+        if (comboSlot3 != null)
         {
-            current = Mathf.Lerp(current, target, 0.2f);
-            hpBarFillImage.fillAmount = current;
-            yield return null;
+            if (playerLevel >= unlock3)
+            {
+                comboSlot3.color = Color.white;
+                comboSlot3.gameObject.SetActive(true);
+            }
+            else
+            {
+                comboSlot3.color = Color.gray;
+                comboSlot3.gameObject.SetActive(false);
+            }
+            if (combo3Glow != null) combo3Glow.SetActive(false);
         }
 
-        hpBarFillImage.fillAmount = target;
+        if (comboSlot4 != null)
+        {
+            if (playerLevel >= unlock4)
+            {
+                comboSlot4.color = Color.white;
+                comboSlot4.gameObject.SetActive(true);
+            }
+            else
+            {
+                comboSlot4.color = Color.gray;
+                comboSlot4.gameObject.SetActive(false);
+            }
+            if (combo4Glow != null) combo4Glow.SetActive(false);
+        }
     }
 
-    private IEnumerator FlashHpBarFade()
-    {
-        Color fadedColor = originalHpColor;
-        fadedColor.a = 0.3f;
-        hpBarFillImage.color = fadedColor;
-
-        yield return new WaitForSeconds(0.1f);
-
-        hpBarFillImage.color = originalHpColor;
-    }
-
-    // 🔥 Fury 관련 메서드 추가
     public void UpdateComboSlot(int comboIndex)
     {
         GameObject[] glows = { combo1Glow, combo2Glow, combo3Glow, combo4Glow };
-
         for (int i = 0; i < glows.Length; i++)
         {
             if (glows[i] != null)
-                glows[i].SetActive(i < comboIndex); // 현재 콤보까지만 점등
+                glows[i].SetActive(i < comboIndex);
         }
     }
 
     public void ResetComboSlot()
     {
         GameObject[] glows = { combo1Glow, combo2Glow, combo3Glow, combo4Glow };
-
         foreach (var glow in glows)
         {
             if (glow != null)
@@ -274,72 +230,103 @@ public class InGameUIManager : MonoBehaviour
         }
     }
 
+    public void UpdateCharacterInfo(Sprite portrait, string name, int level)
+    {
+        if (portraitImage != null) portraitImage.sprite = portrait;
+        if (nameText != null) nameText.text = name;
+        if (levelText != null) levelText.text = $"Lv.{level}";
+    }
+
+    public void UpdateHpUI(int currentHp, int maxHp)
+    {
+        if (hpText != null)
+            hpText.text = $"{currentHp} / {maxHp}";
+        if (hpBarFillImage != null && maxHp > 0)
+        {
+            float percent = (float)currentHp / maxHp;
+            hpBarFillImage.fillAmount = percent;
+            hpBarFillImage.color = Color.Lerp(Color.red, originalHpColor, percent);
+        }
+    }
+
+    public void UpdateExpUI(int currentExp, int requiredExp)
+    {
+        if (expBarFillImage != null && requiredExp > 0)
+        {
+            float percent = Mathf.Clamp01((float)currentExp / requiredExp);
+            expBarFillImage.fillAmount = percent;
+        }
+        if (expText != null)
+            expText.text = $"{currentExp} / {requiredExp}";
+    }
+
     public void UpdateFuryGauge(float percent)
     {
         if (furyGaugeFillImage != null)
             furyGaugeFillImage.fillAmount = Mathf.Clamp01(percent);
-
-        bool isReady = percent >= 1.0f;
-
-        if (furySkillIcon != null)
-            furySkillIcon.color = isReady ? Color.white : new Color(1f, 1f, 1f, 0.5f);
-
-        if (furySkillLockOverlay != null)
-            furySkillLockOverlay.SetActive(!isReady);
     }
 
-    public void OnClickFurySkill()
+    public void UpdateLevelText(int level)
     {
-        if (furyGaugeFillImage == null || furyGaugeFillImage.fillAmount < 1f)
-        {
-            Debug.Log("[UI] Fury 게이지가 가득 차지 않아 스킬 사용 불가");
-            return;
-        }
-
-        Debug.Log("[UI] Fury Skill Activated!");
-
-        // 실제 스킬 발동 로직은 외부에서 호출
-        UpdateFuryGauge(0f);
-        UpdateComboSlot(0);
+        if (levelText != null)
+            levelText.text = $"Lv.{level}";
     }
 
-    public void ShowGameOverAndReturnToTitle(float gameOverDelay = 2f, float loadDelay = 1f)
+    public void OpenSettings()
     {
-        StartCoroutine(GameOverSequence(gameOverDelay));
+        if (settingsPanel != null)
+            settingsPanel.SetActive(true);
     }
 
-
-    private IEnumerator GameOverSequence(float delay)
+    public void CloseSettings()
     {
-        Debug.Log("[GameOver] 게임 오버 처리 시작");
+        if (settingsPanel != null)
+            settingsPanel.SetActive(false);
+    }
 
+    public void OpenInventory()
+    {
+        if (inventoryPanel != null)
+            inventoryPanel.SetActive(true);
+    }
+
+    public void CloseInventory()
+    {
+        if (inventoryPanel != null)
+            inventoryPanel.SetActive(false);
+    }
+
+    public void ShowGameOver(float delay)
+    {
+        StartCoroutine(GameOverCoroutine(delay));
+    }
+
+    private IEnumerator GameOverCoroutine(float delay)
+    {
         if (gameOverPanel != null)
         {
-            gameOverPanel.SetActive(true);
-
             CanvasGroup cg = gameOverPanel.GetComponent<CanvasGroup>();
-            if (cg == null)
-                cg = gameOverPanel.AddComponent<CanvasGroup>();
-
-            cg.alpha = 0f;
-
-            float t = 0f;
-            while (t < 1f)
+            if (cg != null)
             {
-                t += Time.deltaTime / gameOverFadeTime;
-                cg.alpha = Mathf.Lerp(0, 1, t);
-                yield return null;
+                cg.alpha = 0f;
+                gameOverPanel.SetActive(true);
+
+                while (cg.alpha < 1f)
+                {
+                    cg.alpha += Time.deltaTime;
+                    yield return null;
+                }
+
+                cg.alpha = 1f;
             }
-            cg.alpha = 1f;
-        }
-        else
-        {
-            Debug.LogWarning("[GameOver] gameOverPanel이 인스펙터에 연결되지 않았습니다.");
-        }
 
-        yield return new WaitForSeconds(delay);
-
-        SceneManager.LoadScene("TitleScene");
+            yield return new WaitForSeconds(delay);
+            SceneManager.LoadScene("TitleScene");
+        }
     }
 
+    private void OnDestroy()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
 }
