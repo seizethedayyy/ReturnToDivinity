@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.Animations; // AnimatorControllerParameterType »ç¿ëÀ» À§ÇØ ÇÊ¿ä
 
 namespace Player.States
 {
@@ -15,47 +16,49 @@ namespace Player.States
 
         public override void Enter()
         {
-            base.Enter();                       
+            base.Enter();
 
             controller.HasQueuedThisPhase = false;
             controller.QueuedAttack = false;
-
             controller.IsAttacking = true;
             hasPlayedSfxLocal = false;
 
-            controller.ComboStep++;
-            Debug.Log($"[AttackState] Enter ¡æ ComboStep={controller.ComboStep}");
-
-            InGameUIManager.Instance?.UpdateComboSlot(controller.ComboStep);
-
-            hasPlayedSfxLocal = false;
-            controller.IsAttacking = true;
-
-            controller.Animator.SetBool("IsAttacking", true);
-            controller.Animator.SetInteger("ComboStep", controller.ComboStep);
-
-            // ÄÞº¸ ´Ü°è °è»ê (ÀÌÀü »óÅÂÀÇ ComboTimer, ComboStep Âü°í)
-            controller.ComboStep = controller.ComboStep switch
+            // ¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡
+            // ¨ç ÄÞº¸ ´Ü°è °è»ê (°¡Àå ¸ÕÀú ¼öÇà)
+            // ¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡
+            if (controller.ComboStep == 0)
             {
-                0 => 1,
-                1 when controller.ComboTimer <= controller.ComboDelay => 2,
-                2 when controller.ComboTimer <= controller.ComboDelay => 3,
-                3 when controller.ComboTimer <= controller.ComboDelay => 4,
-                _ => 1
-            };
-                          
-            
-            // ÀÎ°ÔÀÓ UIÀÇ ÄÞº¸ ½½·Ô ¾÷µ¥ÀÌÆ®
-            // ±âÁ¸: controller.InGameUIManager?.UpdateComboSlot(controller.ComboStep);
-            // º¯°æ: ½Ì±ÛÅÏÀ» ÅëÇØ Á÷Á¢ È£Ãâ
+                controller.ComboStep = 1; // ÄÞº¸ ½ÃÀÛÀº ¹«Á¶°Ç 1´Ü°è
+            }
+            else
+            {
+                // ÀÌÈÄ ´Ü°è´Â ComboTimer ±âÁØÀ¸·Î Áõ°¡
+                controller.ComboStep = controller.ComboStep switch
+                {
+                    1 when controller.ComboTimer <= controller.ComboDelay => 2,
+                    2 when controller.ComboTimer <= controller.ComboDelay => 3,
+                    3 when controller.ComboTimer <= controller.ComboDelay => 4,
+                    _ => 1
+                };
+            }
+
+            Debug.Log($"[PlayerAttackState] ÄÞº¸ ´Ü°è °è»ê ÈÄ ComboStep={controller.ComboStep}");
+
+            // ¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡
+            // ¨è ÀÎ°ÔÀÓ UIÀÇ ÄÞº¸ ½½·Ô ¾÷µ¥ÀÌÆ®
+            // ¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡
             InGameUIManager.Instance?.UpdateComboSlot(controller.ComboStep);
 
-            Debug.Log($"[AttackState] ÄÞº¸ ´Ü°è °è»ê ÈÄ ComboStep={controller.ComboStep}");
+            // ¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡
+            // ¨é Animator ÆÄ¶ó¹ÌÅÍ ¼³Á¤
+            // ¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡
+            controller.Animator.SetBool("IsAttacking", true);
+            controller.Animator.SetTrigger("AttackTrigger");
+            Debug.Log("[PlayerAttackState] Animator.SetBool(\"IsAttacking\", true) ¹× SetTrigger(\"AttackTrigger\") ½ÇÇà");
 
             // ¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡
-            // 2) ¾Ö´Ï¸ÞÀÌ¼Ç Play ¹× SFX Àç»ý
+            // ¨ê ¾Ö´Ï¸ÞÀÌ¼Ç Á÷Á¢ Àç»ý (Animator Trigger º´Çà °¡´É)
             // ¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡
-            // Ä³¸¯ÅÍ Å¸ÀÔ¿¡ µû¶ó Àç»ýÇÒ ¾Ö´Ï¸ÞÀÌ¼Ç ÀÌ¸§ °áÁ¤
             string animName = (controller.CurrentCharacterType == PlayerController.CharacterType.Castle)
                 ? "Shoot"
                 : $"Attack{controller.ComboStep}";
@@ -63,59 +66,52 @@ namespace Player.States
             if (controller.Animator.HasState(0, Animator.StringToHash(animName)))
             {
                 controller.Animator.Play(animName, 0);
+                Debug.Log($"[PlayerAttackState] Animator.Play(\"{animName}\") ½ÇÇà");
+            }
+            else
+            {
+                Debug.LogWarning($"[PlayerAttackState] Enter(): Animator¿¡ »óÅÂ '{animName}'ÀÌ(°¡) ¾ø½À´Ï´Ù.");
             }
 
-            // SFX´Â ÇÑ ¹ø¸¸ Àç»ý
+            // ¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡
+            // ¨ë SFX Àç»ý (1È¸¸¸)
+            // ¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡
             if (!hasPlayedSfxLocal)
             {
                 AudioManager.Instance?.PlaySfx("attack_sfx");
                 hasPlayedSfxLocal = true;
+                Debug.Log("[PlayerAttackState] SFX 'attack_sfx' Àç»ý");
             }
 
             // ¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡
-            // 3) °ø°Ý ¼Óµµ(attackSpeed)¿¡ µû¶ó EndAttack È£Ãâ ½ÃÁ¡ °áÁ¤
+            // ¨ì °ø°Ý µô·¹ÀÌ¿¡ µû¶ó EndAttack È£Ãâ ¿¹¾à
             // ¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡
             if (controller.Data != null && controller.CurrentCharacterType == PlayerController.CharacterType.Castle)
             {
-                // Castle Å¸ÀÔ(¹Ì»çÀÏ ¹ß»ç)
-                controller.Animator.SetBool("IsAttacking", true);
-
-                // attackSpeed¿¡ µû¶ó µô·¹ÀÌ °è»ê (0.6ÃÊ ±âº»)
                 float delay = controller.Data.attackSpeed > 0
                     ? 1f / controller.Data.attackSpeed
                     : 0.6f;
 
-                // Áö¿¬ ÈÄ ¹Ì»çÀÏ ¹ß»ç ¹× EndAttack ½ÇÇà
                 controller.StartCoroutine(DelayedShootAndEnd(delay));
+                Debug.Log($"[PlayerAttackState] Castle ¡æ DelayedShootAndEnd({delay:f2}) ÄÚ·çÆ¾ ½ÃÀÛ");
             }
             else if (controller.Data != null)
             {
-                // Knight Å¸ÀÔ(±ÙÁ¢ °ø°Ý)
                 float delay = controller.Data.attackSpeed > 0
                     ? 1f / controller.Data.attackSpeed
                     : 0.6f;
 
-                // Invoke·Î EndAttack È£Ãâ
                 controller.Invoke(nameof(controller.EndAttack), delay);
+                Debug.Log($"[PlayerAttackState] Knight ¡æ Invoke EndAttack() after {delay:f2}ÃÊ");
             }
-
-            // ¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡
-            // ¡Ú µð¹ö±× ·Î±× Ãß°¡ ¿¹½Ã:
-            //   °ø°Ý ¾Ö´Ï¸ÞÀÌ¼ÇÀÌ Àç»ýµÉ ¶§¸¶´Ù ÂïÈ÷µµ·Ï ÇÏ·Á¸é ÀÌ°÷¿¡ Debug.Log¸¦ Ãß°¡ÇÒ ¼ö ÀÖ½À´Ï´Ù.
-            // Debug.Log($"[PlayerAttackState] Enter ¡æ ComboStep={controller.ComboStep}, Anim={animName}");
-            // ¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡
         }
 
 
         public override void Execute()
         {
-            
             if (!controller.HasQueuedThisPhase && Input.GetMouseButtonDown(0))
             {
-                // ´ÙÀ½ ÄÞº¸ ¹øÈ£ = ÇöÀç ÄÞº¸ ´Ü°è(ComboStep) + 1
                 int nextComboIndex = controller.ComboStep + 1;
-
-                // 'ÄÁÆ®·Ñ·¯.MaxUnlockedCombo' ¼Ó¼ºÀ¸·Î ÇØ±Ý ¿©ºÎ °Ë»ç
                 if (nextComboIndex <= controller.MaxUnlockedCombo)
                 {
                     controller.QueuedAttack = true;
@@ -124,17 +120,14 @@ namespace Player.States
                 }
                 else
                 {
-                    // Àá±ä ÄÞº¸¶ó¸é QueuedAttackÀ» ºÙÀÌÁö ¾Ê°í ¹«½Ã
                     controller.QueuedAttack = false;
                     controller.HasQueuedThisPhase = true;
                     Debug.Log($"[AttackState] ·¹º§ {controller.currentLevel} ¡æ ÄÞº¸ {nextComboIndex} Àá±è, ÀÔ·Â ¹«½Ã");
                 }
             }
 
-            // ¨è Execute ÁøÀÔ ½Ã ·Î±×
             Debug.Log("[AttackState] Execute ¡æ HasQueuedThisPhase=" + controller.HasQueuedThisPhase + ", QueuedAttack=" + controller.QueuedAttack);
 
-            // ÄÞº¸ ÀÔ·Â °¨Áö
             if (Input.GetMouseButtonDown(0) && !controller.HasQueuedThisPhase)
             {
                 if (EventSystem.current != null && EventSystem.current.IsPointerOverGameObject())
@@ -153,8 +146,9 @@ namespace Player.States
 
             controller.IsAttacking = false;
             controller.HasPlayedSfx = false;
+
+            // AnimatorÀÇ IsAttackingÀ» false·Î ÇØÁ¦ÇÏ¿© Idle ÀüÀÌ °¡´ÉÇÏ°Ô ÇÔ
             controller.Animator.SetBool("IsAttacking", false);
-                        
         }
 
         // ¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡
@@ -164,7 +158,6 @@ namespace Player.States
         {
             yield return new WaitForSeconds(delay);
 
-            // ¹Ì»çÀÏ ¹ß»ç ·ÎÁ÷
             if (controller.MissileObject == null
                 || controller.FirePos == null
                 || controller.Data == null)
@@ -172,35 +165,28 @@ namespace Player.States
                 yield break;
             }
 
-            // ¹Ì»çÀÏ ¿ÀºêÁ§Æ®¸¦ ¹ß»ç À§Ä¡·Î ÀÌµ¿
             controller.MissileObject.transform.position = controller.FirePos.position;
-
-            // ¹æÇâ ¼³Á¤
             Vector2 dir = (controller.SpriteRenderer.flipX ? Vector2.left : Vector2.right);
 
-            // Missile ÄÄÆ÷³ÍÆ® ÃÊ±âÈ­ (µ¥¹ÌÁö °è»ê Æ÷ÇÔ)
             Missile missile = controller.MissileObject.GetComponent<Missile>();
             missile.Init(dir, GetMissileDamage());
 
-            // ¹Ì»çÀÏ ±×·¡ÇÈ ¹æÇâ ¸ÂÃã
             SpriteRenderer missileRend = controller.MissileObject.GetComponent<SpriteRenderer>();
             if (missileRend != null)
-            {
                 missileRend.flipX = controller.SpriteRenderer.flipX;
-            }
 
-            // ¹Ì»çÀÏ È°¼ºÈ­
             controller.MissileObject.SetActive(true);
 
-            // ÄÞº¸ ´Ü°è°¡ 4¹Ì¸¸ÀÌ¸é ¹Ù·Î EndAttack, ¾Æ´Ï¸é ¾à°£ÀÇ Ãß°¡ µô·¹ÀÌ ÈÄ EndAttack
             if (controller.ComboStep < 4)
             {
                 controller.EndAttack();
+                Debug.Log("[PlayerAttackState] ComboStep < 4 ¡æ Áï½Ã EndAttack() È£Ãâ");
             }
             else
             {
                 yield return new WaitForSeconds(0.2f);
                 controller.EndAttack();
+                Debug.Log("[PlayerAttackState] ComboStep >= 4 ¡æ 0.2ÃÊ ´ë±â ÈÄ EndAttack() È£Ãâ");
             }
         }
 
@@ -212,7 +198,6 @@ namespace Player.States
             if (controller.Data == null)
                 return 0;
 
-            // Fury °ÔÀÌÁö ºñÀ² °è»ê
             float gaugePercent = controller.CurrentFuryAmount / controller.Data.furyMax;
 
             if (gaugePercent >= 3f)
@@ -224,3 +209,4 @@ namespace Player.States
         }
     }
 }
+

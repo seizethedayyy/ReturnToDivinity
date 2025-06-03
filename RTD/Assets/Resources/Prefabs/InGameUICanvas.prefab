@@ -2014,26 +2014,23 @@ MonoBehaviour:
   portraitImage: {fileID: 1227057293141053229}
   nameText: {fileID: 757588577505692534}
   levelText: {fileID: 3297509881924180296}
-  menuUI: {fileID: 3353842751889958714}
-  optionUI: {fileID: 1802838906241975537}
-  characterInfoUI: {fileID: 4793716323267159214}
+  settingsPanel: {fileID: 0}
+  inventoryPanel: {fileID: 0}
+  gameOverPanel: {fileID: 5227763460326971551}
   hpBarFillImage: {fileID: 1935010437395821252}
   hpText: {fileID: 7081747598145231433}
-  combo1Glow: {fileID: 1130772024037628079}
-  combo2Glow: {fileID: 1950588917020343210}
-  combo3Glow: {fileID: 3514569643398927408}
-  combo4Glow: {fileID: 9141235796723747125}
+  expBarFillImage: {fileID: 7597673881109469688}
+  expText: {fileID: 5744884070305079681}
+  furyGaugeFillImage: {fileID: 483205951589704717}
+  furySkillIconImage: {fileID: 7495196260448391656}
   comboSlot1: {fileID: 2840720334508991154}
   comboSlot2: {fileID: 7863688259838892698}
   comboSlot3: {fileID: 8862235449299020406}
   comboSlot4: {fileID: 5156135765981236557}
-  furySkillIcon: {fileID: 7495196260448391656}
-  furySkillLockOverlay: {fileID: 1775086918376410364}
-  furyGaugeFillImage: {fileID: 483205951589704717}
-  expBarFillImage: {fileID: 7597673881109469688}
-  expText: {fileID: 5744884070305079681}
-  gameOverPanel: {fileID: 5227763460326971551}
-  gameOverFadeTime: 1.5
+  combo1Glow: {fileID: 1130772024037628079}
+  combo2Glow: {fileID: 1950588917020343210}
+  combo3Glow: {fileID: 3514569643398927408}
+  combo4Glow: {fileID: 9141235796723747125}
 --- !u!114 &3706822391835135993
 MonoBehaviour:
   m_ObjectHideFlags: 0
