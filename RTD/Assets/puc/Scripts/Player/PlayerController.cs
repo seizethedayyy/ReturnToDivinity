@@ -510,6 +510,7 @@ public class PlayerController : MonoBehaviour
     // ==================================================
     // ⑬ GainExp(): 몬스터 사망 시 호출, 경험치 획득 처리
     // ==================================================
+
     public void GainExp(int amount)
     {
         currentExp += amount;
@@ -518,14 +519,11 @@ public class PlayerController : MonoBehaviour
         InGameUIManager.Instance?.UpdateExpUI(currentExp, playerData.exp);
     }
 
-    // ==================================================
-    // ⑭ CheckAndHandleLevelUp(): 레벨업 로직 & UI 갱신
-    // ==================================================
     private void CheckAndHandleLevelUp()
     {
         if (playerData == null) return;
 
-        if (currentExp >= playerData.exp)
+        while (currentExp >= playerData.exp) // 반복적으로 레벨업
         {
             string id = playerData.id;
             if (string.IsNullOrEmpty(id) || !id.Contains("_")) return;
@@ -542,16 +540,16 @@ public class PlayerController : MonoBehaviour
             if (nextData != null)
             {
                 Debug.Log($"[레벨업] {playerData.id} → {nextData.id}");
+
+                // 초과 경험치 누적 처리
+                currentExp -= playerData.exp;
+
                 playerData = nextData;
                 currentLevel = playerData.level;
-                currentExp = 0;
                 currentHp = playerData.maxHp;
 
                 InGameUIManager.Instance?.UpdateHpUI(currentHp, playerData.maxHp);
                 InGameUIManager.Instance?.UpdateLevelText(currentLevel);
-                InGameUIManager.Instance?.UpdateExpUI(currentExp, playerData.exp);
-
-                // 레벨업 후 콤보 잠금/해제 UI 갱신
                 InGameUIManager.Instance?.UpdateComboLockUI(
                     currentLevel,
                     combo2UnlockLevel,
@@ -562,8 +560,13 @@ public class PlayerController : MonoBehaviour
             else
             {
                 Debug.LogWarning($"[레벨업 실패] 다음 레벨 데이터 없음: {nextLevelId}");
+                // 초과된 경험치는 남기되 레벨업 종료
+                break;
             }
         }
+
+        // 경험치 UI는 최종 playerData.exp 기준으로 업데이트
+        InGameUIManager.Instance?.UpdateExpUI(currentExp, playerData.exp);
     }
 
     // ==================================================
