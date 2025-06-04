@@ -264,6 +264,12 @@ public class InGameUIManager : MonoBehaviour
     {
         if (furyGaugeFillImage != null)
             furyGaugeFillImage.fillAmount = Mathf.Clamp01(percent);
+
+        if (furySkillIconImage != null)
+        {
+            // Fury가 Max일 때 원래 색상으로, 아닐 땐 회색으로
+            furySkillIconImage.color = (percent >= 1f) ? Color.white : Color.gray;
+        }
     }
 
     public void UpdateLevelText(int level)
@@ -311,9 +317,13 @@ public class InGameUIManager : MonoBehaviour
                 cg.alpha = 0f;
                 gameOverPanel.SetActive(true);
 
-                while (cg.alpha < 1f)
+                // fade 시간 측정
+                float fadeDuration = 1f;
+                float elapsed = 0f;
+                while (elapsed < fadeDuration)
                 {
-                    cg.alpha += Time.deltaTime;
+                    cg.alpha = Mathf.Clamp01(elapsed / fadeDuration);
+                    elapsed += Time.deltaTime;
                     yield return null;
                 }
 

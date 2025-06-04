@@ -13,6 +13,8 @@ public class Missile : MonoBehaviour
     private Transform fireOrigin; // 최초 발사 위치 기준용 (optional)
     private bool initialized = false;
 
+    private Transform shooter; // 발사한 주체 (플레이어)
+
     private void OnEnable()
     {
         if (!initialized)
@@ -25,12 +27,12 @@ public class Missile : MonoBehaviour
         StartCoroutine(AutoDisable(2f));
     }
 
-    public void Init(Vector2 dir, int dmg)
+    public void Init(Vector2 dir, int dmg, Transform shooterTransform)
     {
         direction = dir.normalized;
         damage = dmg;
+        shooter = shooterTransform;
 
-        // 발사 시점에 위치 고정 + 부모 분리
         transform.SetParent(null);
     }
 
@@ -50,11 +52,15 @@ public class Missile : MonoBehaviour
     {
         if (((1 << collision.gameObject.layer) & enemyLayer) != 0)
         {
-            if (collision.CompareTag("Enemy") && collision.TryGetComponent(out EnemyController enemy))
+            if (collision.CompareTag("Enemy") && collision.TryGetComponent(out EnemyBase enemy))
             {
-                enemy.OnHit(damage);
+                if (shooter == null)
+                {
+                    Debug.LogWarning("[Missile] shooter가 설정되지 않았습니다.");
+                }
 
-                // PlayerController로부터 Fury 획득 함수 호출 시도
+                enemy.OnHit(damage, shooter);  // ✅ 수정된 부분
+
                 TryNotifyFuryGain();
 
                 gameObject.SetActive(false);

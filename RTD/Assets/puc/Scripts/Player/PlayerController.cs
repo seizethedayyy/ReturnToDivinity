@@ -467,9 +467,9 @@ public class PlayerController : MonoBehaviour
         bool didHit = false;
         foreach (Collider2D col in enemies)
         {
-            if (col.CompareTag("Enemy") && col.TryGetComponent(out EnemyController enemy))
+            if (col.CompareTag("Enemy") && col.TryGetComponent(out EnemyBase enemy))
             {
-                enemy.OnHit((int)playerData.attackDamage);
+                enemy.OnHit((int)playerData.attackDamage, this.transform);  // ✅ 수정됨
                 didHit = true;
             }
         }

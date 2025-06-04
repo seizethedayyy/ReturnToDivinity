@@ -30,6 +30,8 @@ public class EnemyBase : MonoBehaviour
     protected EnemyAttackState attackState;
     protected EnemyDamageState damageState;
 
+    public bool hasBeenHitRecently = false;
+
     protected virtual void Awake()
     {
         anim = GetComponent<Animator>();
@@ -138,15 +140,30 @@ public class EnemyBase : MonoBehaviour
         if (isDead) return;
 
         currentHp -= dmg;
+
         if (currentHp <= 0)
             Die();
         else
+        {
+            if (player == null)
+            {
+                Debug.LogWarning("[EnemyBase] TakeDamage: player가 설정되지 않았습니다.");
+            }
+
             stateMachine.ChangeState(damageState);
+        }
     }
 
-    public void OnHit(int damage)
+    public void OnHit(int damage, Transform attacker)
     {
+        player = attacker;               // 공격자 등록
+        hasBeenHitRecently = true;       // 피격 상태 표시
         TakeDamage(damage);
+    }
+
+    public void ClearHitFlag()
+    {
+        hasBeenHitRecently = false;
     }
 
     protected virtual void Die()
