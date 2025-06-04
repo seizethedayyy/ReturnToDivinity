@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class EnemyIdleState : EnemyState
 {
@@ -16,14 +16,17 @@ public class EnemyIdleState : EnemyState
     {
         if (enemy.player == null)
         {
-            Debug.LogWarning("[IdleState] player�� null�Դϴ�.");
+            Debug.LogWarning("[IdleState] player가 null입니다.");
             return;
         }
 
         float dist = Vector2.Distance(enemy.transform.position, enemy.player.position);
-        if (dist <= enemy.stats.detectionRange)
+
+        // 💡 감지 범위 이내이거나 피격 상태라면 추적 시작
+        if (dist <= enemy.stats.detectionRange || enemy.hasBeenHitRecently)
         {
             stateMachine.ChangeState(nextState);
+            enemy.ClearHitFlag();  // 추적 상태 진입 시 피격 플래그 초기화
         }
     }
 }

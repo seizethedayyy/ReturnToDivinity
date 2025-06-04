@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class EnemyController : EnemyBase
 {
@@ -8,6 +9,12 @@ public class EnemyController : EnemyBase
 
     [Header("📊 Stats (실시간 표시용)")]
     [SerializeField] private float enemyCurrentHp; // 인스펙터 표시용 변수
+
+    [Header("📺 UI 컴포넌트")]
+    [SerializeField] private Canvas uiCanvas;
+    [SerializeField] private TMPro.TextMeshProUGUI nameText;
+    [SerializeField] private TMPro.TextMeshProUGUI levelText;
+    [SerializeField] private Image hpBarFill;
 
     private string id;
     private string enemyName;
@@ -55,6 +62,31 @@ public class EnemyController : EnemyBase
         ReflectStatsToInspector(data);
         InitializeFSM();
         stateMachine.ChangeState(idleState);
+
+        // ✅ Reflect 이후에 UI 갱신
+        UpdateUIElements();
+    }
+
+    private void UpdateUIElements()
+    {
+        if (nameText != null)
+        {
+            nameText.text = enemyName;
+            Debug.Log($"[EnemyController] 이름 설정됨: {enemyName}");
+        }
+
+        if (levelText != null)
+            levelText.text = $"Lv.{level}";
+
+        UpdateHPBar();
+    }
+
+    private void UpdateHPBar()
+    {
+        if (hpBarFill != null && maxHp > 0)
+        {
+            hpBarFill.fillAmount = currentHp / maxHp;
+        }
     }
 
     public void InitializeFSM()
@@ -92,15 +124,22 @@ public class EnemyController : EnemyBase
     protected override void Update()
     {
         base.Update();
-        enemyCurrentHp = currentHp; // 실시간 표시용 갱신
+        enemyCurrentHp = currentHp;
+        UpdateHPBar(); // ✅ 매 프레임 HP Bar 갱신
+
+        // ✅ UI가 카메라를 바라보도록 회전
+        if (uiCanvas != null && Camera.main != null)
+        {
+            uiCanvas.transform.rotation = Quaternion.LookRotation(
+                uiCanvas.transform.position - Camera.main.transform.position
+            );
+        }
     }
 
     protected override void Die()
     {
-        // 1) 먼저 부모 클래스에서 사망 처리를 수행
         base.Die();
 
-        // 2) 플레이어에게 경험치 전달
         var playerObj = GameObject.FindWithTag("Player");
         if (playerObj != null && playerObj.TryGetComponent<PlayerController>(out var playerCtrl))
         {
@@ -111,5 +150,4 @@ public class EnemyController : EnemyBase
             Debug.LogWarning("[EnemyController] 사망 시 PlayerController를 찾지 못했습니다. 경험치 미획득.");
         }
     }
-
 }

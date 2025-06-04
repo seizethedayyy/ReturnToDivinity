@@ -17,8 +17,14 @@ public class EnemyAttackState : EnemyState
     {
         Debug.Log("[EnemyAttackState] ▶ Enter");
         base.Enter();
+
         enemy.SetZeroVelocity();
-        enemy.anim.SetBool("IsAttacking", true);
+
+        // Animator가 이미 IsAttacking이 true인 상태일 수 있으므로 재설정
+        enemy.anim.ResetTrigger("IsHit");
+        enemy.anim.SetBool("IsAttacking", false); // 먼저 false 처리하고
+        enemy.anim.SetBool("IsAttacking", true);  // 다시 true로 설정해서 트랜지션 유도
+
         enemy.SetAttacking(true);
         enemy.SetLastAttackTime();
         hasAttacked = false;

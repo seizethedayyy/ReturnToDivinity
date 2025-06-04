@@ -317,9 +317,13 @@ public class InGameUIManager : MonoBehaviour
                 cg.alpha = 0f;
                 gameOverPanel.SetActive(true);
 
-                while (cg.alpha < 1f)
+                // fade 시간 측정
+                float fadeDuration = 1f;
+                float elapsed = 0f;
+                while (elapsed < fadeDuration)
                 {
-                    cg.alpha += Time.deltaTime;
+                    cg.alpha = Mathf.Clamp01(elapsed / fadeDuration);
+                    elapsed += Time.deltaTime;
                     yield return null;
                 }
 

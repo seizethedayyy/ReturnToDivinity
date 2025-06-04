@@ -169,7 +169,7 @@ namespace Player.States
             Vector2 dir = (controller.SpriteRenderer.flipX ? Vector2.left : Vector2.right);
 
             Missile missile = controller.MissileObject.GetComponent<Missile>();
-            missile.Init(dir, GetMissileDamage());
+            missile.Init(dir, GetMissileDamage(), controller.transform);
 
             SpriteRenderer missileRend = controller.MissileObject.GetComponent<SpriteRenderer>();
             if (missileRend != null)
