@@ -264,6 +264,12 @@ public class InGameUIManager : MonoBehaviour
     {
         if (furyGaugeFillImage != null)
             furyGaugeFillImage.fillAmount = Mathf.Clamp01(percent);
+
+        if (furySkillIconImage != null)
+        {
+            // Fury가 Max일 때 원래 색상으로, 아닐 땐 회색으로
+            furySkillIconImage.color = (percent >= 1f) ? Color.white : Color.gray;
+        }
     }
 
     public void UpdateLevelText(int level)

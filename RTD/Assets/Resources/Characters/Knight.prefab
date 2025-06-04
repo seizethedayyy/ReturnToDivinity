@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 8262981483822838120}
   - component: {fileID: 9119693090934117762}
   - component: {fileID: 6559482257890878693}
-  - component: {fileID: 2871083399374272543}
   - component: {fileID: 6627298207202911990}
   - component: {fileID: 8889284955984851813}
+  - component: {fileID: 7828848586252948817}
   m_Layer: 6
   m_Name: Knight
   m_TagString: Player
@@ -142,52 +142,6 @@ Rigidbody2D:
   m_SleepingMode: 0
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &2871083399374272543
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1483308883690019711}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: -0.094693065}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.25, y: 0.5}
-    oldSize: {x: 4.8333335, y: 1.5666667}
-    newSize: {x: 1.4, y: 1.2333333}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 1.4, y: 1.0439472}
-  m_EdgeRadius: 0
 --- !u!114 &6627298207202911990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -204,10 +158,14 @@ MonoBehaviour:
   playerId: knight_01
   missileObject: {fileID: 0}
   firePos: {fileID: 0}
+  projectileSpeed: 10
   messageDuration: 2
   DashDuration: 0.2
   DashCooldown: 1
   DashSpeed: 10
+  combo2UnlockLevel: 2
+  combo3UnlockLevel: 3
+  combo4UnlockLevel: 4
   currentLevel: 0
   currentExp: 0
   currentHp: 0
@@ -256,9 +214,9 @@ MonoBehaviour:
   ComboStep: 0
   ComboTimer: 0
   HasQueuedThisPhase: 0
-  IsFurySkillTriggered: 0
   QueuedAttack: 0
   QueuedAttackTimer: 0
+  IsFurySkillTriggered: 0
 --- !u!114 &8889284955984851813
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -271,6 +229,63 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df70e7ad09e4f9d41bdaff31405bc439, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!60 &7828848586252948817
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483308883690019711}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.25, y: 0.5}
+    oldSize: {x: 4.8333335, y: 1.5666667}
+    newSize: {x: 1.4, y: 1.2333333}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.39166668, y: -0.25}
+      - {x: 0.19166668, y: 0.30949306}
+      - {x: -0.03080941, y: 0.45933378}
+      - {x: -0.57500005, y: -0.15}
+      - {x: -0.57500005, y: -0.7166667}
+      - {x: -0.47500002, y: -0.78333336}
+      - {x: 0.35833335, y: -0.78333336}
+      - {x: 0.3953529, y: -0.7283691}
+      - {x: 0.40166438, y: -0.65000004}
+      - {x: 0.39265752, y: -0.49773115}
+  m_UseDelaunayMesh: 0
 --- !u!1 &7651172884874385113
 GameObject:
   m_ObjectHideFlags: 0
