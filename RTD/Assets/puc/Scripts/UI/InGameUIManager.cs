@@ -17,8 +17,8 @@ public class InGameUIManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI levelText;
 
     [Header("메뉴 팝업 UI")]
-    [SerializeField] private GameObject settingsPanel;
-    [SerializeField] private GameObject inventoryPanel;
+    [SerializeField] private GameObject menuPanel;
+    [SerializeField] private GameObject optionPanel;
     [SerializeField] private GameObject gameOverPanel;
 
     [Header("HP UI")]
@@ -52,8 +52,53 @@ public class InGameUIManager : MonoBehaviour
 
     private Color originalHpColor;
 
+    public void OpenMenu()
+    {
+        if (menuPanel != null)
+            menuPanel.SetActive(true);
+        Time.timeScale = 0f;  // 일시정지
+    }
+
+    public void CloseMenu()
+    {
+        if (menuPanel != null)
+            menuPanel.SetActive(false);
+        Time.timeScale = 1f;  // 재개
+    }
+
+    public void OnClickResume()
+    {
+        CloseMenu();
+    }
+      
+
+    public void OnClickOption()
+    {
+        if (optionPanel != null)
+            optionPanel.SetActive(true);
+    }
+
+    public void OnClickGoToTitle()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("TitleScene");
+    }
+
+    public void OnClickQuitGame()
+    {
+        Application.Quit();
+    }
+
+    public void OnClickSaveGame()
+    {
+        Debug.Log("저장 기능은 추후 구현 예정입니다.");
+    }
+
     private void Awake()
     {
+        if (menuPanel != null)
+            menuPanel.SetActive(false);
+
         if (Instance == null)
         {
             Instance = this;
@@ -66,8 +111,7 @@ public class InGameUIManager : MonoBehaviour
             return;
         }
 
-        if (settingsPanel != null) settingsPanel.SetActive(false);
-        if (inventoryPanel != null) inventoryPanel.SetActive(false);
+        
         if (gameOverPanel != null) gameOverPanel.SetActive(false);
 
         if (hpBarFillImage != null)
@@ -92,8 +136,7 @@ public class InGameUIManager : MonoBehaviour
     {
         RebindUIReferences();
 
-        if (settingsPanel != null) settingsPanel.SetActive(false);
-        if (inventoryPanel != null) inventoryPanel.SetActive(false);
+        
         if (gameOverPanel != null)
         {
             CanvasGroup cg = gameOverPanel.GetComponent<CanvasGroup>();
@@ -287,29 +330,22 @@ public class InGameUIManager : MonoBehaviour
             levelText.text = $"Lv.{level}";
     }
 
-    public void OpenSettings()
+    public void OpenOption()
     {
-        if (settingsPanel != null)
-            settingsPanel.SetActive(true);
+        if (menuPanel != null)
+            menuPanel.SetActive(false);  // 메뉴 패널 먼저 닫기
+
+        if (optionPanel != null)
+            optionPanel.SetActive(true); // 옵션 패널 열기
     }
 
-    public void CloseSettings()
+    public void CloseOption()
     {
-        if (settingsPanel != null)
-            settingsPanel.SetActive(false);
+        if (optionPanel != null)
+            optionPanel.SetActive(false);
     }
 
-    public void OpenInventory()
-    {
-        if (inventoryPanel != null)
-            inventoryPanel.SetActive(true);
-    }
-
-    public void CloseInventory()
-    {
-        if (inventoryPanel != null)
-            inventoryPanel.SetActive(false);
-    }
+    
 
     public void ShowGameOver(float delay)
     {

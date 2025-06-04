@@ -2051,8 +2051,8 @@ MonoBehaviour:
   portraitImage: {fileID: 1227057293141053229}
   nameText: {fileID: 757588577505692534}
   levelText: {fileID: 3297509881924180296}
-  settingsPanel: {fileID: 0}
-  inventoryPanel: {fileID: 0}
+  menuPanel: {fileID: 3353842751889958714}
+  optionPanel: {fileID: 1802838906241975537}
   gameOverPanel: {fileID: 5227763460326971551}
   hpBarFillImage: {fileID: 1935010437395821252}
   hpText: {fileID: 7081747598145231433}
@@ -2638,7 +2638,19 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 842421917275590059}
         m_TargetAssemblyTypeName: InGameUIManager, Assembly-CSharp
-        m_MethodName: OpenOptionPopup
+        m_MethodName: OnClickOption
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 842421917275590059}
+        m_TargetAssemblyTypeName: InGameUIManager, Assembly-CSharp
+        m_MethodName: CloseMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3791,7 +3803,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 842421917275590059}
         m_TargetAssemblyTypeName: InGameUIManager, Assembly-CSharp
-        m_MethodName: ReturnToTitle
+        m_MethodName: OnClickGoToTitle
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6272,7 +6284,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 842421917275590059}
         m_TargetAssemblyTypeName: InGameUIManager, Assembly-CSharp
-        m_MethodName: ResumeGame
+        m_MethodName: OnClickResume
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7130,7 +7142,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 842421917275590059}
         m_TargetAssemblyTypeName: InGameUIManager, Assembly-CSharp
-        m_MethodName: CloseCharacterInfoPopup
+        m_MethodName: CloseMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10077,7 +10089,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6349894409455183970}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 842421917275590059}
+        m_TargetAssemblyTypeName: InGameUIManager, Assembly-CSharp
+        m_MethodName: OnClickSaveGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &9212836706480773068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11105,7 +11129,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 842421917275590059}
         m_TargetAssemblyTypeName: InGameUIManager, Assembly-CSharp
-        m_MethodName: ShowMenuPopup
+        m_MethodName: OpenMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12696,7 +12720,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 842421917275590059}
         m_TargetAssemblyTypeName: InGameUIManager, Assembly-CSharp
-        m_MethodName: ResumeGame
+        m_MethodName: OnClickResume
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -20306,7 +20330,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 842421917275590059}
         m_TargetAssemblyTypeName: InGameUIManager, Assembly-CSharp
-        m_MethodName: QuitGame
+        m_MethodName: OnClickQuitGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
