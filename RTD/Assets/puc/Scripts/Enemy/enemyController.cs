@@ -142,8 +142,9 @@ public class EnemyController : EnemyBase
 
         var playerObj = GameObject.FindWithTag("Player");
         if (playerObj != null && playerObj.TryGetComponent<PlayerController>(out var playerCtrl))
-        {
-            playerCtrl.GainExp(exp);
+        {            
+            playerCtrl.GainExp(exp);     // 경험치
+            playerCtrl.GainGold(gold);   // 💰 골드 추가
         }
         else
         {

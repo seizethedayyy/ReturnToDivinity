@@ -29,6 +29,9 @@ public class InGameUIManager : MonoBehaviour
     [SerializeField] private Image expBarFillImage;
     [SerializeField] private TextMeshProUGUI expText;
 
+    [Header("Gold UI")]
+    [SerializeField] private TextMeshProUGUI goldText;
+
     [Header("Fury UI")]
     [SerializeField] private Image furyGaugeFillImage;
 
@@ -258,6 +261,12 @@ public class InGameUIManager : MonoBehaviour
         }
         if (expText != null)
             expText.text = $"{currentExp} / {requiredExp}";
+    }
+
+    public void UpdateGoldUI(int amount)
+    {
+        if (goldText != null)
+            goldText.text = $"{amount} G";
     }
 
     public void UpdateFuryGauge(float percent)

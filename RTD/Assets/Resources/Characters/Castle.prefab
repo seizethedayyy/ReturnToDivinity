@@ -82,7 +82,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 3
   m_Sprite: {fileID: 1697658850295084293, guid: 60985d45d2cc134499d49e2e0e6fcf1d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -171,6 +171,7 @@ MonoBehaviour:
   currentExp: 0
   currentHp: 0
   currentFury: 0
+  currentGold: 0
   playerData:
     id: 
     characterName: 
