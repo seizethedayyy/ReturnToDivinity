@@ -337,15 +337,21 @@ public class InGameUIManager : MonoBehaviour
 
         if (optionPanel != null)
             optionPanel.SetActive(true); // 옵션 패널 열기
+
+        Time.timeScale = 0f;
     }
 
     public void CloseOption()
     {
         if (optionPanel != null)
             optionPanel.SetActive(false);
+
+        // 메뉴 창도 닫혀 있어야 게임 재개
+        if (menuPanel == null || !menuPanel.activeSelf)
+            Time.timeScale = 1f;
     }
 
-    
+
 
     public void ShowGameOver(float delay)
     {
