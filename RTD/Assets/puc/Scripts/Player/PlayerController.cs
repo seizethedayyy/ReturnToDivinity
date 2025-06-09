@@ -59,10 +59,11 @@ public class PlayerController : MonoBehaviour
     public int combo4UnlockLevel = 4;
 
     [Header("변동 데이터")]
-    [HideInInspector] public int currentLevel;
-    [HideInInspector] public int currentExp;
-    [HideInInspector] public int currentHp;
-    [HideInInspector] public float currentFury = 0f;
+    [SerializeField] public int currentLevel;
+    [SerializeField] public int currentExp;
+    [SerializeField] public int currentHp;
+    [SerializeField] public float currentFury = 0f;
+    [SerializeField] public int currentGold = 0; // 현재 보유 골드
 
     [Header("스탯 데이터")]
     [SerializeField] private PlayerData playerData;  // JSON으로 로드된 데이터
@@ -517,6 +518,13 @@ public class PlayerController : MonoBehaviour
         Debug.Log($"[플레이어] {amount}만큼 경험치 획득 (현재: {currentExp}/{playerData.exp})");
         CheckAndHandleLevelUp();
         InGameUIManager.Instance?.UpdateExpUI(currentExp, playerData.exp);
+    }
+
+    public void GainGold(int amount)
+    {
+        currentGold += amount;
+        InGameUIManager.Instance?.UpdateGoldUI(currentGold);
+        Debug.Log($"[플레이어] 골드 {amount} 획득 → 총 보유: {currentGold}");
     }
 
     private void CheckAndHandleLevelUp()
